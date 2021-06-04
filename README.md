@@ -1,4 +1,4 @@
-# afnanplk🐺  farhan-dqz🦋
+# afnanplk🐺    &   farhan-dqz🦋
 
 
 ## Setup
