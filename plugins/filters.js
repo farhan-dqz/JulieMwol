@@ -51,13 +51,26 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC}, (a
 
 
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+        if (!!message.mention && message.mention[0] == '918301985859@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+         if (!!message.mention && message.mention[0] == '919072790587@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/trance.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+const array = ['name entha','Helo','King','Kooi','Love','Thamasha','big fan','charlie','gd n8','kar98','love u','Endi','endi','noob','Poweresh','Perfect ok','perfect ok','power','saji','sed','single','waiting','Myr','myr','Malappuram','uyir','thug','avastha','Moodesh','sketched','Cr7','Z aayi','manasilayo','Hi','Hlo','Poda','nirtheda','Aarulle','Cr7 back','Portugal','ennitt','Boss',,'Haters','ayn','Kgf','😎','Akshay uyir','sed bgm','Messi','Hehe','hehe','Set aano','set aano','Bot myren','Venda','venda','chadhi','Chadhi','Hbday','hbday','Bot','R yyi padicho','Myre','myre','Oompi','oompi','parayatte','Fresh','fresh','Ok da','ok da','Feel aayi','feel aaayi','Scene','scene','Ok bei','ok bei','Da','Kozhi','kozhi','adi','Adi','kali','Kali','thantha','Thantha','Aysheri','aysheri','thund','Thund','thot','Thot','sneham','Sneham','pm','Pm','paatt','Paatt','njan','Njan','life','Life','Killadi','killadi','good bye','Good bye','evide','Evide','achan','Achan','kunna','Kunna','broken','Broken','why','Why','enth patti','Enth patti','pani','Pani','padicho','Padicho','paad','Paad','Chatho','chatho','lover','Lover','nanayikoode','Nanayikoode','Die','die','hate','Hate','Lamiya engineering','lamiya engineering','nallath','Nallath','Neymar','neymar','patti','Patti','poora','Poora','Rohit','rohit','thall','Thall','Theri','theri']
+array.map( async (a) => {
+let pattern = new RegExp(`\\b${a}\\b`, 'g');
+if(pattern.test(message.message)){
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+}
+});
+
     var filtreler = await FilterDb.getFilter(message.jid);
     if (!filtreler) return; 
     filtreler.map(
         async (filter) => {
             pattern = new RegExp(filter.dataValues.regex ? filter.dataValues.pattern : ('\\b(' + filter.dataValues.pattern + ')\\b'), 'gm');
             if (pattern.test(message.message)) {
-                await new Promise(r => setTimeout(r, 1000));
                 await message.client.sendMessage(message.jid,filter.dataValues.text, MessageType.text, {quoted: message.data});
             }
         }
