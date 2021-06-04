@@ -1605,7 +1605,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: true, dontAddCommandList: true}
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/text3dbox?apikey=Ekqqy3DmxtTHPAuA7inIHpxjFIC&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/text3dbox?apikey=1hroZ3ju94h0PBjCNKsfhYaSuLs&text=${match[1]}`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'DQZ-PLK'})
 
@@ -1615,7 +1615,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: true, dontAddCommandList: true}
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/logobp?apikey=Ekqqy3DmxtTHPAuA7inIHpxjFIC&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/logobp?apikey=1hroZ3ju94h0PBjCNKsfhYaSuLs&text=${match[1]}`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'DQZ-PLK'})
 
@@ -1625,7 +1625,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: true, dontAddCommandList: true}
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/tlight?apikey=Ekqqy3DmxtTHPAuA7inIHpxjFIC&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/tlight?apikey=1hroZ3ju94h0PBjCNKsfhYaSuLs&text=${match[1]}`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'DQZ-PLK'})
 
@@ -1635,7 +1635,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: true, dontAddCommandList: true}
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikey=Ekqqy3DmxtTHPAuA7inIHpxjFIC&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikey=1hroZ3ju94h0PBjCNKsfhYaSuLs&text=${match[1]}`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'DQZ-PLK'})
 
