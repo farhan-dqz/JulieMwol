@@ -1,4 +1,4 @@
-# Coded By afnanplk🐺/farhan-dqz🦋
+# afnanplk🐺\nfarhan-dqz🦋
 
 
 ## Setup
