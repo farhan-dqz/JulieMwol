@@ -1,4 +1,4 @@
-# Re Coded By afnanplk🐺 / farhan-dqz🦋
+# Coded By afnanplk🐺/farhan-dqz🦋
 
 
 ## Setup
