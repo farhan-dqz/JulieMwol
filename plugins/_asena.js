@@ -1,8 +1,6 @@
-/* Copyright (C) 2020 farhan-dqz
-
+/* Copyright (C) 2020 Yusuf Usta.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 WhatsAsena - Yusuf Usta
 */
 
@@ -18,7 +16,7 @@ Asena.addCommand({pattern: 'help ?(.*)', fromMe: false, dontAddCommandList: true
     if (match[1] === '') {
         Asena.commands.map(
             async (command) =>  {
-                if (command.dontAddCommandList || command.pattern === undefined) return;
+                if (command.dontAddCommandList || command.pattern === undefined) return;
                 try {
                     var match = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                 } catch {
@@ -47,7 +45,7 @@ Asena.addCommand({pattern: 'help ?(.*)', fromMe: false, dontAddCommandList: true
         var CMD_HELP = '';
         Asena.commands.map(
             async (command) =>  {
-                if (command.dontAddCommandList || command.pattern === undefined) return;
+                if (command.dontAddCommandList || command.pattern === undefined) return;
                 try {
                     var cmatch = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                 } catch {
@@ -83,7 +81,7 @@ Asena.addCommand({pattern: 'phelp ?(.*)', fromMe: false, dontAddCommandList: tru
     if (match[1] === '') {
         Asena.commands.map(
             async (command) =>  {
-                if (command.dontAddCommandList || command.pattern === undefined) return;
+                if (command.dontAddCommandList || command.pattern === undefined) return;
                 try {
                     var match = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                 } catch {
@@ -112,7 +110,7 @@ Asena.addCommand({pattern: 'phelp ?(.*)', fromMe: false, dontAddCommandList: tru
         var CMD_HELP = '';
         Asena.commands.map(
             async (command) =>  {
-                if (command.dontAddCommandList || command.pattern === undefined) return;
+                if (command.dontAddCommandList || command.pattern === undefined) return;
                 try {
                     var cmatch = command.pattern.toString().match(/(\W*)([A-Za-zğüşiöç1234567890]*)/);
                 } catch {
