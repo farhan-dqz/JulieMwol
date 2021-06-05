@@ -20,7 +20,7 @@ const PROXY = "PROXY :"
 const NOT_FOUNDIP = "```Sorry,I could not your IP 😖```"
 
 if (Config.WORKTYPE == 'private') {
-  Asena.addCommand({pattern: 'ipsta ?(.*)', desc: 'gives you the detail of your IP' ,fromMe: true}, async (message, match) => {
+  Asena.addCommand({pattern: 'ip ?(.*)', desc: 'gives you the detail of your IP' ,fromMe: true}, async (message, match) => {
 	
     if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -50,8 +50,8 @@ if (Config.WORKTYPE == 'private') {
 	}
  });
 }	
-if (Config.WORKTYPE == 'public') {
-  Asena.addCommand({pattern: 'ipsta ?(.*)', desc: 'gives you the detail of your IP' ,fromMe: false}, async (message, match) => {
+else if (Config.WORKTYPE == 'public') {
+  Asena.addCommand({pattern: 'ip ?(.*)', desc: 'gives you the detail of your IP' ,fromMe: false}, async (message, match) => {
 	
     if (message.jid === '905524317852-1612300121@g.us') {
 
