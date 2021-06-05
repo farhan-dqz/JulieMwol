@@ -4,8 +4,8 @@
     "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/farhan-dqz/JulieMwol",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "website":   "https://t.me/farhan-dqz",
+    "success_url": "https://t.me/farhan-dqz",
     "stack": "container",
     "env": {
         "ASENA_SESSION": {
