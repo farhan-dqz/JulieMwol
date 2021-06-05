@@ -1,128 +1,17 @@
-/* Copyright (C) 2020 Yusuf Usta.
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
-*/
-
 const Asena = require('../events');
-const {MessageType, Mimetype} = require('@adiwajshing/baileys');
-const Config = require('../config');
+const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
-const got = require('got');
-const FormData = require('form-data');
-const stream = require('stream');
-const {promisify} = require('util');
+const axios = require('axios');
 
-const pipeline = promisify(stream.pipeline);
 
-const Language = require('../language');
-const Lang = Language.getString('removebg');
 
-if (Config.WORKTYPE == 'private') {
+Asena.addCommand({ pattern: 'rbg ?(.*)', fromMe: true, desc: 'word image' }, (async (message, match) => {
 
-    Asena.addCommand({pattern: 'removebg ?(.*)', fromMe: true, desc: Lang.REMOVEBG_DESC}, (async (message, match) => {    
+    if (match[1] === '') return await message.sendMessage('NEED_WORD');
+    console.log(match[1])
 
-        if (message.reply_message === false || message.reply_message.image === false) return await message.client.sendMessage(message.jid,Lang.NEED_PHOTO,MessageType.text);
-        if (Config.RBG_API_KEY === false) return await message.client.sendMessage(message.jid,Lang.NO_API_KEY,MessageType.text);
-    
-        var load = await message.reply(Lang.RBGING);
-        var location = await message.client.downloadAndSaveMediaMessage({
-            key: {
-                remoteJid: message.reply_message.jid,
-                id: message.reply_message.id
-            },
-            message: message.reply_message.data.quotedMessage
-        });
+    var ttinullimage = await axios.get(`https://api.zeks.xyz/api/removebg?apikey=wvwR0etKIJ3BZQg552K1FCRqIV5&image=${match[1].replace(/Ö/g, "%C3%96").replace(/ö/g, "%C3%B6").replace(/ü/g, "%C3%BC").replace(/Ü/g, "%C3%9C").replace(/Ğ/g, "%C4%9E").replace(/ğ/g, "%C4%9F").replace(/ş/g, "%C5%9F").replace(/Ş/g, "%C5%9E").replace(/ç/g, "%C3%A7").replace(/Ç/g, "%C3%87").replace(/ı/g, "%C4%B1").replace(/i/g, "%69").replace(/"/g, "%22").replace(/İ/g, "%C4%B0")}&raw=1`, { responseType: 'arraybuffer' })
 
-        var form = new FormData();
-        form.append('image_file', fs.createReadStream(location));
-        form.append('size', 'auto');
+    await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '```Made By Plk - Dqz```' })
 
-        var rbg = await got.stream.post('https://api.remove.bg/v1.0/removebg', {
-            body: form,
-            headers: {
-                'X-Api-Key': Config.RBG_API_KEY
-            }
-        }); 
-    
-        await pipeline(
-		    rbg,
-		    fs.createWriteStream('rbg.png')
-        );
-    
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsAsena.png', mimetype: Mimetype.png});
-        await load.delete();
-    }));
-}
-else if (Config.WORKTYPE == 'public') {
-
-    Asena.addCommand({pattern: 'removebg ?(.*)', fromMe: false, desc: Lang.REMOVEBG_DESC}, (async (message, match) => {    
-
-        if (message.reply_message === false || message.reply_message.image === false) return await message.client.sendMessage(message.jid,Lang.NEED_PHOTO,MessageType.text);
-        if (Config.RBG_API_KEY === false) return await message.client.sendMessage(message.jid,Lang.NO_API_KEY,MessageType.text);
-    
-        var load = await message.reply(Lang.RBGING);
-        var location = await message.client.downloadAndSaveMediaMessage({
-            key: {
-                remoteJid: message.reply_message.jid,
-                id: message.reply_message.id
-            },
-            message: message.reply_message.data.quotedMessage
-        });
-
-        var form = new FormData();
-        form.append('image_file', fs.createReadStream(location));
-        form.append('size', 'auto');
-
-        var rbg = await got.stream.post('https://api.remove.bg/v1.0/removebg', {
-            body: form,
-            headers: {
-                'X-Api-Key': Config.RBG_API_KEY
-            }
-        }); 
-    
-        await pipeline(
-		    rbg,
-		    fs.createWriteStream('rbg.png')
-        );
-    
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsAsena.png', mimetype: Mimetype.png});
-        await load.delete();
-    }));
-    Asena.addCommand({pattern: 'removebg ?(.*)', fromMe: true, desc: Lang.REMOVEBG_DESC, dontAddCommandList: true}, (async (message, match) => {    
-
-        if (message.reply_message === false || message.reply_message.image === false) return await message.client.sendMessage(message.jid,Lang.NEED_PHOTO,MessageType.text);
-        if (Config.RBG_API_KEY === false) return await message.client.sendMessage(message.jid,Lang.NO_API_KEY,MessageType.text);
-    
-        var load = await message.reply(Lang.RBGING);
-        var location = await message.client.downloadAndSaveMediaMessage({
-            key: {
-                remoteJid: message.reply_message.jid,
-                id: message.reply_message.id
-            },
-            message: message.reply_message.data.quotedMessage
-        });
-
-        var form = new FormData();
-        form.append('image_file', fs.createReadStream(location));
-        form.append('size', 'auto');
-
-        var rbg = await got.stream.post('https://api.remove.bg/v1.0/removebg', {
-            body: form,
-            headers: {
-                'X-Api-Key': Config.RBG_API_KEY
-            }
-        }); 
-    
-        await pipeline(
-		    rbg,
-		    fs.createWriteStream('rbg.png')
-        );
-    
-        await message.client.sendMessage(message.jid,fs.readFileSync('rbg.png'), MessageType.document, {filename: 'WhatsAsena.png', mimetype: Mimetype.png});
-        await load.delete();
-    }));
-}
-
+}));
