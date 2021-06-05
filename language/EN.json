@@ -69,6 +69,16 @@
             "TERM_DESC": "Allows to run the command on the server's shell.",
             "GIVE_ME_CODE": "*Give me a code!*"
         },
+        "ttp": {
+            "TTP_DESC": "Converts text to plain picture.",
+            "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
+            "STTP_DESC": "Converts text to plain picture as a sticker.",
+            "NEED_WORD": "*You must enter some text!*",
+            "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
+            "TRUMP_DESC": "Converts the text to Trump's tweet.",
+            "CHANGE_DESC": "Turns the text into the change my mind poster.",
+            "TXTTOIMG_DESC": "Set of commands to convert text into images."
+        },
         "nekobin": {
             "NEKO_DESC": "Replied messages will be added to nekobin.com.",
             "NEED_REPLY": "```Please reply to a message!```",
@@ -147,7 +157,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
+            "KICKME": "```njan pova, Ok bie 🤠```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -160,13 +170,13 @@
             "NEED_USER": "Give me a user!",
             "JID_DESC": "Giving user's JID.",
             "JID": "```JID address of``` @{} ```: {}```",
-            "JID_CHAT": "```Chat's JID address: {}```"
+            "JID_CHAT": "{}"
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "*Give me a photo!*",
-            "NO_API_KEY": "*You don't have an API key!*\nYou can get it here: remove.bg.",
-            "RBGING": "```Removing background...```"
+            "NEED_PHOTO": "*photo tha mister!🤗*",
+            "NO_API_KEY": "*Api key Illa Mwonu*",
+            "RBGING": "```Removing.```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
@@ -202,7 +212,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "DOWNLOADING": "```Processing ♻️```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
