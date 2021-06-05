@@ -7,7 +7,6 @@ const Asena = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const axios = require('axios');
 
-
 if (Config.WORKTYPE == 'private') {
 
 Asena.addCommand({pattern: 'find', fromMe: true, desc: 'replay to a audio to find th song' }, (async (message, match) => { 
@@ -34,7 +33,6 @@ Asena.addCommand({pattern: 'find', fromMe: true, desc: 'replay to a audio to fin
         })
     }));
 }
-
 
 else if (Config.WORKTYPE == 'public') {
 
