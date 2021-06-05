@@ -33,9 +33,7 @@ Asena.addCommand({pattern: 'find', fromMe: true, desc: 'replay to a audio to fin
         })
     }));
 }
-
 else if (Config.WORKTYPE == 'public') {
-
 
 Asena.addCommand({pattern: 'find', fromMe: true, desc: 'replay to a audio to find th song' }, (async (message, match) => { 
 
