@@ -447,7 +447,7 @@ if (match[1].includes(';')) {
         async (err) => await message.client.sendMessage(message.jid,"Error", MessageType.text, {quoted: message.data}),
       )*/
   },
-)
+ )
 }
 else if (Config.WORKTYPE == 'public') {
 
