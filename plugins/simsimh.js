@@ -5,6 +5,7 @@ WhatsAsenaDuplicated
 */
 
 const Asena = require('../events');
+const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 
