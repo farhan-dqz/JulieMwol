@@ -10,7 +10,6 @@ const axios = require('axios');
 
 if (Config.WORKTYPE == 'private') {
 
-
 Asena.addCommand({pattern: 'find', fromMe: true, desc: 'replay to a audio to find th song' }, (async (message, match) => { 
 
     if (message.reply_message === false) return await message.client.sendMessage(message.jid, bix.UV_REPLY, MessageType.text);
@@ -37,7 +36,7 @@ Asena.addCommand({pattern: 'find', fromMe: true, desc: 'replay to a audio to fin
 }
 
 
-if (Config.WORKTYPE == 'public') {
+else if (Config.WORKTYPE == 'public') {
 
 
 Asena.addCommand({pattern: 'find', fromMe: true, desc: 'replay to a audio to find th song' }, (async (message, match) => { 
