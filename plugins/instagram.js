@@ -52,7 +52,7 @@ Asena.addCommand({ pattern: 'profinsta ?(.*)', fromMe: true, usage: Lang.USAGE, 
   },
 
  )
-else if (Config.WORKTYPE == 'private') {
+else if (Config.WORKTYPE == 'public') {
 
 Asena.addCommand({ pattern: 'profinsta ?(.*)', fromMe: false, usage: Lang.USAGE, desc: Lang.DESC }, async (message, match) => {
 
