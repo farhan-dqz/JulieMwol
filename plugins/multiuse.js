@@ -448,7 +448,6 @@ if (match[1].includes(';')) {
       )*/
   },
  )
-}
 else if (Config.WORKTYPE == 'public') {
 
 Asena.addCommand({pattern: 'song ?(.*)', fromMe: false}, async (message, match) => {
@@ -881,4 +880,3 @@ if (match[1].includes(';')) {
       )*/
   },
 )
-}
