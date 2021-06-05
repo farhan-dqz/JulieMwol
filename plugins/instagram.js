@@ -91,3 +91,5 @@ Asena.addCommand({ pattern: 'profinsta ?(.*)', fromMe: false, usage: Lang.USAGE,
       )
   },
 
+ )
+}
