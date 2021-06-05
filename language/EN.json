@@ -261,9 +261,7 @@
             "FROM": " From the group with ID, ",
             "MSG": "Message: \n\n",
             "SUC": "*Message Successfully Saved to LOG!*"
-        },
-        
-{
+        },      
     "__ASENAJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "en",
