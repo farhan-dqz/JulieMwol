@@ -262,18 +262,6 @@
             "MSG": "Message: \n\n",
             "SUC": "*Message Successfully Saved to LOG!*"
         },      
-    "__ASENAJSON__": true,
-    "LANGUAGE": "English",
-    "LANGCODE": "en",
-    "AUTHOR": "AsenaDev",
-    "STRINGS": {
-        "_asena": {
-            "COMMAND": "Command",
-            "DESC": "Description",
-            "EXAMPLE": "Example",
-            "NOT_FOUND": "*I couldnt find a command like this*",
-            "WARN": "Warn"
-        },
         "_plugin": {
             "INSTALL_DESC": "Install external plugins.",
             "NEED_URL": "Please enter a URL! Example:",
