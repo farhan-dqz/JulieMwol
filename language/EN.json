@@ -65,6 +65,16 @@
             "SECOND": "second",
             "AGO": " ago```"
         },
+        "ttp": {
+            "TTP_DESC": "Converts text to plain picture.",
+            "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
+            "STTP_DESC": "Converts text to plain picture as a sticker.",
+            "NEED_WORD": "*You must enter some text!*",
+            "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
+            "TRUMP_DESC": "Converts the text to Trump's tweet.",
+            "CHANGE_DESC": "Turns the text into the change my mind poster.",
+            "TXTTOIMG_DESC": "Set of commands to convert text into images."
+        },
         "evaluators": {
             "TERM_DESC": "Allows to run the command on the server's shell.",
             "GIVE_ME_CODE": "*Give me a code!*"
@@ -507,20 +517,19 @@
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
         "instagram": {
-            "NEED_WORD": "*Enter Any Instagram Post Link!*",
+            "NEED_WORD": "*Please enter username of any instagram account.*",
             "USAGE": ".insta <userName>",
-            "DESC": "Downloads videos or photos from Instagram.",
-            "LOADING": "Fetching user data.. please wait.",
+            "DESC": "Fetches user informations from instagram",
+            "LOADING": "Fetching user data...\n please wait.",
             "USERNAME": "Username",
-            "NAME": "Name",
-            "BIO": "Biography",
-            "FİX": "*Carrying out maintenance work!*",
-            "FOLLOWERS": "Followers",
-            "FOLLOWS": "Follows",
-            "ACCOUNT": "Account privacy",
-            "PUBLIC": "Public",
-            "HIDDEN": "Hidden",
-            "NOT_FOUND": "*Media Not Found!*"
+            "NAME": "🔖 Name",
+            "BIO": "📄 Biography",
+            "FOLLOWERS": "👣 Followers",
+            "FOLLOWS": "👥 Follows",
+            "ACCOUNT": "👁️ Account privacy",
+            "PUBLIC": "🔓 Public",
+            "HIDDEN": "🔒 Hidden",
+            "PROPIC": "🖼 Profile Pic"
         },
         "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
