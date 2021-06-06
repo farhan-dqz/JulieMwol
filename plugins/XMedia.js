@@ -801,7 +801,7 @@ if (Config.WORKTYPE == 'private') {
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
-    Asena.addCommand({pattern: 'artimage', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'artimage', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Video!*');
         var downloading = await message.client.sendMessage(message.jid,'```Editing..```',MessageType.text);
@@ -822,7 +822,7 @@ if (Config.WORKTYPE == 'private') {
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
-    Asena.addCommand({pattern: 'mp4stab', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'mp4stab', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Video!*');
         var downloading = await message.client.sendMessage(message.jid,'```Editing..```',MessageType.text);
@@ -844,7 +844,7 @@ if (Config.WORKTYPE == 'private') {
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
-    Asena.addCommand({pattern: 'mp4color', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'mp4color', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Video!*');
         var downloading = await message.client.sendMessage(message.jid,'```Editing..```',MessageType.text);
@@ -866,7 +866,7 @@ if (Config.WORKTYPE == 'private') {
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
-    Asena.addCommand({pattern: 'colorimage', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'colorimage', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
         var downloading = await message.client.sendMessage(message.jid,'```Editing..```',MessageType.text);
@@ -887,7 +887,7 @@ if (Config.WORKTYPE == 'private') {
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
-    Asena.addCommand({pattern: 'mp4slowmo', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'mp4slowmo', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message.video) return await message.sendMessage('*Need Video!*');
         var downloading = await message.client.sendMessage(message.jid,'```Motion Render Interpolating..```',MessageType.text);
