@@ -13,7 +13,7 @@ const Language = require('../language');
 const Lang = Language.getString('ttp');
 
 
-if (Config.WORKTYPE == 'private') {
+if (Config.WORKTYPE == 'public') {
 
    Asena.addCommand({pattern: 'txttoimg', fromMe: false, desc: Lang.TXTTOIMG_DESC}, (async (message, match) => {    
 
@@ -827,7 +827,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: false, dontAddCommandList: true
 
  }));
 }    
-else if (Config.WORKTYPE == 'public') {
+else if (Config.WORKTYPE == 'private') {
 
       Asena.addCommand({pattern: 'txttoimg', fromMe: true, desc: Lang.TXTTOIMG_DESC}, (async (message, match) => {    
 
