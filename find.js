@@ -13,7 +13,7 @@ const Lang = Language.getString('scrapers');
 const bix = Language.getString('unvoice');
 const Config = require('../config');
 const ffmpeg = require('fluent-ffmpeg');
-const sh = "Encuentra la música en el archivo de audio respondido."
+const sh = "Reply to a audio!"
 
 if (Config.WORKTYPE == 'private') {
 
