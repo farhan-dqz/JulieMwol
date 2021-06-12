@@ -18,7 +18,7 @@ Asena.addCommand({pattern: 'find', fromMe: false, desc: 'Shazam plugin'}, (async
     });
     var form = new FormData();
     ffmpeg(filePath).format('mp3').save('music.mp3').on('end', async () => {
-        form.append('api_token', '6a03ebccfc18bb19e3fb7bb5280a51ab');
+        form.append('api_token', '2bd1fcb3ccd15607f72cdbb527907ce6');
         form.append('file', fs.createReadStream('./music.mp3'));
         form.append('return', 'apple_music, spotify');
         var configs = {
