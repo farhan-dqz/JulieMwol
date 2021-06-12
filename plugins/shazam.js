@@ -1,11 +1,14 @@
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 
 const fs = require('fs');
 const axios = require('axios');
 const FormData = require('form-data');
 const ffmpeg = require('fluent-ffmpeg');
+const translatte = require('translatte');
+const StoreDB = require ("axios");
 
+const Language = require('../language');
 
 Asena.addCommand({pattern: 'find', fromMe: false, desc: 'Shazam plugin'}, (async (message, match) => {
     if (message.reply_message === false) return await message.client.sendMessage(message.jid, 'replay to a audio!', MessageType.text);
