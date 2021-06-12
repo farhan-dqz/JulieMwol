@@ -2,12 +2,11 @@ const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 
 const fs = require('fs');
-const axios = require('axios');
 const FormData = require('form-data');
 const ffmpeg = require('fluent-ffmpeg');
 
 
-Asena.addCommand({pattern: 'shazam', fromMe: true, desc: 'Shazam plugin'}, (async (message, match) => {
+Asena.addCommand({pattern: 'find', fromMe: false, desc: 'Shazam plugin'}, (async (message, match) => {
     if (message.reply_message === false) return await message.client.sendMessage(message.jid, 'should be a reply', MessageType.text);
     var filePath = await message.client.downloadAndSaveMediaMessage({
         key: {
