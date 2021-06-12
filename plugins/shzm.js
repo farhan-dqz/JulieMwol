@@ -4,9 +4,16 @@
 
 
 const Asena = require('../events');
+const {MessageType,Mimetype} = require('@adiwajshing/baileys');
+const translatte = require('translatte');
+const StoreDB = require("axios");
+const config = require('../config');
+const Language = require('../language');
+const Lang = Language.getString('scrapers');
+const bix = Language.getString('unvoice');
 const Config = require('../config');
-const { MessageType } = require('@adiwajshing/baileys');
-const axios = require('axios');
+const ffmpeg = require('fluent-ffmpeg');
+const sh = "Encuentra la música en el archivo de audio respondido."
 
 if (Config.WORKTYPE == 'private') {
 
