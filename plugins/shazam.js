@@ -1,14 +1,15 @@
 const Asena = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
-const translatte = require('translatte');
-const StoreDB = require("axios");
-const config = require('../config');
-const Language = require('../language');
-const Lang = Language.getString('scrapers');
-const bix = Language.getString('unvoice');
-const Config = require('../config');
+const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
-const sh = "Encuentra la música en el archivo de audio respondido."
+const {execFile} = require('child_process');
+const cwebp = require('cwebp-bin');
+const Config = require('../config');
+const sh = "Reply to a audio!."
+
+const Language = require('../language');
+const Lang = Language.getString('unvoice'); // Language support
+
 
 
 Asena.addCommand({pattern: 'shazam', fromMe: false, desc: sh }, (async (message, match) => { 
