@@ -2,6 +2,7 @@ const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 
 const axios = require('axios');
+const FormData = require('form-data');
 const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
 
