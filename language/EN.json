@@ -27,13 +27,13 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*I am not admin in this group!*",
-            "BANNED": "kicked out of the group!",
-            "GIVE_ME_USER": "*Give me a user!*",
+            "IM_NOT_ADMIN": "*njan admin alla macha☹️*",
+            "BANNED": "Mwonu Ok Bie!",
+            "GIVE_ME_USER": "*arelum mention chey😈!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
-            "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
-            "PROMOTED": "```, admin role was given!```",
+            "ALREADY_PROMOTED": "```Avan admin anu nenpa🙃```",
+            "PROMOTED": "```admin role was given!```",
             "PROMOTE_DESC": "Makes any person an admin.",
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
@@ -56,8 +56,8 @@
             "REASON": "Reason",
             "LAST_SEEN": "Last Seen",
             "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment.```",
-            "AFK_TEXT_NOMD": "Bip bop! This is a bot.",
+            "AFK_TEXT": "```My owner is not here at the moment.```",
+            "AFK_TEXT_NOMD": "I am bot!",
             "HOUR": "hour",
             "MINUTE": "minute",
             "SECOND": "second"
@@ -166,9 +166,9 @@
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "*Give me a photo!*",
-            "NO_API_KEY": "*You don't have an API key!*\nYou can get it here: remove.bg.",
-            "RBGING": "```Removing background...```"
+            "NEED_PHOTO": "*photo thaa mister!*",
+            "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
+            "RBGING": "```Removing...```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
@@ -186,16 +186,16 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "```Downloading your song...```",
-            "UPLOADING_SONG": "```Uploading your song...```",
+            "DOWNLOADING_SONG": "*Searching your song 🤗*",
+            "UPLOADING_SONG": "Uploading 📲 Use 🎧 ",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading your video...```",
+            "DOWNLOADING_VIDEO": "```Downloadi...```",
             "UPLOADING_VIDEO": "```Uploading your video...```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
-            "NOT_FOUND": "*I couldn't find anything :(*",
+            "GETTING_DESC": "```I'm bringing videos...```",
+            "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
             "SEARCHING": "* 🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "DOWNLOADING": "```Nissaram 🤠```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -217,13 +217,13 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
+            "NEW_UPDATE": "*JulieMwol Update Available*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "_Updating..._",
+            "UPDATING": "```Updating🐥```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ Successfully Updated!*",
+            "UPDATED": "*Updated 😍*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 WhatsAsena Restarting Automatically!*"
+            "AFTER_UPDATE": "*💬 JulieMwol Restarting Automatically!*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -250,8 +250,8 @@
             "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
             "MP4TOAUDİO": "```Converting Video to Audio..```",
             "STİCKER_DESC": "Converts the sticker to a photo.",
-            "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```Converting the sticker to a photo..```",
+            "STİCKER_NEEDREPLY": "*Photokk Reply ayitt ayakk*",
+            "STİCKER": "```Converting...```",
             "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
