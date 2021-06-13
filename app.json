@@ -1,7 +1,7 @@
 {
     "name": "JulieMwol",
     "description": "JulieMwol project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "logo": "https://avatars.githubusercontent.com/u/83164448?v=4",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/farhan-dqz/JulieMwol",
     "website":   "https://t.me/farhan-dqz",
@@ -19,7 +19,7 @@
         "LANGUAGE": {
             "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt",
             "required": true,
-            "value": "TR"
+            "value": "EN"
         },
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
