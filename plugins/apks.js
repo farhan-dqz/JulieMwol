@@ -1,14 +1,3 @@
-senaDuplicated/plugins/apk.js
-@litedrkbot
-litedrkbot Update apk.js
- 3 contributors
-291 lines (221 sloc)  21.2 KB
- /* Copyright (C) 2020 Yusuf Usta.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-DrkBot - DarkBox1522
-*/
-
 const Asena = require('../events');
 const axios = require('axios');
 const {MessageType, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
