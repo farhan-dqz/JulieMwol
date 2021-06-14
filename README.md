@@ -9,7 +9,7 @@
 </p>
 </div>
 <p align="center">
-##Project created and managed by <a href="https://alien-alfa.github.io">Farhan-dqz</a> to make it public
+Project created and managed by <a href="https://alien-alfa.github.io">Farhan-dqz</a> to make it public
     <br>
        | © |
         Reserved |
