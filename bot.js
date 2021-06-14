@@ -708,7 +708,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                         '\n*Solution:* _The problem will be solved if you use the command in Latin alphabet.._'
                                         , MessageType.text
                                     );
-                
+                                }
                                 else {
                                     return await conn.sendMessage(conn.user.jid, '*🙇🏻error kandsthan ayilla 🙃! 🙇🏻*' +
                                         '\n_You can write to our support group for more help._'
