@@ -422,6 +422,14 @@
             "HIDDEN": "Hidden",
             "NOT_FOUND":"User not found: "
         },
+        "lyrics": {
+            "LY_DESC": "Finds the lyrics of the song.",
+            "NEED": "```You Must Write Any Song!```",
+            "SLY": "Lyrics:",
+            "AUT": "Song Owner:",
+            "BUL": "Founded Song:",
+            "ARAT": "Searched Song:"
+        },
         "github": {
             "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
             "REPLY": "```You Need To Type Any Username!```",
