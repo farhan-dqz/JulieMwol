@@ -46,14 +46,14 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/farhan-dqz/JulieMwol)
      </div>
-    <div align="center">
+    
 ### The Hard Method
 ```js
 GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/AI-VIKI/PublicBot
+$ git clone https://github.com/farhan-dqz/JulieMwol
 $ cd PublicBot
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -63,7 +63,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/AI-VIKI/PublicBot
+$ git clone https://github.com/farhan-dqz/JulieMwol
 $ cd PublicBot
 $ chmod +x *
 $ npm i
@@ -71,7 +71,7 @@ $ node qr.js
    // scan the qr using whatsapp web on your phone
 $ node bot.js
 ```
-</div>
+
 
 ### ⚠️ Warning! 
 ```
