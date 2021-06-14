@@ -422,6 +422,15 @@
             "HIDDEN": "Hidden",
             "NOT_FOUND":"User not found: "
         },
+        "whois": {
+            "PL_DESC": "Displays metadata data of group or person.",
+            "SUB": "*Group Name:* ",
+            "DES": "*Group Description:* ",
+            "OWN": "*Founder:* ",
+            "COD": "*Unique Group Code:* ",
+            "JİD": "*Person JID:* ",
+            "ST": "*Person Status:* "
+        },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
             "NOT": "```Sorry I Could Not Find A Country Like This! Please Enter Applicable Country Codes!```\n\n```Country Codes:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
