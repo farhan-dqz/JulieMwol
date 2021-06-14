@@ -22,15 +22,15 @@ if (Config.WORKTYPE == 'private') {
    }));
 
    Asena.addCommand({pattern: 'nova', fromMe: true}, (async (message, match) => {
-      await message.sendMessage('💎 *NOVA LAUNCHER* 💎\nLanzador con el cual podras personalizar la apariencia de tu dispositivo android.\n⚠️ Versión Premium, todo desbloqueado.\n📌 bit.ly/drknova');
+      await message.sendMessage('💎 *NOVA LAUNCHER* 💎\nLauncher with which you can customize the appearance of your android device. \ N⚠️ Premium version, all unlocked\n📌 bit.ly/drknova');
    }));
 
    Asena.addCommand({pattern: 'cml', fromMe: true}, (async (message, match) => {
-      await message.sendMessage('💎 *CM LAUNCHER* 💎\nLanzador con el cual podras personalizar la apariencia de tu dispositivo android.\n😞 No disponible en este momento.');
+      await message.sendMessage('💎 *CM LAUNCHER* 💎\nLauncher with which you can customize the appearance of your android device. \ N😞 Not available at this time.');
    }));
 
    Asena.addCommand({pattern: 'apex', fromMe: true}, (async (message, match) => {
-      await message.sendMessage('💎 *APEX LAUNCHER* 💎\nLanzador con el cual podras personalizar la apariencia de tu dispositivo android.\n📌 bit.ly/drkapex');
+      await message.sendMessage('💎 *APEX LAUNCHER* 💎\nLauncher with which you can customize the appearance of your android device.\n📌 bit.ly/drkapex');
    }));
 
    Asena.addCommand({pattern: 'kinemaster', fromMe: true}, (async (message, match) => {
