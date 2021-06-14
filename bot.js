@@ -710,8 +710,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻error kandsthan ayilla 🙃! 🙇🏻*' +
-                                        '\n_You can write to our support group for more help._'
+                                    return await conn.sendMessage(conn.user.jid, '\n*🙇🏻 error kandethan ayilla 🙇🏻!*' +
+                                        '\n_You can ask in support group._'
                                         , MessageType.text
                                     );
                                 }    
