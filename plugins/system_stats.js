@@ -12,7 +12,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
 const chalk = require('chalk');
-const Axios = require('axios');
+const axios = require('axios');
 
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
