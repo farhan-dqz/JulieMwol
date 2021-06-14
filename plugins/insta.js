@@ -41,7 +41,7 @@ Asena.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false, desc: ph }, async (me
     if (userName === '') return await message.client.sendMessage(message.jid, '```URL Gir!```')
 
     await axios
-      .get(`https://api.zeks.xyz/api/ig?url=${userName}&apikey=apivinz`)
+      .get(`https://api.zeks.xyz/api/ig?url=${userName}&apikey=Ekqqy3DmxtTHPAuA7inIHpxjFIC`)
       .then(async (response) => {
 
         const {
