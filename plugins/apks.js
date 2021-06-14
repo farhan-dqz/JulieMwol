@@ -34,9 +34,20 @@ if (Config.WORKTYPE == 'private') {
    }));
 
    Asena.addCommand({pattern: 'kinemaster', fromMe: true}, (async (message, match) => {
-      await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n😞 No disponible en este momento.');
+      await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n👉https://bit.ly/2RSyFVr.');
    }));
 
+   Asena.addCommand({pattern: 'inshot', fromMe: true}, (async (message, match) => {
+      await message.sendMessage('💎 *INSHOT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3zyNjlZ');
+   }));
+
+   Asena.addCommand({pattern: 'alight', fromMe: true}, (async (message, match) => {
+      await message.sendMessage('💎 *ALIGHT MOTION MOD* 💎\npremium unlocked.\n👉https://bit.ly/3cHUBdg');
+   }));
+
+   Asena.addCommand({pattern: 'capcut', fromMe: true}, (async (message, match) => {
+      await message.sendMessage('💎 *CAP CUT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3pSSlFu');
+   }));
    Asena.addCommand({pattern: 'picsart', fromMe: true}, (async (message, match) => {
       await message.sendMessage('💎 *PICSART GOLD* 💎\npremium unlocked.\n📌 bit.ly/drkpicsart');
    }));
@@ -166,9 +177,20 @@ else if (Config.WORKTYPE == 'public') {
    }));
 
    Asena.addCommand({pattern: 'kinemaster', fromMe: false}, (async (message, match) => {
-      await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n😞 No disponible en este momento.');
+      await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n👉https://bit.ly/2RSyFVr.');
    }));
 
+Asena.addCommand({pattern: 'inshot', fromMe: false}, (async (message, match) => {
+      await message.sendMessage('💎 *INSHOT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3zyNjlZ');
+   }));
+
+Asena.addCommand({pattern: 'alight', fromMe: false}, (async (message, match) => {
+      await message.sendMessage('💎 *ALIGHT MOTION MOD* 💎\npremium unlocked.\n👉https://bit.ly/3cHUBdg');
+   }));
+
+Asena.addCommand({pattern: 'capcut', fromMe: false}, (async (message, match) => {
+      await message.sendMessage('💎 *CAP CUT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3pSSlFu');
+   }));
    Asena.addCommand({pattern: 'picsart', fromMe: false}, (async (message, match) => {
       await message.sendMessage('💎 *PICSART GOLD* 💎\npremium unlocked.\n📌 bit.ly/drkpicsart');
    }));
