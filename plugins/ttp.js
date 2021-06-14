@@ -1512,5 +1512,5 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: true, dontAddCommandList: true}
 
     await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp,quoted : message.data})
 
-}));
-
+    }));
+}
