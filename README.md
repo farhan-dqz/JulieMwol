@@ -30,7 +30,7 @@ Project created by <a href="https://github.com/farhan-dqz">Farhan-dqz</a> to mak
 </p>
 
 ## 📢 Guide
-Click on Whatsapp Logo To Join Support Group 
+Click WA logo to Join Support Group 👇
     <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
   <div align="center">
