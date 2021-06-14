@@ -60,62 +60,6 @@ Asena.addCommand({pattern: 'glitch ?(.*)', fromMe: false, dontAddCommandList: tr
 
 }));
 
-Asena.addCommand({pattern: 'neonglow ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/glowingneon/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-
-Asena.addCommand({pattern: 'wood ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/woodblock/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-Asena.addCommand({pattern: '8bit ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-  
-  var topText, bottomText;
-    if (match[1].includes('/')) {
-        var split = match[1].split('/');
-        bottomText = split[1];
-        topText = split[0];
-}
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/8bit/?text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-Asena.addCommand({pattern: 'shadow ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/shadowtext/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-Asena.addCommand({pattern: 'harrypotter ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/hpotter/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
 }));
 
 Asena.addCommand({pattern: 'sparkling ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
@@ -175,47 +119,6 @@ Asena.addCommand({pattern: '3dtext ?(.*)', fromMe: false, dontAddCommandList: tr
 
 }));
 
-
-Asena.addCommand({pattern: 'underwater ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/underwater/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
- Asena.addCommand({pattern: 'flower ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/mugflower/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-Asena.addCommand({pattern: 'burn ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/burnpaper/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
- Asena.addCommand({pattern: 'candy ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/sweetcandy/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
 Asena.addCommand({pattern: 'sandwriting ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
@@ -274,46 +177,6 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: false, dontAddCommandList: true
 
     }));
 
-  Asena.addCommand({pattern: 'grass ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/paperonglass/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
-
- Asena.addCommand({pattern: 'candlemug ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/candlemug/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
-
-   Asena.addCommand({pattern: 'romance ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/romancetext/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
-
-   Asena.addCommand({pattern: 'lovemsg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/lovemsg/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
-
      Asena.addCommand({pattern: 'luxury ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
@@ -321,23 +184,6 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: false, dontAddCommandList: true
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/3dluxury?text=${match[1]}&APIKEY=ba69027eb3dc7987`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-    Asena.addCommand({pattern: 'pubg ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-  
-  var topText, bottomText;
-    if (match[1].includes('/')) {
-        var split = match[1].split('/');
-        bottomText = split[1];
-        topText = split[0];
-}
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/pubgmlogo/?text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
-
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
 
     }));
 
@@ -656,102 +502,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: false, dontAddCommandList: true
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
 
     }));
-
-    Asena.addCommand({pattern: 'latte ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/coffeecup/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-    
-    Asena.addCommand({pattern: 'wanted ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/wanted/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-    Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/silk/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-    Asena.addCommand({pattern: 'google ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-  var topText, bottomText;
-    if (match[1].includes('/')) {
-        var split = match[1].split('/');
-        tbottomText = split[2];
-        bottomText = split[1];
-        topText = split[0];
-}
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/gsuggest/?text1=${topText}&text2=${bottomText}&text3=${tbottomText}`, { responseType: 'arraybuffer' })
-
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-    Asena.addCommand({pattern: 'battle ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-  
-  var topText, bottomText;
-    if (match[1].includes('/')) {
-        var split = match[1].split('/');
-        bottomText = split[1];
-        topText = split[0];
-}
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/bf4/?text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
-
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-    Asena.addCommand({pattern: 'coffeecup ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/coffeecup2/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-    Asena.addCommand({pattern: 'fire ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/crossfirelogo/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-    Asena.addCommand({pattern: 'banner ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/narutobanner/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '``PublicBot```'})
-
-    }));
-    
     Asena.addCommand({ pattern: 'attp ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
     if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
@@ -808,64 +559,6 @@ Asena.addCommand({pattern: 'glitch ?(.*)', fromMe: true, dontAddCommandList: tru
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/tiktokeffect/?text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg ,quoted: message.data,})
-
-}));
-
-Asena.addCommand({pattern: 'neonglow ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/glowingneon/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-
-Asena.addCommand({pattern: 'wood ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/woodblock/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-Asena.addCommand({pattern: '8bit ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-  
-  var topText, bottomText;
-    if (match[1].includes('/')) {
-        var split = match[1].split('/');
-        bottomText = split[1];
-        topText = split[0];
-}
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/8bit/?text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-Asena.addCommand({pattern: 'shadow ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/shadowtext/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-
-Asena.addCommand({pattern: 'harrypotter ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/hpotter/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
 
 }));
 
@@ -926,47 +619,6 @@ Asena.addCommand({pattern: '3dtext ?(.*)', fromMe: true, dontAddCommandList: tru
 
 }));
 
-
-Asena.addCommand({pattern: 'underwater ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/underwater/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
- Asena.addCommand({pattern: 'flower ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/mugflower/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
-Asena.addCommand({pattern: 'burn ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/burnpaper/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
- Asena.addCommand({pattern: 'candy ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/sweetcandy/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```PublicBot```'})
-
-    }));
-
 Asena.addCommand({pattern: 'sandwriting ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
@@ -1025,45 +677,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: true, dontAddCommandList: true}
 
     }));
 
-  Asena.addCommand({pattern: 'grass ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/paperonglass/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
-
- Asena.addCommand({pattern: 'candlemug ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/candlemug/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
-
-   Asena.addCommand({pattern: 'romance ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/romancetext/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
-
-   Asena.addCommand({pattern: 'lovemsg ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
-
-    var webimage = await axios.get(`https://videfikri.com/api/textmaker/lovemsg/?text=${match[1]}`, { responseType: 'arraybuffer' })
-
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'PublicBot'})
-
-    }));
+  
 
      Asena.addCommand({pattern: 'luxury ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
