@@ -97,6 +97,7 @@ async function whatsAsena () {
     const four = buffu.toString('utf-8'); 
 
     const conn = new WAConnection();
+    const version = [2,2121,7];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
