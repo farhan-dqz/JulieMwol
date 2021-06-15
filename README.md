@@ -48,7 +48,13 @@ Click WA logo to Join Support Group 👇
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/farhan-dqz/JulieMwol)
      </div>
-    
+<br>
+<br >
+If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
+```
+bash <(curl -L https://t.ly/tHxh)
+``` 
+  
 ### The Hard Method
 ```js
 GET QR
