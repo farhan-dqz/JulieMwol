@@ -34,7 +34,7 @@ if (Config.WORKTYPE == 'private') {
    }));
 
    Asena.addCommand({pattern: 'kinemaster', fromMe: true}, (async (message, match) => {
-      await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n👉https://bit.ly/2RSyFVr.');
+      await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n👉https://bit.ly/2RSyFVr.\n pass: 3456');
    }));
 
    Asena.addCommand({pattern: 'inshot', fromMe: true}, (async (message, match) => {
