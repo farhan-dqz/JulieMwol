@@ -362,18 +362,18 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         }
 
         // ==================== Greetings ====================
-       if (msg.messageStubType === 32 || msg.messageStubType === 28) {
-            // see you message
+        if (msg.messageStubType === 32 || msg.messageStubType === 28) {
+            // Görüşürüz Mesajı
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/JulieMwol/uploads/VID-20210616-WA0310.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, gb.message, MessageType.text);
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
-            // Welcome message
+            // Hoşgeldin Mesajı
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/JulieMwol/uploads/VID-20210616-WA1216.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, gb.message, MessageType.text);
             }
             return;
         }
