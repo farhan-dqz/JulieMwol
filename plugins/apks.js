@@ -21,130 +21,130 @@ if (Config.WORKTYPE == 'private') {
         )
    }));
 
-   Asena.addCommand({pattern: 'nova', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'nova', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *NOVA LAUNCHER* 💎\npremium unlocked .\n📌 bit.ly/drknova');
    }));
 
-   Asena.addCommand({pattern: 'cml', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'cml', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CM LAUNCHER* 💎\npremium unlocked.\n😞 No disponible en este momento.');
    }));
 
-   Asena.addCommand({pattern: 'apex', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'apex', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *APEX LAUNCHER* 💎\npremium unlocked.\n📌 bit.ly/drkapex');
    }));
 
-   Asena.addCommand({pattern: 'kinemaster', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'kinemaster', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n👉https://bit.ly/2RSyFVr.\n pass: 3456');
    }));
 
-   Asena.addCommand({pattern: 'inshot', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'inshot', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *INSHOT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3zyNjlZ');
    }));
 
-   Asena.addCommand({pattern: 'alight', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'alight', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *ALIGHT MOTION MOD* 💎\npremium unlocked.\n👉https://bit.ly/3cHUBdg');
    }));
 
-   Asena.addCommand({pattern: 'capcut', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'capcut', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CAP CUT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3pSSlFu');
    }));
-   Asena.addCommand({pattern: 'picsart', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'picsart', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *PICSART GOLD* 💎\npremium unlocked.\n📌 bit.ly/drkpicsart');
    }));
 
-   Asena.addCommand({pattern: 'canva', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'canva', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CANVA PRO* 💎\npremium unlocked.\n📌 bit.ly/canvapro');
    }));
 
-   Asena.addCommand({pattern: 'lightr', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'lightr', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *LIGTHROM* 💎\npremium unlocked.\n📌 bit.ly/drklightr');
    }));
 
-   Asena.addCommand({pattern: 'pshop', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'pshop', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *PHOTOSHOP EXPRESS* 💎\npremium unlocked.\n📌 bit.ly/drkphotoshop');
    }));
 
-   Asena.addCommand({pattern: 'snaps', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'snaps', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *SNAPSEED* 💎\npremium unlocked.\n📌 bit.ly/drksnaps');
    }));
 
-   Asena.addCommand({pattern: 'retouch', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'retouch', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *RETOUCH* 💎\npremium unlocked.\n📌 bit.ly/drkretouch');
    }));
 
-   Asena.addCommand({pattern: 'vanced', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'vanced', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *VANCED MANAGER* 💎\nyoutube vanced.\n📌 bit.ly/drkytubev');
    }));
 
-   Asena.addCommand({pattern: 'freez', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'freez', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *FREEZER MOD* 💎\nPremium Unlocked.\n📌 bit.ly/drkfreezer');
    }));
 
-   Asena.addCommand({pattern: 'deezer', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'deezer', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *DEEZER MOD* 💎\npremium unlocked.\n📌 bit.ly/drkdeezer');
    }));
 
-   Asena.addCommand({pattern: 'rbox', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'rbox', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *RADIO BOX* 💎\npremium unlocked.\n📌 bit.ly/drkradiobox');
    }));
 
-   Asena.addCommand({pattern: 'mxpro', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'mxpro', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *MX PLAYER PRO* 💎\npremium unlocked.\n⚠️ Versión Premium.\n📌 bit.ly/drkmxplayer');
    }));
 
-   Asena.addCommand({pattern: 'amp', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'amp', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *POWERAMP* 💎\npremium unlocked.\n📌 bit.ly/drkampplayer');
    }));
 
-   Asena.addCommand({pattern: 'jetau', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'jetau', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *JetAudio* 💎\npremium unlocked.\n📌 bit.ly/drkjetau');
    }));
 
-   Asena.addCommand({pattern: 'xpress', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'xpress', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *EXPRESS VPN* 💎\npremium unlocked.\n📌 bit.ly/drkXpress');
    }));
 
-   Asena.addCommand({pattern: 'hshield', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'hshield', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *HOSPOT SHIELD VPN* 💎\npremium unlocked.\n📌 bit.ly/drkHShield');
    }));
 
-   Asena.addCommand({pattern: 'avguard', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'avguard', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *TURBO VPN* 💎\npremium unlocked.\n📌 bit.ly/drkguard');
    }));
 
-   Asena.addCommand({pattern: 'flmanager', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'flmanager', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *FILE MANAGER* 💎\npremium unlocked.\n📌 bit.ly/drkesfile');
    }));
 
-   Asena.addCommand({pattern: 'callr', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'callr', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CALL RECORDER* 💎\npremium unlocked.\n📌 bit.ly/drkcallr');
    }));
 
-   Asena.addCommand({pattern: 'fing', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'fing', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *FING SCANNER* 💎\npremium unlocked.\n📌 bit.ly/drkfing');
    }));
 
-   Asena.addCommand({pattern: 'shazam', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'shazam', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *SHAZAM ENCORE* 💎\npremium unlocked.\n📌 bit.ly/drkshaz');
    }));
 
-   Asena.addCommand({pattern: 'qrcode', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'qrcode', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *QR CODE SCANER* 💎\npremium unlocked.\n📌 bit.ly/drkqrscanner');
    }));
 
-   Asena.addCommand({pattern: 'srecorder', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'srecorder', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *SCREEN RECORDER* 💎\npremium unlocked.\n📌 bit.ly/drkgrabr');
    }));
 
-   Asena.addCommand({pattern: 'tiktok', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'tiktok', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *TIKTOK MOD* 💎\npremium unlocked.\n📌 bit.ly/drktiktok');
    }));
 
-   Asena.addCommand({pattern: 'pmath', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'pmath', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *PHOTOMATH* 💎\npremium unlocked.\n📌 bit.ly/drkphotomath');
    }));
 
-   Asena.addCommand({pattern: 'waplus', fromMe: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'waplus', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *WHATSAPP PLUS* 💎\nwhattsapp mod.\n📌 bit.ly/drkWaPlus');
    }));
 }
@@ -164,85 +164,85 @@ else if (Config.WORKTYPE == 'public') {
         )
    }));
 
-   Asena.addCommand({pattern: 'nova', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'nova', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *NOVA LAUNCHER* 💎\npremium unlocked.\n📌 bit.ly/drknova');
    }));
 
-   Asena.addCommand({pattern: 'cml', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'cml', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CM LAUNCHER* 💎\npremium unlocked.\n😞 No disponible en este momento.');
    }));
 
-   Asena.addCommand({pattern: 'apex', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'apex', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *APEX LAUNCHER* 💎\npremium unlocked.\n📌 bit.ly/drkapex');
    }));
 
-   Asena.addCommand({pattern: 'kinemaster', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'kinemaster', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *KINEMASTER MOD* 💎\npremium unlocked.\n👉https://bit.ly/2RSyFVr.');
    }));
 
-Asena.addCommand({pattern: 'inshot', fromMe: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'inshot', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *INSHOT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3zyNjlZ');
    }));
 
-Asena.addCommand({pattern: 'alight', fromMe: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'alight', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *ALIGHT MOTION MOD* 💎\npremium unlocked.\n👉https://bit.ly/3cHUBdg');
    }));
 
-Asena.addCommand({pattern: 'capcut', fromMe: false}, (async (message, match) => {
+Asena.addCommand({pattern: 'capcut', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CAP CUT MOD* 💎\npremium unlocked.\n👉https://bit.ly/3pSSlFu');
    }));
-   Asena.addCommand({pattern: 'picsart', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'picsart', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *PICSART GOLD* 💎\npremium unlocked.\n📌 bit.ly/drkpicsart');
    }));
 
-   Asena.addCommand({pattern: 'canva', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'canva', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CANVA PRO* 💎\npremium unlocked.\n📌 bit.ly/canvapro');
    }));
 
-   Asena.addCommand({pattern: 'lightr', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'lightr', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *LIGTHROM* 💎\npremium unlocked.\n📌 bit.ly/drklightr');
    }));
 
-   Asena.addCommand({pattern: 'pshop', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'pshop', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *PHOTOSHOP EXPRESS* 💎\npremium unlocked.\n📌 bit.ly/drkphotoshop');
    }));
 
-   Asena.addCommand({pattern: 'snaps', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'snaps', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *SNAPSEED* 💎\npremium unlocked.\n📌 bit.ly/drksnaps');
    }));
 
-   Asena.addCommand({pattern: 'retouch', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'retouch', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *RETOUCH* 💎\npremium unlocked.\n📌 bit.ly/drkretouch');
    }));
 
-   Asena.addCommand({pattern: 'vanced', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'vanced', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *VANCED MANAGER* 💎\nYouTube Premium  YouTube Music.\n📌 bit.ly/drkytubev');
    }));
 
-   Asena.addCommand({pattern: 'crunchy', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'crunchy', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         var chyroll = await axios.get('https://gitlab.com/DrkBotPublic/botarchives/-/raw/master/Sin_t%C3%ADtulo_2_540p.mp4', { responseType: 'arraybuffer' })
         await message.client.sendMessage(message.jid, Buffer.from(chyroll.data), MessageType.video, {mimetype: Mimetype.mp4})
         await message.sendMessage('🔰 *CRUNCHYROLL(vrv)* 🔰\n💳 *BIN:* 55703976xxx62xxx\n📫 *Codigo Postal:* 10080, 10090\n *Ip:* USA 🇺🇸');
    }));
 
-   Asena.addCommand({pattern: 'freez', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'freez', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *FREEZER MOD* 💎\npremium unlocked - spotify\n📌 bit.ly/drkfreezer');
    }));
 
-   Asena.addCommand({pattern: 'deezer', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'deezer', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *DEEZER MOD* 💎\npremium unlocked.\n📌 bit.ly/drkdeezer');
    }));
 
-   Asena.addCommand({pattern: 'rbox', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'rbox', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *RADIO BOX* 💎\npremium unlocked.\n📌 bit.ly/drkradiobox');
    }));
 
-   Asena.addCommand({pattern: 'mxpro', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'mxpro', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *MX PLAYER PRO* 💎\npremium unlocked.\n📌 bit.ly/drkmxplayer');
    }));
 
-   Asena.addCommand({pattern: 'amp', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'amp', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *POWERAMP* 💎\npremium unlocked.\n📌 bit.ly/drkampplayer');
    }));
 
@@ -250,51 +250,51 @@ Asena.addCommand({pattern: 'capcut', fromMe: false}, (async (message, match) => 
       await message.sendMessage('💎 *JetAudio* 💎\npremium unlocked.\n📌 bit.ly/drkjetau');
    }));
 
-   Asena.addCommand({pattern: 'xpress', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'xpress', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *EXPRESS VPN* 💎\npremium unlocked.\n📌 bit.ly/drkXpress');
    }));
 
-   Asena.addCommand({pattern: 'hshield', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'hshield', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *HOSPOT SHIELD VPN* 💎\npremium unlocked.\n📌 bit.ly/drkHShield');
    }));
 
-   Asena.addCommand({pattern: 'avguard', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'avguard', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *TURBO VPN* 💎\npremium unlocked.\n📌 bit.ly/drkguard');
    }));
 
-   Asena.addCommand({pattern: 'flmanager', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'flmanager', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *FILE MANAGER* 💎\npremium unlocked.\n📌 bit.ly/drkesfile');
    }));
 
-   Asena.addCommand({pattern: 'callr', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'callr', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *CALL RECORDER* 💎\npremium unlocked.\n📌 bit.ly/drkcallr');
    }));
 
-   Asena.addCommand({pattern: 'fing', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'fing', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *FING SCANNER* 💎\npremium unlocked.\n📌 bit.ly/drkfing');
    }));
 
-   Asena.addCommand({pattern: 'shazam', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'shazam', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *SHAZAM ENCORE* 💎\npremium unlocked.\n📌 bit.ly/drkshaz');
    }));
 
-   Asena.addCommand({pattern: 'qrcode', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'qrcode', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *QR CODE SCANER* 💎\npremium unlocked.\n📌 bit.ly/drkqrscanner');
    }));
 
-   Asena.addCommand({pattern: 'screen recorder', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'screen recorder', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *SCREEN RECORDER* 💎\npremium unlocked.\n📌 bit.ly/drkgrabr');
    }));
 
-   Asena.addCommand({pattern: 'tiktok', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'tiktok', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *TIKTOK MOD* 💎\npremium unlocked.\n📌 bit.ly/drktiktok');
    }));
 
-   Asena.addCommand({pattern: 'pmath', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'pmath', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *PHOTOMATH* 💎\npremium unlocked.\n📌 bit.ly/drkphotomath');
    }));
 
-   Asena.addCommand({pattern: 'waplus', fromMe: false}, (async (message, match) => {
+   Asena.addCommand({pattern: 'waplus', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *WHATSAPP PLUS* 💎\nmhatsapp mod.\n📌 bit.ly/drkWaPlus');
    }));
 }
