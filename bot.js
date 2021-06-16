@@ -366,14 +366,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             // see you message
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/JulieMwol/media/gif/VID-20210616-WA0310.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/JulieMwol/uploads/VID-20210616-WA0310.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // Welcome message
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/JulieMwol/media/gif/VID-20210518-WA0059.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/JulieMwol/uploads/VID-20210518-WA0059.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         }
