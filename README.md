@@ -17,7 +17,6 @@ Project created by <a href="https://github.com/farhan-dqz">Farhan-dqz</a> to mak
 </p>
 
 ----
-
   <p align="center">
   <a href="httsp://github.com/farhan-dqz/JulieMwol">
     <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
