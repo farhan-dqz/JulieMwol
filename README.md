@@ -93,7 +93,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
     
   [![saidali](https://github.com/saidalisaid161.png?size=100)](https://github.com/saidalisaid161) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
 ----|----|----
-[Saidali](https://github.com/saidalisaid161)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [farhan](https://github.com/farhan-dqz)
+[Saidali](https://github.com/saidalisaid161)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [farhan](https://github.com/saidalisaid161)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
