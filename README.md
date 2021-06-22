@@ -18,13 +18,13 @@ Project created by <a href="https://github.com/farhan-dqz">Farhan-dqz</a> to mak
 
 ----
   <p align="center">
-  <a href="httsp://github.com/farhan-dqz/JulieMwol">
-    <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
+  <a href="httsp://github.com/saidalisaid161/JulieMwol">
+    <img src="https://img.shields.io/github/repo-size/saidalisaid161/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/farhan-dqz/followers"><img title="Followers" src="https://img.shields.io/github/followers/farhan-dqz?color=blue&style=flat-square"></a>
-<a href="https://github.com/farhan-dqz/JulieMwol/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/farhan-dqz/JulieMwol/network/members"><img title="Forks" src="https://img.shields.io/github/forks/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/farhan-dqz/JulieMwol/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/farhan-dqz/JulieMwol?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/saidalisaid161/followers"><img title="Followers" src="https://img.shields.io/github/followers/farhan-dqz?color=blue&style=flat-square"></a>
+<a href="https://github.com/saidalisaid161/JulieMwol/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/saidalisaid161/JulieMwol?color=blue&style=flat-square"></a>
+<a href="https://github.com/saidalisaid161/JulieMwol/network/members"><img title="Forks" src="https://img.shields.io/github/forks/saidalisaid161/JulieMwol?color=blue&style=flat-square"></a>
+<a href="https://github.com/saidalisaid161/JulieMwol/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/saidalisaid161/JulieMwol?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
@@ -60,8 +60,8 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/saidalisaid161/MisriMwol
-$ cd MisriMwol
+$ git clone https://github.com/saidalisaid161/JulieMwol
+$ cd JulieMowl
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -70,8 +70,8 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/saidalisaid161/MisriMwol
-$ cd MisriMowl
+$ git clone https://github.com/saidalisaid161/JulieMwol
+$ cd JulieMowl
 $ chmod +x *
 $ npm i
 $ node qr.js
@@ -93,7 +93,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
     
   [![saidali](https://github.com/saidalisaid161.png?size=100)](https://github.com/saidalisaid161) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
 ----|----|----
-[Saidali](https://github.com/saidalisaid161)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
+[Saidali](https://github.com/saidalisaid161)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [farhan](https://github.com/farhan-dqz)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
