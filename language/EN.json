@@ -199,12 +199,12 @@
             "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "Uploading photo ```{}``` number ```{} ```..."
+            "IMG": "photo uplode cheyyunnu```{}``` number ```{} ```..."
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Nissaram 🤠```"
+            "DOWNLOADING": "```Nissaram(ninne kond pattum)🤠```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -212,18 +212,18 @@
         },
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
-            "ADMİN": "*I am not admin in this group!*"
+            "ADMİN": "*nan admin allla nenba !*"
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*JulieMwol Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
+            "UPDATE": "*Your misriMwolbot is completely up-to-date!*",
+            "NEW_UPDATE": "*MisriMwol Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..🐥```",
+            "UPDATING": "```upadate avunnund nenba..🐥```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Updated 🤠✅*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*👰 JulieMwol Restarting ?*"
+            "UPDATED_LOCAL": "*✅ update ayi mone!*",
+            "AFTER_UPDATE": "*👰 MisriMwol Restarting ?*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -278,8 +278,8 @@
             "TITLE": "Title",
             "PUBLICATION": "Publication",
             "SONGL": "Link",
-            "NEED_SONG": "Song name para nenba 🥲.",
-            "NOT_FOUNDS" : "No such songs found!",
+            "NEED_SONG": "oru patt para aliya🥲.",
+            "NOT_FOUNDS" : "No such sound!",
             "JOOX_DESC": "Brings you the song details and a link for it.",
             "LYRICS_DESC": "Brings you the song Lyrics.",
             "SONGLI": "Lyrics",
