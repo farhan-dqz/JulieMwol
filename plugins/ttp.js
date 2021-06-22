@@ -137,33 +137,33 @@ Asena.addCommand({pattern: 'textmaker$', fromMe: wk, desc: desc_msg}, (async (me
         command_cmd = '💻 *Command:* '
         desc_cmd = 'ℹ️ *Description:* _'
     }
-    const msg = command_cmd + '```.textdevil``` \n' + t1 + '_\n' + usage_cmd + '.textdevil JulieMwol_\n\n' +
-        command_cmd + '```.textbear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.textbear JulieMwol_\n\n' +
-        command_cmd + '```.textwolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '.textwolf Developer;JulieMwol_\n\n' +
-        command_cmd + '```.textneon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '.textneon JulieMwol_\n\n' +
-        command_cmd + '```.text2neon``` \n' + desc_cmd + t4 + '_\n' + usage_cmd + '.text2neon JulieMwol_\n\n' +
-        command_cmd + '```.text3neon``` \n' + desc_cmd + t18 + '_\n' + usage_cmd + '.text3neon JulieMwol_\n\n' +
-        command_cmd + '```.text4neon``` \n' + desc_cmd + t27 + '_\n' + usage_cmd + '.text4neon JulieMwol_\n\n' +
-        command_cmd + '```.textlight``` \n' + desc_cmd + t5 + '_\n' + usage_cmd + '.textlight JulieMwol_\n\n' +
-        command_cmd + '```.textjoker``` \n' + desc_cmd + t6 + '_\n' + usage_cmd + '.textjoker JulieMwol_\n\n' +
-        command_cmd + '```.textninja``` \n' + desc_cmd + t7 + '_\n' + usage_cmd + '.textninja Developer;JulieMwol_\n\n' +
-        command_cmd + '```.textglitter``` \n' + desc_cmd + t8 + '_\n' + usage_cmd + '.textglitter JulieMwol_\n\n' +
-        command_cmd + '```.textbokeh``` \n' + desc_cmd + t9 + '_\n' + usage_cmd + '.textbokeh JulieMwol_\n\n' +
-        command_cmd + '```.textmarvel``` \n' + desc_cmd + t11 + '_\n' + usage_cmd + '.textmarvel Developer;JulieMwol_\n\n' +
-        command_cmd + '```.text2marvel``` \n' + desc_cmd + t12 + '_\n' + usage_cmd + '.text2marvel Developer;JulieMwol_\n\n' +
-        command_cmd + '```.textavengers``` \n' + desc_cmd + t13 + '_\n' + usage_cmd + '.textavengers Developer;JulieMwol_\n\n' +
-        command_cmd + '```.textgraf``` \n' + desc_cmd + t15 + '_\n' + usage_cmd + '.textgraf Developer;Phaticusthiccy_\n\n' +
-        command_cmd + '```.text2graf``` \n' + desc_cmd + t16 + '_\n' + usage_cmd + '.text2graf Developer;JulieMwol_\n\n' +       
-        command_cmd + '```.textlion``` \n' + desc_cmd + t17 + '_\n' + usage_cmd + '.textlion Developer;JulieMwol_\n\n' +
-        command_cmd + '```.textice``` \n' + desc_cmd + t19 + '_\n' + usage_cmd + '.textice JulieMwol_\n\n' +
-        command_cmd + '```.textspace``` \n' + desc_cmd + t20 + '_\n' + usage_cmd + '.textspace Developer;JulieMwol_\n\n' +
-        command_cmd + '```.textsmoke``` \n' + desc_cmd + t21 + '_\n' + usage_cmd + '.textsmoke JulieMwol_\n\n' + // Thanks for @Unique_hunter for base.
-        command_cmd + '```.textglow``` \n' + desc_cmd + t23 + '_\n' + usage_cmd + '.textglow JulieMwol_\n\n' +
-        command_cmd + '```.textfire``` \n' + desc_cmd + t25 + '_\n' + usage_cmd + '.textfire JulieMwol_\n\n' +
-        command_cmd + '```.textharry``` \n' + desc_cmd + t26 + '_\n' + usage_cmd + '.textharry JulieMwol_\n\n' +
-        command_cmd + '```.textcup``` \n' + desc_cmd + t29 + '_\n' + usage_cmd + '.textcup JulieMwol_\n\n' +
-        command_cmd + '```.textcemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.textcemetery JulieMwol_\n\n' +
-        command_cmd + '```.textglitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.textglitch Developer;JulieMwol_'
+    const msg = command_cmd + '```.textdevil``` \n' + t1 + '_\n' + usage_cmd + '.devil JulieMwol_\n\n' +
+        command_cmd + '```.textbear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.bear JulieMwol_\n\n' +
+        command_cmd + '```.textwolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '.wolf Developer;JulieMwol_\n\n' +
+        command_cmd + '```.textneon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '.neon JulieMwol_\n\n' +
+        command_cmd + '```.text2neon``` \n' + desc_cmd + t4 + '_\n' + usage_cmd + '.2neon JulieMwol_\n\n' +
+        command_cmd + '```.text3neon``` \n' + desc_cmd + t18 + '_\n' + usage_cmd + '.3neon JulieMwol_\n\n' +
+        command_cmd + '```.text4neon``` \n' + desc_cmd + t27 + '_\n' + usage_cmd + '.4neon JulieMwol_\n\n' +
+        command_cmd + '```.textlight``` \n' + desc_cmd + t5 + '_\n' + usage_cmd + '.light JulieMwol_\n\n' +
+        command_cmd + '```.textjoker``` \n' + desc_cmd + t6 + '_\n' + usage_cmd + '.joker JulieMwol_\n\n' +
+        command_cmd + '```.textninja``` \n' + desc_cmd + t7 + '_\n' + usage_cmd + '.ninja Developer;JulieMwol_\n\n' +
+        command_cmd + '```.textglitter``` \n' + desc_cmd + t8 + '_\n' + usage_cmd + '.glitter JulieMwol_\n\n' +
+        command_cmd + '```.textbokeh``` \n' + desc_cmd + t9 + '_\n' + usage_cmd + '.bokeh JulieMwol_\n\n' +
+        command_cmd + '```.textmarvel``` \n' + desc_cmd + t11 + '_\n' + usage_cmd + '.marvel Developer;JulieMwol_\n\n' +
+        command_cmd + '```.text2marvel``` \n' + desc_cmd + t12 + '_\n' + usage_cmd + '.2marvel Developer;JulieMwol_\n\n' +
+        command_cmd + '```.textavengers``` \n' + desc_cmd + t13 + '_\n' + usage_cmd + '.avengers Developer;JulieMwol_\n\n' +
+        command_cmd + '```.textgraf``` \n' + desc_cmd + t15 + '_\n' + usage_cmd + '.graf Developer;Phaticusthiccy_\n\n' +
+        command_cmd + '```.text2graf``` \n' + desc_cmd + t16 + '_\n' + usage_cmd + '.2graf Developer;JulieMwol_\n\n' +       
+        command_cmd + '```.textlion``` \n' + desc_cmd + t17 + '_\n' + usage_cmd + '.lion Developer;JulieMwol_\n\n' +
+        command_cmd + '```.textice``` \n' + desc_cmd + t19 + '_\n' + usage_cmd + '.ice JulieMwol_\n\n' +
+        command_cmd + '```.textspace``` \n' + desc_cmd + t20 + '_\n' + usage_cmd + '.space Developer;JulieMwol_\n\n' +
+        command_cmd + '```.textsmoke``` \n' + desc_cmd + t21 + '_\n' + usage_cmd + '.smoke JulieMwol_\n\n' + // Thanks for @Unique_hunter for base.
+        command_cmd + '```.textglow``` \n' + desc_cmd + t23 + '_\n' + usage_cmd + '.glow JulieMwol_\n\n' +
+        command_cmd + '```.textfire``` \n' + desc_cmd + t25 + '_\n' + usage_cmd + '.fire JulieMwol_\n\n' +
+        command_cmd + '```.textharry``` \n' + desc_cmd + t26 + '_\n' + usage_cmd + '.harry JulieMwol_\n\n' +
+        command_cmd + '```.textcup``` \n' + desc_cmd + t29 + '_\n' + usage_cmd + '.coffeecup JulieMwol_\n\n' +
+        command_cmd + '```.textcemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '.cemetery JulieMwol_\n\n' +
+        command_cmd + '```.textglitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Developer;JulieMwol_'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
 Asena.addCommand({pattern: 'textdevil ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
@@ -251,7 +251,7 @@ Asena.addCommand({pattern: 'neon ?(.*)', fromMe: wk, dontAddCommandList: true}, 
           } 
     });
 }));
-Asena.addCommand({pattern: 'neon2 ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '2neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     thiccysapi.textpro("https://textpro.me/neon-text-effect-online-879.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -402,7 +402,7 @@ Asena.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true}
           } 
     });
 }));
-Asena.addCommand({pattern: 'marvel2 ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
     var topText, bottomText; 
     if (match[1].includes(';')) {
         var split = match[1].split(';');
