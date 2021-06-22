@@ -60,8 +60,8 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/farhan-dqz/JulieMwol
-$ cd JulieMwol
+$ git clone https://github.com/saidalisaid161/MisriMwol
+$ cd MisriMwol
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
