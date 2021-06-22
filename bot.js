@@ -204,7 +204,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n\n*JulieMwol Working as Public! 🧞‍♂️*\n\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '\n\n*MisriMwol Working as Public! Any doubt wa.me/+918606759500*\n\n', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -249,7 +249,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n\n*JulieMwol Working as Private! 🧞‍♂️*\n\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '\n\n*MisriMwol Working as Private! 🧞‍♂️ any doubt wa.me/+918606759500*\n\n', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
