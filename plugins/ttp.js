@@ -129,13 +129,13 @@ Asena.addCommand({pattern: 'txttoimg$', fromMe: wk, desc: desc_msg}, (async (mes
     var command_cmd = ''
     var desc_cmd = ''
     if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
-        usage_cmd = '📍 *Örnek:* _'
-        command_cmd = '🔖 *Komut:* '
-        desc_cmd = '♦️*Açıklama:* _'
+        usage_cmd = '🍀 *Örnek:* _'
+        command_cmd = '💞 *Komut:* '
+        desc_cmd = '🤞*Açıklama:* _'
     } else { 
-        usage_cmd = '📍 Example : '
-        command_cmd = '🔖 Command : '
-        desc_cmd = '♦️ Description : '
+        usage_cmd = '🤞 Example : '
+        command_cmd = '🐼 Command : '
+        desc_cmd = '🍀 Description : '
     }
     const msg = command_cmd + '```.devil``` \n' + t1 + '_\n' + usage_cmd + '*.devil JulieMwol*\n\n' +
         command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '*.bear JulieMwol*\n\n' +
