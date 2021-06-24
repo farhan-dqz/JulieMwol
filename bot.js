@@ -792,10 +792,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                             else {
                                 await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [WHATSASENA] --*' + 
                                     '\n*WhatsAsena an error has occurred!*'+
-                                    '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
-                                    '\n_You can write to our Telegram group for help._' +
-                                    '\n_Aslo you can join our support group:_ https://chat.whatsapp.com/BPNzFEBUVbT1MnfNv3uTvL' +
-                                    '\n_This message should have gone to your number (saved messages)._\n\n' +
+                                    '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
+                                    '\n*You can write to our Telegram group for help.*' +
+                                    '\n*Aslo you can join our support group:* https://chat.whatsapp.com/IlmB0J0SilOIJRq1CLotXT' +
+                                    '\n*This message should have gone to your number (saved messages).*\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
                                 );
