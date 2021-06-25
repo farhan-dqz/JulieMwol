@@ -77,6 +77,24 @@ else if (Config.WORKTYPE == 'public') {
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
+
+    Asena.addCommand({pattern: 'a ?(.*)', fromMe: true, desc: Lang.UV_DESC}, (async (message, match) => {    
+    if (message.reply_message === false);
+    var location = await message.client.downloadAndSaveMediaMessage({
+        key: {
+            remoteJid: message.reply_message.jid,
+            id: message.reply_message.id
+        },
+        message: message.reply_message.data.quotedMessage
+    });
+let id = match[1];
+    ffmpeg(location)
+        .format('mp3')
+        .save('output.mp3')
+        .on('end', async () => {
+            await message.client.sendMessage(id, fs.readFileSync('output.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
+});}));
+
     Asena.addCommand({pattern: 'unvoice', fromMe: true, desc: Lang.UV_DESC, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage(Lang.UV_REPLY);
