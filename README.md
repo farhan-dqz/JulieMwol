@@ -19,13 +19,13 @@ Project created by <a href="https://github.com/ameerkallumthodi">ameerkallumthod
 ----
 
   <p align="center">
-  <a href="httsp://github.com/ameerkallumthodi/pikachu">
+  <a href="https://github.com/ameer-kallumthodi/pikachu.git">
     <img src="https://img.shields.io/github/repo-size/ameerkallumthodi/pikachu?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/ameerkallumthodi/followers"><img title="Followers" src="https://img.shields.io/github/followers/ameerkallumthodi?color=blue&style=flat-square"></a>
-<a href="https://github.com/ameerkallumthodi/pikachu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameerkallumthodi/pikachu?color=blue&style=flat-square"></a>
-<a href="https://github.com/ameerkallumthodi/pikachu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ameerkallumthodi/pikachu?color=blue&style=flat-square"></a>
-<a href="https://github.com/ameerkallumthodi/pikachu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ameerkallumthodi/pikachu?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/ameer-kallumthodi/followers"><img title="Followers" src="https://img.shields.io/github/followers/ameer-kallumthodi?color=blue&style=flat-square"></a>
+<a href="https://github.com/ameer-kallumthodi/pikachu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/pikachu?color=blue&style=flat-square"></a>
+<a href="https://github.com/ameer-kallumthodi/pikachu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ameer-kallumthodi/pikachu?color=blue&style=flat-square"></a>
+<a href="https://github.com/ameer-kallumthodi/pikachu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ameer-kallumthodi/pikachu?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
@@ -36,7 +36,7 @@ Click WA logo to Join Support Group 👇
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ameerkallumthodi&repo=PublicBot&theme=nightowl)](https://github.com/ameerkallumthodi/PublicBot)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ameer-kallumthodi&repo=PublicBot&theme=nightowl)](https://github.com/ameerkallumthodi/PublicBot)
   </div>
     
 ## Setup
@@ -46,7 +46,7 @@ Click WA logo to Join Support Group 👇
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ameerkallumthodi/pikachu)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ameer-kallumthodi/pikachu.git)
      </div>
 <br>
 <br >
@@ -61,7 +61,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/ameerkallumthodi/pikachu
+$ git clone https://github.com/ameer-kallumthodi/pikachu.git
 $ cd JulieMwol
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -71,7 +71,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/ameerkallumthodi/pikachu
+$ git clone https://github.com/ameer-kallumthodi/pikachu.git
 $ cd JulieMwol
 $ chmod +x *
 $ npm i
