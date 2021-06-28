@@ -2,7 +2,7 @@
 <div align="center">
   <img border-radius: 15px src="loser-407x400.png" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="loser" src="https://img.shields.io/badge/Pikachu-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="loser" src="https://img.shields.io/badge/loser-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/akash-akash3"><img title="Author" src="https://img.shields.io/badge/Author-akash-akash3/loser?color=red&style=for-the-badge&logo=whatsapp"></a>
@@ -20,7 +20,7 @@ Project created by <a href="https://github.com/akash-akash3">akash-akash3</a> to
 
   <p align="center">
   <a href="httsp://github.com/akashakash3/loser">
-    <img src="https://img.shields.io/github/repo-size/ameerkallumthodi/pikachu?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/akashakash3/loser?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/akash-akash3/followers"><img title="Followers" src="https://img.shields.io/github/followers/akash-akash3?color=blue&style=flat-square"></a>
 <a href="https://github.com/akash-akash3/loser/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/akash-akash3/loser?color=blue&style=flat-square"></a>
