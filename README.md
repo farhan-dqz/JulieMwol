@@ -1,15 +1,15 @@
 
 <div align="center">
-  <img border-radius: 15px src="loser-407x400.png" width="200" height="200"/>
+  <img border-radius: 15px src="images.jpg" width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="loser" src="https://img.shields.io/badge/loser-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/akash-akash3"><img title="Author" src="https://img.shields.io/badge/Author-akash-akash3/loser?color=red&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Akashakash3"><img title="Author" src="https://img.shields.io/badge/Author-Akash-akash3/loser?color=red&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/akash-akash3">akash-akash3</a> to make it public
+Project created by <a href="https://github.com/Akashakash3">akashakash3</a> to make it public
     <br>
        | © |
         Reserved |
@@ -20,12 +20,12 @@ Project created by <a href="https://github.com/akash-akash3">akash-akash3</a> to
 
   <p align="center">
   <a href="httsp://github.com/akashakash3/loser">
-    <img src="https://img.shields.io/github/repo-size/akashakash3/loser?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/Akashakash3/loser?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/akash-akash3/followers"><img title="Followers" src="https://img.shields.io/github/followers/akash-akash3?color=blue&style=flat-square"></a>
-<a href="https://github.com/akash-akash3/loser/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/akash-akash3/loser?color=blue&style=flat-square"></a>
-<a href="https://github.com/akash-akash3/loser/network/members"><img title="Forks" src="https://img.shields.io/github/forks/akash-akash3/looser?color=blue&style=flat-square"></a>
-<a href="https://github.com/akash-akash3/loser/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/akash-akash3/pikachu?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Akashakash3/followers"><img title="Followers" src="https://img.shields.io/github/followers/Akashakash3?color=blue&style=flat-square"></a>
+<a href="https://github.com/Akashakash3/loser/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Akashakash3/looser?color=blue&style=flat-square"></a>
+<a href="https://github.com/Akashakash3/loser/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Akashakash3/looser?color=blue&style=flat-square"></a>
+<a href="https://github.com/Akashakash3/loser/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Akashakash3/looser?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
@@ -61,7 +61,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/akash-akash3/loser
+$ git clone https://github.com/Akashakash3/looser
 $ cd loser
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -71,7 +71,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/akash-akash3/loser
+$ git clone https://github.com/Akashakash3/looser
 $ cd loser
 $ chmod +x *
 $ npm i
@@ -92,9 +92,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![akashakash3](https://github.com/loser-407x400.png?size=100)](https://github.com/akashakash3) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
+  [![Akashakash3](https://github.com/loser-407x400.png?size=100)](https://github.com/Akashakash3) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
 ----|----|----
-[akash-akash3](https://github.com/akash-akash3)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
+[Akashakash3](https://github.com/Akashakash3)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
