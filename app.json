@@ -22,12 +22,17 @@
             "value": "TR"
         },
         "BGM_FILTER": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "description": "IF YOU LIKES BGMS. YOU CAN WRITE HERE true. Otherwise false"",
             "required": false,
             "value": "true"
         },
         "ANTİ_LİNK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "required": true,
+            "value": "false"
+        },
+        "DISABLE_JID_BGM_FILTER": {
+            "description": "BLOCK BGMS IN GROUPS",
             "required": true,
             "value": "false"
         },
