@@ -70,11 +70,6 @@
             "required": false,
             "value": "default"
         },
-        "DISABLE_JID_BGM_FILTER": {
-            "description": "You Can Block Bgms in groups by adding group Jid here",
-            "required": false,
-            "value": "false"
-        },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
             "required": false,
