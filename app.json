@@ -24,7 +24,7 @@
         "BGM_FILTER": {
             "description": "IF YOU LIKES BGMS. YOU CAN WRITE HERE true. Otherwise false"",
             "required": false,
-            "value": "true"
+            "value": "false"
         },
         "ANTİ_LİNK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
