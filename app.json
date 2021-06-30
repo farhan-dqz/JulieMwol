@@ -22,7 +22,7 @@
             "value": "TR"
         },
         "BGM_FILTER": {
-            "description": "IF YOU LIKES BGMS. YOU CAN WRITE HERE true. Otherwise false"",
+            "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
             "value": "false"
         },
