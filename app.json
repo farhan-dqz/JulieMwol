@@ -31,11 +31,6 @@
             "required": true,
             "value": "false"
         },
-        "DISABLE_JID_BGM_FILTER": {
-            "description": "BLOCK BGMS IN GROUPS",
-            "required": true,
-            "value": "false"
-        },
         "AUTO_BİO": {
             "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
             "required": true,
