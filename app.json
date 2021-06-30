@@ -30,12 +30,7 @@
             "description": "Set true for auto date, time in biography.",
             "required": true,
             "value": "false"
-        },
-        "NO_BGM": {
-            "description": "Set true for auto date, time in biography.",
-            "required": false,
-            "value": "false"
-        },
+        },       
         "HANDLERS": {
             "description": "For commands.",
             "required": true,
