@@ -14,7 +14,7 @@ const Config = require('../config')
 const Language = require('../language');
 const Lang = Language.getString('filters');
 
-if (Config.WORKTYPE == 'private') {
+if (Config.WORKTYPE == 'public') {
 
 Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC, dontAddCommandList: true}, (async (message, match) => {
     match = match[1].match(/[\'\"\“](.*?)[\'\"\“]/gsm);
@@ -50,7 +50,7 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
         await message.client.sendMessage(message.jid,Lang.DELETED, MessageType.text)
     }
 }));
-Asena.addCommand({on: 'text', fromMe: true}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: Config.NO_BGM, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
@@ -74,7 +74,7 @@ if(pattern.test(message.message)){
     );
 }));
 }
-else if (Config.WORKTYPE == 'public') {
+else if (Config.WORKTYPE == 'private') {
 
 Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC, dontAddCommandList: true}, (async (message, match) => {
     match = match[1].match(/[\'\"\“](.*?)[\'\"\“]/gsm);
@@ -110,7 +110,7 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
         await message.client.sendMessage(message.jid,Lang.DELETED, MessageType.text)
     }
 }));
-Asena.addCommand({on: 'text', fromMe: Config.NO_BGM}, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: true, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
