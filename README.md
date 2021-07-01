@@ -33,7 +33,7 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
+  [![join](https://github.com/🤖ƤᎥＫ𝕒𝓬Ｈᑌ-Ⓑᗝт-αя𝓔𝓝𝔸‍🔥OFC/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
   <div align="center">
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ameer-kallumthodi&repo=PublicBot&theme=nightowl)](https://github.com/ameerkallumthodi/PublicBot)
