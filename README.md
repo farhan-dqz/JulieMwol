@@ -33,7 +33,11 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](Pikachu.png)](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
+  [![join](
+  <div align="center">
+  <img border-radius: 15px src="Pikachu-407x400.png" width="200" height="200"/>
+  <p align="center">)
+    ](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
   <div align="center">
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ameer-kallumthodi&repo=PublicBot&theme=nightowl)](https://github.com/ameerkallumthodi/PublicBot)
