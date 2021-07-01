@@ -35,9 +35,8 @@ Click WA logo to Join Support Group 👇
 <br>
   [![join](
   <div align="center">
-  <img border-radius: 15px src="Pikachu-407x400.png" width="200" height="200"/>
-  <p align="center">)
-    ](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
+  <img border-radius: 15px src="Pikachu.png" width="400" height="300"/>
+    )](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
   <div align="center">
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ameer-kallumthodi&repo=PublicBot&theme=nightowl)](https://github.com/ameerkallumthodi/PublicBot)
