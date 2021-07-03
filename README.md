@@ -9,7 +9,7 @@
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/farhan-dqz">Farhan-dqz</a> to make it public
+Project created by <a href="https://github.com/farhan-dqz">DBS</a> to make it public
     <br>
        | © |
         Reserved |
@@ -46,7 +46,7 @@ Click WA logo to Join Support Group 👇
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/farhan-dqz/JulieMwol)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DaNgeR-BoYs/DBS_BOT)
      </div>
 <br>
 <br >
@@ -62,7 +62,7 @@ $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
 $ git clone https://github.com/farhan-dqz/JulieMwol
-$ cd JulieMwol
+$ cd DBS_BOT
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -72,7 +72,7 @@ $ node qr.js
 ```js
 SETUP
 $ git clone https://github.com/farhan-dqz/JulieMwol
-$ cd JulieMwol
+$ cd DBS_BOT
 $ chmod +x *
 $ npm i
 $ node qr.js
