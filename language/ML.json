@@ -27,8 +27,8 @@
         },
         "admin": {
             "BAN_DESC": "groupil nin arellum porth akaan. ayallude messagin reply cheyu allenkill tag cheyyu.",
-            "IM_NOT_ADMIN": "*njan admin alla macha☹️*",
-            "BANNED": "Mwonu Ok Bie!",
+            "IM_NOT_ADMIN": "*njan admin alla macha☹️ admin thannal nan oru kay nokkam*",
+            "BANNED": "nintte seavanam eni venda evide",
             "GIVE_ME_USER": "*arelum mention chey😈!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "groupilott keteekn!",
@@ -43,7 +43,7 @@
             "UNMUTE_DESC": "aarkum message ayaan, admin only allathe akkan.",
             "UNMUTED": "```admin only allathe akeett und!```",
             "INVITE_DESC": "groupilikk kshennikaan ulla linkin aayitt.",
-            "INVITE": "```kshana kath..😉: ```"
+            "INVITE": "```shana kath..😉 athu pore: ```"
         },
         "locate": {
             "L_DESC": "location ayach therum.",
@@ -72,9 +72,9 @@
             "MUST_TEXT": "```eathellum oru messagin reply cheyyu```"
         },
         "heroku": {
-            "RESTART_DESC": "\nRestart pinkymwol\n",
-            "RESTART_MSG": "```punararambikkunu...```",
-            "SHUTDOWN_DESC": "\nShutdown pinkymwol\n",
+            "RESTART_DESC": "\nRestart JulieMwol\n",
+            "RESTART_MSG": "```punararambikkunu... Please wait```",
+            "SHUTDOWN_DESC": "\nShutdown JuliMmwol\n",
             "SHUTDOWN_MSG": "```adach poottunnu ⛔```",
             "DYNO_DESC": "heroku dyno kanaan ",
             "DYNO_TOTAL": "```motham Quota```",
@@ -186,12 +186,12 @@
             "SONG_DESC": "ningal type cheytha paatt upload cheyth therum.",
             "NEED_TEXT_SONG": "*paattinte per adikku!*\n*Example:* ```.song Naadan Vibe```",
             "NO_RESULT": "*ennikk onnum kandethaan aayilla :(*",
-            "DOWNLOADING_SONG": "\npaatt thappunnu 🤗\n",
-            "UPLOADING_SONG": "\nPaatt Upload 📲 cheyyunnu\n",
+            "DOWNLOADING_SONG": "\npaatt nokkkkunund nenba\n",
+            "UPLOADING_SONG": "\nPaatt Upload 📲 cheyyunnu cheviyil vekkunna suna vechu kelkk\n",
             "VIDEO_DESC": "YouTubeill nin video download cheyyan.",
             "NEED_VIDEO": "*oru video link theru!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "\n```Downloading...```\n",
-            "UPLOADING_VIDEO": "\n```Uploading...```\n",
+            "DOWNLOADING_VIDEO": "\n```Downloading...please wait```\n",
+            "UPLOADING_VIDEO": "\n```Uploading...please wait```\n",
             "YT_DESC": "YouTubeill search cheyyum.",
             "NEED_WORDS": "```search cheyende words type cheyyu!```",
             "GETTING_VIDEOS": "```video link kond verunnu...```",
@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "chithram sticker akkaan.",
             "NEED_REPLY": "*photo allenkil chithram reply cheyyu!*",
-            "DOWNLOADING": "```Nissaram 🤠```"
+            "DOWNLOADING": "```onnu wait chey```"
         },
         "system_stats": {
             "ALIVE_DESC": "bot working aano enn ariyan",
@@ -219,7 +219,7 @@
             "UPDATE": "*ningalude bot up-to-date aan!*",
             "NEW_UPDATE": "*JulieMwolk Update und* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "botine update cheyaan.",
-            "UPDATING": "```Updating..🐥```",
+            "UPDATING": "```Updating..pleaes wait```",
             "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
             "UPDATED": "*Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
