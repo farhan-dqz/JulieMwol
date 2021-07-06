@@ -2,7 +2,7 @@ const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
-const NEED_WORD = "*Must Enter some Words*
+const NEED_WORD = "*Must Enter some Words*"
 
 
 Asena.addCommand({ pattern: 'random ?(.*)', fromMe: false, desc: 'word image' }, (async (message, match) => {
