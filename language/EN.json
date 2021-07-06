@@ -27,8 +27,8 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*njan admin alla macha☹️*",
-            "BANNED": "Mwonu Ok Bie!",
+            "IM_NOT_ADMIN": "*njan admin alla macha☹️   admin thannal nan oru kay nokkam*",
+            "BANNED": "ninne eni evide veda eragi poda!",
             "GIVE_ME_USER": "*arelum mention chey😈!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
@@ -73,7 +73,7 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Restarting...```",
+            "RESTART_MSG": "```Restarting...please wait few minits```",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
@@ -107,13 +107,13 @@
             "WELCOME_ALREADY_SETTED": "*✅ Welcome message already set!*\n*Message:* ```",
             "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome WELCOME!```",
             "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
-            "WELCOME_SETTED": "*✅ Welcome message has been set successfully!*",
+            "WELCOME_SETTED": "*✅ Welcome message has been set successfully! Eni aru vannalum nan welcome cheyyum*",
             "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
             "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye Your Goodbye Message```",
             "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
             "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye Goodbye!```",
             "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
-            "GOODBYE_SETTED": "*✅ Goodbye message has been setted successfully!*"
+            "GOODBYE_SETTED": "*✅ Goodbye message has been setted successfully! Eni aru left ayalum nan samsarikkum*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
@@ -126,8 +126,8 @@
             "DISABLED": "```Lydia has been disabled for this user!```"
         },
         "memes": {
-            "MEMES_DESC": "Photo memes you replied to.",
-            "NEED_REPLY": "*Reply to a photo!*",
+            "MEMES_DESC": "Photo memes you replied to  allakil kalanjitt pooda.",
+            "NEED_REPLY": "*Reply to a photo! Allakil kalanjitt poo*",
             "DOWNLOADING": "```Downloading media & making meme...```"
         },
         "log": {
@@ -149,9 +149,9 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
+            "KICKME": "```Bye bye! Nan pokunnu```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
-            "NEED_PHOTO": "*Give me a photo!*",
+            "NEED_PHOTO": "*Give me a photo! Allakkil kalanjitt poo*",
             "PPING": "```Setting profile photo...```",
             "BLOCK_DESC": "Block user.",
             "UNBLOCK_DESC": "Unblock user.",
@@ -166,8 +166,8 @@
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "*photo thaa mister!*",
-            "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
+            "NEED_PHOTO": "*photo thaa mister! Allakil nirthi poda*",
+            "NO_API_KEY": "*Api key illa aliyaa athu kond sorry aliya*\n```remove.bg login for apikey```",
             "RBGING": "```Removing...```"
         },
         "scrapers": {
@@ -186,25 +186,25 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Searching your song 🎶*\n",
-            "UPLOADING_SONG": "\n*Uploading 📲 Use 🎧*\n",
+            "DOWNLOADING_SONG": "\n*Searching anu nigal paranja song 🌚*\n",
+            "UPLOADING_SONG": "\n*Uploading your song Use  cheviyil vekkunna suna vechall nalla expriyans ayirikkum*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading...```",
-            "UPLOADING_VIDEO": "```Uploading...```",
+            "NEED_VIDEO": "*Please write a video link! Allakkil kalanjitt ponam*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
+            "DOWNLOADING_VIDEO": "```Downloading... Please wait few seconds```",
+            "UPLOADING_VIDEO": "```Uploading... Athu pore aliya```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
-            "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
+            "NOT_FOUND": "*Thappinokeett kittiyilla ☹️ sry nenba*",
             "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "```Uploading photo``` *{}* ```number``` *{}*"
+            "IMG": "```Uploading photo chilappo varum vannal nammal happy``` *{}* ```number``` *{}*"
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Nissaram 🤠```"
+            "DOWNLOADING": "```onnu wait ippo tharam```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -212,22 +212,22 @@
         },
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
-            "ADMİN": "*I am not admin in this group!*"
+            "ADMİN": "*I am not admin in this group!athu kond ellarem mention akkan enikk pattilla*"
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*JulieMwol Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
+            "NEW_UPDATE": "*JulieMwolk Update und *\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..🐥```",
+            "UPDATING": "```Updating..please wait few minits🌚```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*Updated 🤠✅*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*👰 JulieMwol Restarting*"
+            "UPDATED": "*Updated 🤠✅  happy alle nenba*",
+            "UPDATED_LOCAL": "*✅ Successfully Updated  😍😍😍!*",
+            "AFTER_UPDATE": "*👰 JulieMwol Restarting    please wait few minits *"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather New Delhi```",
+            "NEED_LOCATION": "* Please write a location ichiri ariya pedunna place parayane!*\n*Example:* ```.weather Kollam```",
             "LOCATION": "Location",
             "LAT": "Lattitude",
             "LONG": "Longitude",
@@ -278,7 +278,7 @@
             "TITLE": "Title",
             "PUBLICATION": "Publication",
             "SONGL": "Link",
-            "NEED_SONG": "Song name para nenba 🥲.",
+            "NEED_SONG": "Song name para nenba 🥲 allakil kalanjitt poo nenba.",
             "NOT_FOUNDS" : "No such songs found!",
             "JOOX_DESC": "Brings you the song details and a link for it.",
             "LYRICS_DESC": "Brings you the song Lyrics.",
