@@ -18,7 +18,7 @@ const CURRENCY = "CURRENCY :"
 const ISP = "ISP :"
 const MOBILE = "MOBILE :"
 const PROXY = "PROXY :"
-const NOT_FOUNDIP = "```Sorry,I could not your IP 😖```"
+const NOT_FOUNDIP = "```Sorry,I could not your IP 🥺```"
 
 if (Config.WORKTYPE == 'private') {
 
