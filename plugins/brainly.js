@@ -3,17 +3,17 @@ const {MessageType} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 
-// CMD_HELP
-const brainly = "Finds the answer."
-const usage = ".brainly <Question>"
+// Lists
+const BRAINLY_DESC = "Finds answer for your query on brainly."
+const BRAINLY_USAGE = ".brainly <Query>"
 
-const butuh = "```Enter the Question!```"
+const NEED_QUERY = "```Enter the Question!```"
 
-Asena.addCommand({ pattern: 'brainly ?(.*)', fromMe: false, desc: brainly, usage: usage }, async (message, match) => {
+Asena.addCommand({ pattern: 'brainly ?(.*)', fromMe: false, desc: BRAINLY_DESC, usage: BRAINLY_USAGE }, async (message, match) => {
 
         const Soal = match[1]
         
-        if (match[1] === '') return await message.client.sendMessage(message.jid, butuh, MessageType.text);
+        if (match[1] === '') return await message.client.sendMessage(message.jid, NEED_QUERY, MessageType.text);
 
         await axios
           .get(`https://api.xteam.xyz/brainly?APIKEY=10c4105200edc0f0&soal=${Soal}`)
@@ -23,8 +23,8 @@ Asena.addCommand({ pattern: 'brainly ?(.*)', fromMe: false, desc: brainly, usage
               jawaban,
             } = response.data
 
-            const msg = `*Soal:* ${soal}
-*Jawaban Brainly:* ${jawaban.replace(/1Question/g, '*(1) Question*').replace(/2Question/g, '*(2) Question*').replace(/3Question/g, '*(3) Question*').replace(/Answer/g, '*Answer*').replace(/Brainly Found/g, '')}`
+            const msg = `*Question Brainly:* ${soal}
+*Answer Brainly:* ${jawaban.replace(/1Question/g, '*(1) Question*').replace(/2Question/g, '*(2) Question*').replace(/3Question/g, '*(3) Question*').replace(/Answer/g, '*Answer*').replace(/Brainly Found/g, '')}`
             await message.client.sendMessage(message.jid, msg, MessageType.text)
            })
       },
