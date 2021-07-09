@@ -762,7 +762,7 @@ Asena.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (
     });
 }));
 
-Asena.addCommand({pattern: 'txttoimg', fromMe: false, desc: Lang.TXTTOIMG_DESC}, (async (message, match) => {    
+Asena.addCommand({pattern: 'logo', fromMe: false, desc: Lang.TXTTOIMG_DESC}, (async (message, match) => {    
 
        
 
