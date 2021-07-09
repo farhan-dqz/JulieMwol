@@ -762,6 +762,14 @@ Asena.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (
     });
 }));
 
+const Asena = require('../events');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const fs = require('fs');
+const axios = require('axios');
+
+const Language = require('../language');
+const Lang = Language.getString('ttp');
+
 Asena.addCommand({pattern: 'logo', fromMe: false, desc: Lang.TXTTOIMG_DESC}, (async (message, match) => {    
 
        
