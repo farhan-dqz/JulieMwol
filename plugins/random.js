@@ -2,7 +2,7 @@ const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
-
+const NEED_WORD = "*Must Enter some Words*"
 
 
 Asena.addCommand({ pattern: 'random ?(.*)', fromMe: false, desc: 'word image' }, (async (message, match) => {
@@ -22,8 +22,8 @@ Asena.addCommand({ pattern: 'random ?(.*)', fromMe: false, desc: 'word image' },
     r_text[10] = `https://api.xteam.xyz/textpro/metaldarkgold?text=${match[1]}&APIKEY=981a4ef70f9f08c4`
     r_text[11] = `https://api.xteam.xyz/textpro/goldfoilballon?text=${match[1]}&APIKEY=2376fa7786a47519` 
 
-    var i = Math.floor(11*Math.random())
-    if (match[1] === '') return await message.sendMessage('NEED_WORD');
+    var i = Math.floor(12*Math.random())
+    if (match[1] === '') return await message.sendMessage(NEED_WORD);
     console.log(match[1])
 
     var ttinullimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
