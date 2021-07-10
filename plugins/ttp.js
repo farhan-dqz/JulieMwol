@@ -735,7 +735,7 @@ Asena.addCommand({pattern: 'cemetery ?(.*)', fromMe: wk, dontAddCommandList: tru
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/cmth.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/cmth.jpg'), MessageType.image, { caption: '```PublicBot```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/cmth.jpg'), MessageType.image, { caption: '```LiyaMol```' })
               })
           } catch(err) { 
               console.log(err)
