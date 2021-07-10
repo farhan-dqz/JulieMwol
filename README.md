@@ -33,7 +33,7 @@ Project created by <a href="https://youtube.com/c/ICHUTECH">Hisham-Muhammed</a> 
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GUhzlg6Yhkj611fLl5HkpN)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/G90s1pqZwAjJ7SjQzzqiXe)
   <div align="center">
        
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ameer-kallumthodi&repo=PublicBot&theme=nightowl)](https://github.com/ameer-kallumthodi/PublicBot)
@@ -92,9 +92,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![ameerkallumthodi](https://github.com/Pikachu-407x400.png?size=100)](https://github.com/ameerkallumthodi) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/Hisham-Muhammed/Sophia).png?size=100)](https://github.com/afnanplk) 
+  [![ameerkallumthodi](https://github.com/Pikachu-407x400.png?size=100)](https://github.com/ameerkallumthodi) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/Hisham-Muhammed/Sophia).png?size=100)](https://i.imgur.com/KbE2Nce.jpeg) 
 ----|----|----
-[farhan-dqz](https://github.com/farhan-dqz)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://gi)
+[farhan-dqz](https://github.com/farhan-dqz)  | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://i.imgur.com/KbE2Nce.jpeg)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
