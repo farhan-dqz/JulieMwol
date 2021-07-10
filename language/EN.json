@@ -184,27 +184,27 @@
             "TTS_DESC": "It converts text to sound.",
             "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
             "SONG_DESC": "Uploads the song you wrote.",
-            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
+            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Perfect ok```",
             "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "\n*Song Thapatte 🧚‍♂️*\n",
-            "UPLOADING_SONG": "\n*Uploading 📲 Use 🎧*\n",
+            "UPLOADING_SONG": "\n*Song upload cheyyunnu aliyaa, cheviyil vekkuna sadanam pettanu vecho 👉🎧*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading 🎥...```",
-            "UPLOADING_VIDEO": "```Uploading...```",
-            "YT_DESC": "It searchs on YouTube.",
+            "DOWNLOADING_VIDEO": "```Downloading. 🎥...```",
+            "UPLOADING_VIDEO": "```Upload cheyyatte manushya...```",
+            "YT_DESC": "It searchs on youtube .",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
             "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
-            "SEARCHING": "*🔎 Searching...*",
+            "SEARCHING": "*🔎 Nan thappi nokatte 🙂...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "```Uploading photo``` *{}* ```number``` *{}*"
+            "IMG": "```nan photo upload cheyyunu 😌 kanan ready aayikko ``` *{}* ```number``` *{}*"
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Ippam Seriyakithra 🤠```"
+            "DOWNLOADING": "```Sticker.. aaki. tharunnu 🤠```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -217,13 +217,13 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*Pikachu Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
+            "NEW_UPDATE": "* Sophiak k update cheyyan und manushya 😊*\n\n please ask support group before updating. Otherwise chance to get error group link : https://chat.whatsapp.com/G90s1pqZwAjJ7SjQzzqiXe \n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..🧚‍♂️```",
+            "UPDATING": "```Updating aakunnu aliyaa AAKI MONUSE ..🧚‍♂️```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*😎 Pikachu Restarting*"
+            "AFTER_UPDATE": "*😎 SOPHIA Restarting*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
