@@ -505,7 +505,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/gsuggest/?text1=${topText}&text2=${bottomText}&text3=${tbottomText}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made By PublicBot```'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made By Sophia Bot```'})
 
     }));
 
@@ -539,7 +539,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/emoji-image?apikey=1hroZ3ju94h0PBjCNKsfhYaSuLs&emoji=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made by PublicBot```'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made by Sophia Bot```'})
 
     }));
 
@@ -697,7 +697,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/watercolor?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Water color```'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Water color By Sophia bot```'})
 
     }));
 
@@ -717,7 +717,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/neon_light?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```glow Image```'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```glow Image By SOPHIA bot ```'})
 
     }));
 
@@ -759,7 +759,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandwriting?text=${match[1]}&APIKEY=d9f297dbf7b0bbf4`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by PublicBot'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by Sophia bot'})
 
     }));
 
@@ -769,7 +769,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/cloudtext?text=${match[1]}&APIKEY=d9f297dbf7b0bbf4`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by PublicBot'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by Sophia Bot'})
 
     }));
 
@@ -793,7 +793,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/ph?text=${topText}&text2=${bottomText}&APIKEY=d9f297dbf7b0bbf4`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: 'Made by PublicBot'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: 'Made by Sophia Bot'})
 
     }));
 
@@ -803,7 +803,7 @@ Asena.addCommand({pattern: 'silk ?(.*)', fromMe: false, dontAddCommandList: true
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/snowtext?text=${match[1]}&APIKEY=d9f297dbf7b0bbf4`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made by PublicBot```'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```Made by Sophia Bot```'})
 
     }));
 
@@ -813,7 +813,7 @@ Asena.addCommand({pattern: 'grass ?(.*)', fromMe: false, dontAddCommandList: tru
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/paperonglass/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by PublicBot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by Sophia Bot'})
 
     }));
 
@@ -823,7 +823,7 @@ Asena.addCommand({pattern: 'grass ?(.*)', fromMe: false, dontAddCommandList: tru
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/candlemug/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by PublicBot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by Sophia Bot'})
 
     }));
 
@@ -833,7 +833,7 @@ Asena.addCommand({pattern: 'grass ?(.*)', fromMe: false, dontAddCommandList: tru
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/romancetext/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by PublicBot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by Sophia Bot'})
 
     }));
 
@@ -843,7 +843,7 @@ Asena.addCommand({pattern: 'grass ?(.*)', fromMe: false, dontAddCommandList: tru
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/lovemsg/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by PublicBot'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by Sophia Bot'})
 
     }));
 
@@ -853,6 +853,6 @@ Asena.addCommand({pattern: 'grass ?(.*)', fromMe: false, dontAddCommandList: tru
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/bloodontheroastedglass?text=${match[1]}&APIKEY=d9f297dbf7b0bbf4`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by PublicBot'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by Sophia Bot'})
 
     }));
