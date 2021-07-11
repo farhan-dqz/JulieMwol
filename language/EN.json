@@ -167,7 +167,7 @@
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
             "NEED_PHOTO": "*photo thaa mister!*",
-            "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
+            "NO_API_KEY": "*ente moilali api key thannila aliyaa 😭*\n```remove.bg login for apikey```",
             "RBGING": "```Removing...```"
         },
         "scrapers": {
@@ -199,7 +199,7 @@
             "SEARCHING": "*🔎 Nan thappi nokatte 🙂...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "```nan photo upload cheyyunu 😌 kanan ready aayikko ``` *{}* ```number``` *{}*"
+            "IMG": "```nan Chithrangal upload cheyyunu 😌 kanan ready aayikko ``` *{}* ```number``` *{}*"
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
