@@ -216,10 +216,10 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
+            "UPDATE": "*Nan ippol thanne update aanallo machaa..!*",
             "NEW_UPDATE": "* Sophiak k update cheyyan und manushya 😊*\n\n please ask support group before updating. Otherwise chance to get error group link : https://chat.whatsapp.com/G90s1pqZwAjJ7SjQzzqiXe \n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating aakunnu aliyaa  ..🧚‍♂️```",
+            "UPDATING": "```Update aakunnu aliyaa  ..🧚‍♂️```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Update. aaki.. monuse😌 🤠✅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
@@ -412,7 +412,7 @@
         "unvoice": {
             "UV_DESC": "Converts audio to sound recording.",
             "UV_REPLY": "*You Must Reply to an Audio File!*",
-            "UV_PROC": "```Converting to Sound Recording..```"
+            "UV_PROC": "```Voice record aaki maatatte😝..```"
         },
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
