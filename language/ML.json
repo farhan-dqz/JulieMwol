@@ -167,7 +167,7 @@
         "removebg": {
             "REMOVEBG_DESC": "chithrathinte background maayichu kalaayan.",
             "NEED_PHOTO": "*photo thaa mister!*",
-            "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
+            "NO_API_KEY": "*Ente moilali api key thanilla aliyaa😭*\n```remove.bg login for apikey```",
             "RBGING": "```maayikkunu...```"
         },
         "scrapers": {
@@ -216,14 +216,14 @@
         },
         "updater": {
             "UPDATER_DESC": "update indo enn ariyaan.",
-            "UPDATE": "*ningalude bot up-to-date aan!*",
-            "NEW_UPDATE": "*Pikachu Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
+            "UPDATE": "*Nan already update aan muthe 😘😝!*",
+            "NEW_UPDATE": "*sophia Puthiya Update Vannittund..... update cheyunathin mumb support groupil chodikuka 😁 allengil chillapol errors varum 🙂 group link:https://chat.whatsapp.com/G90s1pqZwAjJ7SjQzzqiXe  * \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "botine update cheyaan.",
-            "UPDATING": "```Updating..🐥```",
+            "UPDATING": "```Update aakikondirikunnu manushyaa🤩😍😘..🐥```",
             "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
-            "UPDATED": "*Updated 🤠✅*",
+            "UPDATED": "*Update aaki monuse 😁🤠✅*",
             "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
-            "AFTER_UPDATE": "*😎 Pikachu Restarting..*"
+            "AFTER_UPDATE": "*😎 Sophoa Restarting..*"
         },
         "weather": {
             "WEATHER_DESC": "ningal therrunna sthalathe kaalavastha kaanikkum.",
