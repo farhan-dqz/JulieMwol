@@ -12,7 +12,7 @@ const need = "*type some word after command*\n*command enthelum perupara nenba"
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({ pattern: 'rff ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'freefire ?(.*)', fromMe: true,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
@@ -25,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'rff ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
+    Asena.addCommand({ pattern: 'freefire ?(.*)', fromMe: false,dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(need);
 
