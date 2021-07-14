@@ -27,7 +27,7 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}
 
     
         await message.client.sendMessage(
-            message.jid,(r_text[i]), MessageType.text);
+            message.jid,(r_text[1]), MessageType.text);
     
         }));    
 
@@ -56,7 +56,7 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}
 
     
         await message.client.sendMessage(
-            message.jid,(r_text[i]), MessageType.text);
+            message.jid,(r_text[1]), MessageType.text);
     
         }));    
 
