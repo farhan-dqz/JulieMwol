@@ -90,7 +90,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 
 
 
-[Fasil-vkn](https://github.com/Fasil-vkn)  | 
+[Fasil-vkn](https://github.com/Fasil-vkn) 
 
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
 
