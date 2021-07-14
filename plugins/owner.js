@@ -18,7 +18,6 @@ if (Config.WORKTYPE == 'private') {
 
     }));
 
-   }
 
 
         asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
@@ -33,7 +32,7 @@ if (Config.WORKTYPE == 'private') {
     
         }));    
 
-        
+}
 
     if (Config.WORKTYPE == 'public') {
         asena.addCommand({pattern: 'owner', fromMe: true, deleteCommand: true, desc: OWNER,}, (async (message, match) => {
@@ -48,7 +47,6 @@ if (Config.WORKTYPE == 'private') {
 
     }));
 
-   }
 
 
         asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
@@ -62,5 +60,4 @@ if (Config.WORKTYPE == 'private') {
             message.jid,(r_text[1]), MessageType.text);
     
         }));    
-
     }
