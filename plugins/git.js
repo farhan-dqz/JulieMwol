@@ -39,7 +39,7 @@ if (Config.WORKTYPE == 'private') {
 
     var r_text = new Array ();
     
-    r_text[1] = "*╔═════😎Liya baby😎═════╗*\n           \n*✨️═LiyaMol═✨️*\n\n*owner saidali - http://Wa.me/+918606759500*\n* *\n🔰instagram:-https://www.instagram.com/pavam_n_a_n?r=nametag*            *\n*╚═════❤❤❤═════╝*\n\n*▷Creator: saidali*"
+    r_text[1] = "*╔═════😎Liya baby😎═════╗*\n           \n*✨️═LiyaMol═✨️*\n\n*owner saidali - http://Wa.me/+918606759500*\n* *\n🔰instagram:-https://www.instagram.com/pavam_n_a_n*            \n*╚═════❤❤❤═════╝*\n\n*▷Creator: saidali*"
 
     
     await message.client.sendMessage(
@@ -52,7 +52,7 @@ if (Config.WORKTYPE == 'private') {
 
         var r_text = new Array ();
     
-        r_text[1] = "*Git links*\n   \n```bgm LiyaMol botz```    \n*💥═LiyaMol owner saidali═💥*\n\n*💘https://github.com/saidalisaid2/Liyamol*\n*     *\n💓Pikachu═Owner ameer suhail═*\n\n*⚜https://github.com/ameer-kallumthodi/pikachu*    \n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
+        r_text[1] = "*Git links*\n   \n```bgm LiyaMol botz```    \n*💥═LiyaMol owner saidali═💥*\n\n*💘https://github.com/saidalisaid2/Liyamol*\n     \n💓Pikachu═Owner ameer suhail═*\n\n*⚜https://github.com/ameer-kallumthodi/pikachu*    \n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
 
     
         await message.client.sendMessage(
