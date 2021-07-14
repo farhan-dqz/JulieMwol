@@ -18,6 +18,8 @@ if (Config.WORKTYPE == 'private') {
 
     }));
 
+   }
+
 
         asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
 
@@ -46,6 +48,8 @@ if (Config.WORKTYPE == 'private') {
         message.jid,(r_text[1]), MessageType.text);
 
     }));
+
+   }
 
 
         asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
