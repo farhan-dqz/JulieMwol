@@ -10,13 +10,13 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-asena.addCommand({pattern: 'owner', fromMe: true, deleteCommand: true, desc: OWNER,}, (async (message, match) => {
+        asena.addCommand({pattern: 'owner', fromMe: true, deleteCommand: true, desc: OWNER,}, (async (message, match) => {
 
     var r_text = new Array ();
 
     
 
-    r_text[1] = "*╔═════😎sophia😎═════╗*\n           \n*⚜═Sophia═⚜*\n\n*owner Hisham muhammed- http://Wa.me/+919207866848*\n* *\n*🔰Youtube https://youtube.com/c/ICHUTECH?r=nametag            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: hisham muhammed*"
+    r_text[1] = "*╔═════😎Sophia😎═════╗*\n           \n*⚜═Sophia═⚜*\n\n*owner Hisham - http://Wa.me/+919400374036*\n* *\n🔰instagram:- https://youtube.com/c/ICHUTECH*            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: Hisham-Muhammed*"
 
     
 
@@ -26,13 +26,13 @@ asena.addCommand({pattern: 'owner', fromMe: true, deleteCommand: true, desc: OWN
 
     }));
 
-asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
+        asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
 
         var r_text = new Array ();
 
     
 
-        r_text[1] = "*Git links*\n           *\n*Sophia\n*❖═Owner Hisham muhammed ═*\n\n*💘 https://github.com/Hisham-Muhammed/Sophia/Sophia*\n*     *\n*💓Liyamol\n*❖═Owner Saidali═❖*\n\n*⚜https://github.com/saidalisaid2/LiyaMol    *\n**\n*yt link to set bot:- https://youtu.be/_D4ZYuUSXjs"
+        r_text[1] = "*Git links*\n           *\n💥═Sophia Owner Hisham-Muhammed═💥*\n\n*💘 https://github.com/Hisham-Muhammed/Sophia*\n*     *\n💓Liyamol═Owner Saidali═*\n\n*⚜https://github.com/saidalisaid2/LiyaMol*    *\n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
 
     
 
@@ -50,13 +50,13 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}
 
     if (Config.WORKTYPE == 'public') {
 
-        asena.addCommand({pattern: 'owner', fromMe: true, deleteCommand: true, desc: OWNER,}, (async (message, match) => {
+        asena.addCommand({pattern: 'owner', fromMe: false, deleteCommand: true, desc: OWNER,}, (async (message, match) => {
 
     var r_text = new Array ();
 
     
 
-    r_text[1] = "*╔═════😎SOPHIA😎═════╗*\n           \n*⚜═Sophia═⚜*\n\n*owner HISHAM MUHAMMED- http://Wa.me/+919207866848*\n* *\n*🔰YOUTUBE  https://youtube.com/c/ICHUTECH?r=nametag            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: Hishammuhammed*"
+    r_text[1] = "*╔═════😎Sophia😎═════╗*\n           \n*⚜═Sophia═⚜*\n\n*owner Hisham-Muhammed - http://Wa.me/+919400374046*\n* *\n🔰Youtube: https://youtube.com/c/ICHUTECH*            *\n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: Hisham-Muhammed*"
 
     
 
@@ -66,13 +66,13 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}
 
     }));
 
-asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
+        asena.addCommand({pattern: 'git', fromMe: false, deleteCommand: true, desc: GIT,}, (async (message, match) => {
 
         var r_text = new Array ();
 
     
 
-        r_text[1] = "*Git links*\n           *\n*Sophia\n*💥═Owner Hisham muhammed═💥*\n\n*💘 https://github.com/Hisham-Muhammed/Sophia/Sophia*\n*     *\n*💓Liyamol\n*❖═Owner Saidali═❖*\n\n*⚜https://github.com/saidalisaid2/LiyaMol    *\n**\n*yt link to set bot:- https://youtu.be/_D4ZYuUSXjs"
+        r_text[1] = "*Git links*\n           *\n💥═Sophia Owner Hisham-Muhammed═💥*\n\n*💘 https://github.com/Hisham-Muhammed/Sophia*\n*     *\n💓Liyamol═Owner Saidali═*\n\n*⚜https://github.com/saidalisaid2/LiyaMol*    *\n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
 
     
 
@@ -85,3 +85,4 @@ asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}
         }));    
 
     }
+
