@@ -10,7 +10,7 @@ if (Config.WORKTYPE == 'private') {
 
     var r_text = new Array ();
     
-    r_text[1] = "*╔═════Paathu🧚🏻‍♀️═════╗*\n           \n*✨️═LiyaMol═✨️*\n\n*owner fasil - http://Wa.me/+918136831431*\n  \n*🔰instagram:-https://www.instagram.com/mefasil*            \n*╚══════❤❤❤═════╝*\n\n```▷Creator: fasil```"
+    r_text[1] = "*╔═════Paathu🧚🏻‍♀️═════╗*\n           \n*✨️═Paathu═✨️*\n\n*owner fasil - http://Wa.me/+918136831431*\n  \n*🔰instagram:-https://www.instagram.com/mefasil*            \n*╚══════❤❤❤═════╝*\n\n```▷Creator: fasil```"
 
     
     await message.client.sendMessage(
@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
 
         var r_text = new Array ();
     
-        r_text[1] = "*Git links*\n   \n```Paathu bgm bot```    \n*✨️═Paathu Owner fasil═✨️*\n\n*💘https://github.com/Fasil-vkn/Paathu*\n     \n*💓pikachu═Owner ameer suhail═*\n\n*⚜https://github.com/ameer-kallumthodi/pikachu*    *\n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
+        r_text[1] = "*Git links*\n   \n```Paathu bgm bot```    \n*✨️═Paathu Owner fasil═✨️*\n\n*💘https://github.com/Fasil-vkn/Paathu*\n         
 
     
         await message.client.sendMessage(
@@ -52,7 +52,7 @@ if (Config.WORKTYPE == 'private') {
 
         var r_text = new Array ();
     
-        r_text[1] = "*Git links*\n   \n```paathu bgm bot```    \n*💥═Paathu owner fasil═💥*\n\n*💘https://github.com/Fasil-vkn/Paathu*\n     \n💓Pikachu═Owner ameer suhail═*\n\n*⚜https://github.com/ameer-kallumthodi/pikachu*    \n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
+        r_text[1] = "*Git links*\n   \n```paathu bgm bot```    \n*💥═Paathu owner fasil═💥*\n\n*💘https://github.com/Fasil-vkn/Paathu*\n         
 
     
         await message.client.sendMessage(
