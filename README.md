@@ -26,7 +26,7 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 <a href="https://github.com/ameer-kallumthodi/pikachu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
 <a href="https://github.com/ameer-kallumthodi/pikachu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
 <a href="https://github.com/ameer-kallumthodi/pikachu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ameer-kallumthodi/pikachu?label=Watchers&color=f7df1e&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
+<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-yellow.svg"</a>
 </p>
 
 ## 📢 Guide
