@@ -23,7 +23,7 @@ if (Config.WORKTYPE == 'private') {
 
         var r_text = new Array ();
     
-        r_text[1] = "*Git links*\n   \n```bgm Pathu bot```    \n*✨️═Paathu Owner fasil═✨️*\n\n*💘https://github.com/Fasil-vkn/Paathu*\n     \n*💓pikachu═Owner ameer suhail═*\n\n*⚜https://github.com/ameer-kallumthodi/pikachu*    *\n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
+        r_text[1] = "*Git links*\n   \n```Paathu bgm bot```    \n*✨️═Paathu Owner fasil═✨️*\n\n*💘https://github.com/Fasil-vkn/Paathu*\n     \n*💓pikachu═Owner ameer suhail═*\n\n*⚜https://github.com/ameer-kallumthodi/pikachu*    *\n\n⚜yt link to set bot:- https://youtu.be/_D4ZYuUSXjs*"
 
     
         await message.client.sendMessage(
