@@ -1,14 +1,18 @@
-/* Copyright (C) 2020 ameer-kallumthodi.
+/* Codded by @Ravindu Manoj
+
+Telegram: t.me/RavinduManoj
+Facebook: https://www.facebook.com/ravindu.manoj.79
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+Whats bot - Ravindu Manoj
 */
 const fs = require('fs')
 const Asena = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
+const Config = require('../config');
 
 const Language = require('../language');
 const Lang = Language.getString('filters');
