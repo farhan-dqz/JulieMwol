@@ -154,5 +154,5 @@ if(pattern.test(message.message)){
    await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
 }
 });
-}
-}
+    }
+
