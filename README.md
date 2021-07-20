@@ -19,9 +19,9 @@ Project created by <a href="https://github.com/saidalisaid2">saidali</a> to make
 ## instagram 
   <div align="center">
     
-  [![saidalisaid2](https://www.linkpicture.com/q/images-12_42.jpeg?size="60")](https://instagram.com/pavam_n_a_n)
+  [![ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://www.linkpicture.com/q/images-12_42.jpeg?size="60")](https://instagram.com/pavam_n_a_n)
 
-----|
+---|
 
   <p align="center">
   <a href="httsp://github.com/saidalisaid2/LiyaMol">
