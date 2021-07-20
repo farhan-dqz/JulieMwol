@@ -96,12 +96,8 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ----|
 [ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/saidalisaid2)  |
 Base, Bug Fixes, Modules | 
-  </div>
+  
     
 
 
-## License
-This project is protected by `GNU General Public Licence v3.0` license.
 
-### Disclaimer
-`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
