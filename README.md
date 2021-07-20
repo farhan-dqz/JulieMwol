@@ -94,7 +94,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
     
   [![saidali](https://i.imgur.com/MZDCN2M.jpeg?size=100)](https://github.com/saidalisaid2) |  
 ----|
-[farhan-dqz](https://github.com/saidalisaid2)  |
+[ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/saidalisaid2)  |
 Base, Bug Fixes, Modules | 
   </div>
     
