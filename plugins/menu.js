@@ -10,20 +10,21 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-    r_text[0] = "https://i.imgur.com/MZDCN2M.jpeg";
+    r_text[0] = "https://www.linkpicture.com/q/IMG_20210706_002935.jpg;
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️Saidali✨️━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️LiyaMol✨️━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Saidali akku 𝐛𝐨𝐭.
-            *Liyamol*
+```𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 liyamol 𝐛𝐨𝐭.```
+```owner name  saidali```
+```wa.me/+918606759500```
 
-■□■□■□■□■□■□■□■□■□■□
+■□■□■□■□liya■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
 
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -song <text>
