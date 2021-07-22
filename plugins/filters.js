@@ -113,10 +113,7 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
 }));
 
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
-    if(Config.BGMFILTER){
-    let banned = jid.find( Jid => Jid === message.jid);
-    if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
+    if (!!message.mention && message.mention[0] == '91946432377@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/song.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['Pikachu','Msd','Vijay','Rashmika','song','Sry','Da','Line']
