@@ -140,30 +140,3 @@ filtreler.map(
     }
 );
 }));
-Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
-    if(Config.BGMFILTER){
-    let banned = jid.find( Jid => Jid === message.jid);
-    if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '91860759500@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./photos/mention.jpg'), MessageType.img, { mimetype: Mimetype.jpg, quoted : message.data, ptt: false})
-    }
-const array = ['Hii','ee','Da','food','Hlo','para','love u','set','sed','jada','Saidali','Hi','sad','don','Loki','nee','bye']
-array.map( async (a) => {
-let pattern = new RegExp(`\\b${a}\\b`, 'g');
-if(pattern.test(message.message)){
-   await message.client.sendMessage(message.jid, fs.readFileSync('./photos/' + a + '.jpg'), MessageType.img, { mimetype: Mimetype.jpg, quoted: message.data, ptt: false})
-}
-});
-}
-
-var filtreler = await FilterDb.getFilter(message.jid);
-if (!filtreler) return; 
-filtreler.map(
-    async (filter) => {
-        pattern = new RegExp(filter.dataValues.regex ? filter.dataValues.pattern : ('\\b(' + filter.dataValues.pattern + ')\\b'), 'gm');
-        if (pattern.test(message.message)) {
-            await message.client.sendMessage(message.jid,filter.dataValues.text, MessageType.text, {quoted: message.data});
-        }
-    }
-);
-}));
