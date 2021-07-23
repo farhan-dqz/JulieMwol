@@ -60,12 +60,12 @@ bash <(curl -L https://t.ly/tHxh)
 
 ----
     
-   <p align="center">
-
-<a href="#"><img title="Spark-Shadow" src="https://img.shields.io/badge/SPARK SHADOW-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+   
+<div align="center">
+ <a href="#"><img title="Spark-Shadow" src="https://img.shields.io/badge/SPARK SHADOW-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
   
-<p align="center">
+<div align="center">
     
 
 
