@@ -2,7 +2,7 @@
 <div align="center">
   <img border-radius: 15px src="https://avatars.githubusercontent.com/u/87223597?v=4" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="Spark-Shadow" src="https://img.shields.io/badge/Shadow-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Spark-Shadow" src="https://img.shields.io/badge/SPARK SHADOW-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/farhan-dqz"><img title="Author" src="https://img.shields.io/badge/Author-Shadow-Shadow/JulieMwol?color=blue&style=for-the-badge&logo=whatsapp"></a>
