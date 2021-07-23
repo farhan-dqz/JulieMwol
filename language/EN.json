@@ -202,8 +202,8 @@
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
-            "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Nissaram🧞‍♂️```"
+            "NEED_REPLY": "*𝙂𝙞𝙫𝙚 𝙢𝙚 𝙖 𝙥𝙝𝙤𝙩𝙤...📸!*",
+            "DOWNLOADING": "``𝘾𝙧𝙚𝙖𝙩𝙞𝙣𝙜 𝙨𝙩𝙞𝙘𝙠𝙚𝙧✏️``"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -227,11 +227,11 @@
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Updating..🧞‍♂️",
+            "UPDATING": "Updating.😎",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*✅  Updated!*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "*JulieMwol Restarting !*",
+            "AFTER_UPDATE": "*᳆⃟⃟𝘾𝙔𝘽𝙀𝙍⚖️𝘽𝙊𝙏 Restarting !*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
