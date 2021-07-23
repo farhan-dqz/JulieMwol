@@ -62,7 +62,7 @@ bash <(curl -L https://t.ly/tHxh)
     
    
 <div align="center">
- <a href="#"><img title="Spark-Shadow" src="https://img.shields.io/badge/SPARK SHADOW-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="Spark-Shadow" src="https://img.shields.io/badge/SPARK SHADOW-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
   
 <div align="center">
