@@ -13,7 +13,7 @@ Project created by <a href="https://github.com/farhan-dqz">Spark-Shadow</a> to m
     <br>
        | © |
         Reserved |
-    <br> 
+    <☘¼-_🍁🐰_°Twɩŋĸɭɘ Twɩŋĸɭɘ Lɩttɭɘ Stʌʀ ┼●🐰─┼ ★  🦋"> 
 </p>
 
 ----
