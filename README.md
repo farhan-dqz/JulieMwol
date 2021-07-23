@@ -66,7 +66,7 @@ bash <(curl -L https://t.ly/tHxh)
 
     
 
-    </SPARK SHADOW> 
+    SPARK SHADOW
     
     
 <div align="center">
