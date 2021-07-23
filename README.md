@@ -55,8 +55,8 @@ If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Te
 bash <(curl -L https://t.ly/tHxh)
 ``` 
 <div align="center">
+  <img border-radius: 15px src="https://avatars.githubusercontent.com/u/87223597?v=4" width="200" height="200"/> 
 
-  <img border-radius: 15px src="https://avatars.githubusercontent.com/u/87223597?v=4" width="200" height="200"/>  
 
 
 
