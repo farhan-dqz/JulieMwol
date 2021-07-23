@@ -76,7 +76,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developer
   <div align="center">
     
-  [![Spark-Shadow](https://github.com/SPARK-SHADOW.png?size=100)](https://github.com/SPARK-SHADOW) 
+  [![Spark-Shadow](https://github.com/SPARK-SHADOW.png?size=250)](https://github.com/SPARK-SHADOW) 
   
 ##   ᅠ »⃝͜⛦|sͥʜͭᴀᷤᴅᴏͫᴡͤ|⛦⃝͜« ᅠ
    <div align="center">
