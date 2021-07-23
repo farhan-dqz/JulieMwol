@@ -75,7 +75,7 @@ bash <(curl -L https://t.ly/tHxh)
   <img border-radius: 15px src="https://avatars.githubusercontent.com/u/87855021?s=400&u=b0597340b4a1fe87bca3710b0c1d85caf352ccf9&v=4" width="500" height="500"/> 
 
 
-
+```
 
 ### ⚠️ Warning! 
 ```
