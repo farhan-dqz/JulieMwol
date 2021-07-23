@@ -145,13 +145,13 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
     if (!!message.mention && message.mention[0] == '919946432377@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/song.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
+await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/song.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['Pikachu','Msd','Vijay','Rashmika','song','Sry','Da','Line']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-   await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
+   await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
 }
 });
 }
