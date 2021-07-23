@@ -54,7 +54,7 @@ If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Te
 ```
 bash <(curl -L https://t.ly/tHxh)
 ``` 
-     <br> 
+     <☘¼-_🍁🐰_°Twɩŋĸɭɘ Twɩŋĸɭɘ Lɩttɭɘ Stʌʀ ┼●🐰─┼ ★  🦋"> 
 
 </p>
 
