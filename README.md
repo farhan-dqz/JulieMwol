@@ -32,6 +32,9 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 <h3 align="center">Contact Me:</h3>
 <p align="center">
 <a href="https://instagram.com/ameer_.su_hail?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
+<h4 align="center">Support Video For Deploy Bot:</h4>
+<a href="https://youtu.be/_D4ZYuUSXjs" target="blank"><img align="center" src="https://images.app.goo.gl/TfBy2cwMdY32obkZ7" alt="kyrie.baran" height="45" width="60" /></a>
+
 </p>
   
 <!--
@@ -68,10 +71,7 @@ Click WA logo to Join Support Group 👇
     <br>
 <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf)
-  <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ameer-kallumthodi&repo=PublicBot&theme=nightowl)](https://github.com/ameer-kallumthodi/PublicBot)
-  </div>
     
 ## Setup
 <div align="center">
