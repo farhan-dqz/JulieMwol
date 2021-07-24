@@ -6,7 +6,7 @@ const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys'
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
-const need = "type some word after command\n🗡🗡"
+const need = "type some word after command muthe\n🧚‍♂️🧚‍♂️"
 
 if (Config.WORKTYPE == 'private') {
 
@@ -16,7 +16,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/dropwater?apikey=3XRbDOZkU9hBvGdY701x59Cw6Kg&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Madhav*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Pikachu*' })
 
     }));
 }
@@ -29,7 +29,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/dropwater?apikey=3XRbDOZkU9hBvGdY701x59Cw6Kg&text=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Madhav*' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by Pikachu*' })
 
     }));
     
