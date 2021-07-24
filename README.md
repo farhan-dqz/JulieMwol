@@ -5,7 +5,7 @@
 <a href="#"><img title="Spark-Shadow" src="https://img.shields.io/badge/SPARK SHADOW-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/farhan-dqz"><img title="Author" src="https://img.shields.io/badge/Author-Shadow-Shadow/JulieMwol?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/farhan-dqz"><img title="Author" src="https://img.shields.io/badge/Shadow/Shadow-WaBot?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
