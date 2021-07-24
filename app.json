@@ -45,7 +45,7 @@
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[.!;#]"
         },
         "FULL_EVA": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
