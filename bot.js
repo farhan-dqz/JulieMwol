@@ -315,7 +315,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             chalk.green.bold('✅ Login successful!')
         );
         console.log(
-            chalk.blueBright.italic('⬇️ Installing External Plugins...')
+            chalk.blueBright.italic('⬇️ Plugins install aakatte😌...')
         );
         if (os.userInfo().homedir !== clh.pay) return;
         // ==================== External Plugins ====================
@@ -345,7 +345,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End Internal Plugins ====================
 
         console.log(
-            chalk.green.bold('✅ Plugins Installed!')
+            chalk.green.bold('✅ Plugins Install aaki!')
         );
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
@@ -396,7 +396,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*Pikachu Working as Public!😎*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*Sophia bot public AAYI!😎*\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -451,7 +451,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*Pikachu  Working as Private!😎*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*Sophia  Working as Private!😎*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -469,7 +469,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```Type``` *.update now* ```For The Update Bot.```\n\n' + degisiklikler + '```', MessageType.text
+                        '```Type``` *.update now* ```Adichal bot update aakum.```\n\n' + degisiklikler + '```', MessageType.text
                     ); 
                 }
             }
