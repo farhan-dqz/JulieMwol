@@ -38,12 +38,12 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 <a href="https://youtu.be/_D4ZYuUSXjs" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
 </p>
   
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=phaticusthiccy&show_icons=true&layout=compact&theme=nightowl" alt="phaticusthiccy" /></p>
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=phaticusthiccy&show_icons=true&layout=compact&theme=nightowl" alt="phaticusthiccy" /></p>
 -->
 <div align="center">
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameer-kallumthodi&show_icons=true&theme=nightowl" alt="ameer-kallumthodi" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameer-kallumthodi&show_icons=true&theme=nightowl" alt="ameer-kallumthodi" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameer-kallumthodi&theme=nightowl" alt="ameer-kallumthodi" /></p>
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameer-kallumthodi&theme=nightowl" alt="ameer-kallumthodi" /></p>
 </details> </div>
 
 <div align="center">
@@ -54,14 +54,7 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 [![News](https://github-readme-stats.vercel.app/api/pin/?username=ameer-kallumthodi&repo=wabot-aq)](https://github.com/ameer-kallumthodi/wabot-aq)
 
 </div>
-<div align="center">
- <tr>
-        <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ameer-kallumthodi&theme=radical&layout=compact" /></td>
-    </tr>
-    <tr>
-        <td align="center"><img src="http://open.spotify.com/track/6rqhFgbbKwnb9MLmUQDhG6&cover_image=false)" /></td>
-    </tr>
-  </div>
+
 
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
