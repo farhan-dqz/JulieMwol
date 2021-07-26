@@ -38,19 +38,13 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 <a href="https://youtu.be/_D4ZYuUSXjs" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
 </p>
   
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=phaticusthiccy&show_icons=true&layout=compact&theme=nightowl" alt="phaticusthiccy" /></p>
--->
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ameer-kallumthodi&show_icons=true&layout=compact&theme=nightowl" alt="ameer-kallumthodi" /></p>
+
 <div align="center">
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameer-kallumthodi&show_icons=true&theme=nightowl" alt="ameer-kallumthodi" /></p>
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameer-kallumthodi&theme=nightowl" alt="ameer-kallumthodi" /></p>
 </details> </div>
-
-<div align="center">
-    <summary>&#127942 <b>GitHub Activity</b></summary><br/>
-![Metrics](https://metrics.lecoq.io/ameer-kallumthodi?template=classic&followup=1&isocalendar=1&languages=1&isocalendar.duration=half-year&config.timezone=Europe%2FIstanbul)
-  
-</div>
 
 
 ## 📢 Guide
