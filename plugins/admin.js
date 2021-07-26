@@ -1587,6 +1587,14 @@ Asena.addCommand({pattern: 'invite ?(.*)', fromMe: true, onlyGroup: true, desc: 
     var invite = await message.client.groupInviteCode(message.jid);
     await message.client.sendMessage(message.jid,Lang.INVITE + ' https://chat.whatsapp.com/' + invite, MessageType.text);
 }));
+QueenSew.addCommand({pattern: 'name ?(.*)', onlyGroup: true, fromMe: true,desc: SEW}, (async (message, match) => {
+    var im = await checkImAdmin(message);
+    if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,SEWA);
+    await message.client.groupUpdateSubject(message.jid, match[1]);
+    await message.client.sendMessage(message.jid,SEWB,MessageType.text);
+    }
+));
 
 module.exports = {
     checkImAdmin: checkImAdmin
