@@ -48,7 +48,8 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
 
 <div align="center">
     <summary>&#127942 <b>GitHub Activity</b></summary><br/>
-
+![Metrics](https://metrics.lecoq.io/ameer-kallumthodi?template=classic&followup=1&isocalendar=1&languages=1&isocalendar.duration=half-year&config.timezone=Europe%2FIstanbul)
+  
 </div>
 
 
