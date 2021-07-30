@@ -67,8 +67,9 @@ async function whatsAsena () {
           info: 'StringSession'
         }
     });
-    
-    
+   
+    conn.sendMessage(conn.user.jid, '*===== [ 📢 Announcement 📢 ] =====*\n\n👋 Enthokke und machane Sukhamalle 😂\n\n💖 Thank You For Using Julie Mwol 💖', MessageType.text) 
+     
     const conn = new WAConnection();
     conn.version = [2,2121,7];
     const Session = new StringSession();
