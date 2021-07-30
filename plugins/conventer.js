@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@farhan-dqz 
-afnanplk
-/
-lastpink
-2
-49
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-lastpink/plugins/conventer.js /
-@afnanplk
-afnanplk Update conventer.js
-Latest commit 23758d0 6 days ago
- History
- 5 contributors
-@phaticusthiccy@afnanplk@Xenon67@oguz162@lyfe00011
-196 lines (183 sloc)  9.34 KB
-  
 /*Codded by @phaticusthiccy
 Telegram: https://t.me/phaticusthiccy
 Instagram: https://instagram.com/kyrie.baran
@@ -151,7 +120,7 @@ if (Config.WORKTYPE == 'private') {
             await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
                 const saving = data.pipe(fs.createWriteStream('/root/WhatsAsenaDuplicated/stweb.mp4'))
                 saving.on("finish", async () => {
-                    await message.client.sendMessage(mid, fs.readFileSync('/root/WhatsAsenaDuplicated/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'Made by liyamol', quoted: message.data })
+                    await message.client.sendMessage(mid, fs.readFileSync('/root/WhatsAsenaDuplicated/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'Made by PINKY', quoted: message.data })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
                     if (fs.existsSync('/root/WhatsAsenaDuplicated/stweb.mp4')) fs.unlinkSync('/root/WhatsAsenaDuplicated/stweb.mp4')
                 })
@@ -216,7 +185,7 @@ else if (Config.WORKTYPE == 'public') {
             await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
                 const saving = data.pipe(fs.createWriteStream('/root/WhatsAsenaDuplicated/stweb.mp4'))
                 saving.on("finish", async () => {
-                    await message.client.sendMessage(mid, fs.readFileSync('/root/WhatsAsenaDuplicated/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'made by liyamwol', quoted: message.data })
+                    await message.client.sendMessage(mid, fs.readFileSync('/root/WhatsAsenaDuplicated/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'inna nanba', quoted: message.data })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
                     if (fs.existsSync('/root/WhatsAsenaDuplicated/stweb.mp4')) fs.unlinkSync('/root/WhatsAsenaDuplicated/stweb.mp4')
                 })
@@ -225,15 +194,3 @@ else if (Config.WORKTYPE == 'public') {
     }));
 }
     
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
