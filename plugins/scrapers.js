@@ -895,7 +895,7 @@ else if (config.WORKTYPE == 'public') {
             return;
     
         let 
-            LANG = 'hi',
+            LANG = 'ml',
             ttsMessage = match[1],
             SPEED = 1.0
 
