@@ -124,7 +124,7 @@ if (message.jid === '919383400679-1627924673@g.us') {
     if (!!message.mention && message.mention[0] == '919526045276@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Hi','power','sad','Akash','anthas','failed','alla','chunk','marichu','myre','love','Aliya','bot','Bot','achan','think','cheyalle','mention','mama','set','eda','umma','police','aysheri','vannu','love','manasilla','uyir','Friend','Entha','Aa','Kundan','Nanban','Umma','Broken','pm','Pm','oombi','Mm','important','sed','chathu','girl','poweresh','ooo','bye','fuck','pedicho','kunna','number','ok','Killadi','i Love you','Group','Mine','sed','Sed','pwoli','chiri','vibe','shut','saved','Myr','mood','shaad','pidi']
+const array = ['Hi','power','sad','Akash','anthas','failed','alla','chunk','marichu','myre','love','Aliya','bot','Bot','achan','think','cheyalle','mention','mama','set','eda','umma','police','aysheri','vannu','love','manasilla','uyir','Friend','Entha','Aa','Kundan','Umma','Broken','pm','Pm','oombi','Mm','important','sed','chathu','girl','poweresh','ooo','bye','fuck','pedicho','kunna','number','ok','Killadi','i Love you','Group','Mine','sed','Sed','pwoli','chiri','vibe','shut','saved','Myr','mood','shaad','pidi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
