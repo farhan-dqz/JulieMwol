@@ -114,6 +114,10 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
 }));
 
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+if (message.jid === '919383400679-1627924673@g.us') {
+
+            return;
+        }
     if(Config.BGMFILTER){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
