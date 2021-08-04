@@ -216,14 +216,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*LiyaMol bot is completely up-to-date!*",
+            "UPDATE": "*Ss Creation bot is completely up-to-date!*",
             "NEW_UPDATE": "*LiyaMolk Update und *\n\n please ask support group before updating. Otherwise chance to get error\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..please wait few minits🌚```",
+            "UPDATING": "```Updating ss Creation..please wait few minits🌚```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Updated 🤠✅  happy alle nenba*",
             "UPDATED_LOCAL": "*✅ Successfully Updated 😍😍😍!*",
-            "AFTER_UPDATE": "*👰 LiyaMol Restarting    please wait few minits *"
+            "AFTER_UPDATE": "*👰 SS Creation bot Restarting    please wait few minits *"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
