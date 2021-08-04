@@ -6,7 +6,7 @@
 <a href="#"><img title="ss-creation-" src="https://img.shields.io/badge/ss-creation--green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/booldofss"><img title="Author" src="https://img.shields.io/badge/Author-saidali/ss-creation-?color=red&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/booldofss"><img title="Author" src="https://img.shields.io/badge/Author-booldofss/ss-creation-?color=red&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -28,10 +28,10 @@ instagram
   <a href="httsp://github.com/booldofss/ss-creation-">
     <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/saidalisaid2/followers"><img title="Followers" src="https://img.shields.io/github/followers/saidalisaid2?color=blue&style=flat-square"></a>
-<a href="https://github.com/saidalisaid2/ss-creation-/stargazers /"><img title="Stars" src="https://img.shields.io/github/stars/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/saidalisaid2/ss-creation-/network/members"><img title="Forks" src="https://img.shields.io/github/forks/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
-<a href="https://github.com/saidalisaid2/ss-creation-/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/farhan-dqz/JulieMwol?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/booldofss/followers"><img title="Followers" src="https://img.shields.io/github/followers/booldofss?color=blue&style=flat-square"></a>
+<a href="https://github.com/booldofss/ss-creation-/stargazers /"><img title="Stars" src="https://img.shields.io/github/stars/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
+<a href="https://github.com/booldofss/ss-creation-/network/members"><img title="Forks" src="https://img.shields.io/github/forks/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
+<a href="https://github.com/booldofss/ss-creation-/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/farhan-dqz/JulieMwol?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
