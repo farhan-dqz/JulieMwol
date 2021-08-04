@@ -1,30 +1,52 @@
+/* Copyright (C) 2021 Ameer Suhail
+CODDED Ameer Suhail
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+Pikachu
+*/
+
 const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
-const axios = require('axios');
+const {MessageType} = require('@adiwajshing/baileys');
+const {spawnSync} = require('child_process');
+const Config = require('../config');
+const chalk = require('chalk');
 
 const Language = require('../language');
-const Lang = Language.getString('wallpaper');
+const Lang = Language.getString('system_stats');
 
-Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
-    var r_text = new Array ();
-    
-    
-   
-  r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/Pikachu-wallpaper-HD-dowload.jpg";
-    
-    
-    var i = Math.floor(1*Math.random())
+if (Config.WORKTYPE == 'private') {
 
-    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
+    Asena.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Ameer*
-*owner number wa.me/919946432377*
-*instagram  : https://www.instagram.com/ameer_.su_hail?r=nametag*
-*bot setting video : https://youtu.be/_D4ZYuUSXjs
-*githublink       https://github.com/ameer-kallumthodi/pikachu*
-*audio commads    https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
-*sticker commads  https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
-`}) 
+        if (message.jid === '15369524516-1612300121@g.us') {
 
-}));
+            return;
+        }
+
+        if (Config.PLK == 'default') {
+            await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
+        }
+        else {
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
+        }
+    }));
+}
+
+else if (Config.WORKTYPE == 'public') {
+
+    Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+
+        if (message.jid === '54218542512-1612300121@g.us') {
+
+            return;
+        }
+
+        if (Config.PLK == 'default') {
+            await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
+        }
+        else {
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+        }
+    }));
+}

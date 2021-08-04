@@ -66,7 +66,7 @@ let wk = conf.WORKTYPE == 'public' ? false : true
 var vtalk_dsc = ''
 var reply_eva = ''
 if (conf.LANG == 'TR') vtalk_dsc = 'Eva sesli sohbetini başlatır.', reply_eva = '*Herhangi Bir Sesli Mesaja Yanıt Verin!*'
-if (conf.LANG == 'EN') vtalk_dsc = 'Starts to Eva voice chat.', reply_eva = '*Reply to Any Voice Message!*'
+if (conf.LANG == 'EN') vtalk_dsc = 'Starts to pinky voice chat.', reply_eva = '*Reply to Any Voice Message!*'
 if (conf.LANG == 'AZ') vtalk_dsc = 'Eva səsli söhbətinə başlayır.', reply_eva = '*Hər hansı bir səsli mesaja cavab verin!*'
 if (conf.LANG == 'PT') vtalk_dsc = 'Começa o bate-papo por voz de Eva.', reply_eva = '*Responder a qualquer mensagem de voz!*'
 if (conf.LANG == 'RU') vtalk_dsc = 'Запускает голосовой чат Eva.', reply_eva = '*Ответьте на любое голосовое сообщение!*'
@@ -97,40 +97,23 @@ const convertToWav = file => {
         .format('wav')
         .save('output.wav')
 }
-var eva_functionality = ''
-async function eva_functionality_f() {
-    await heroku.get(baseURI + '/config-vars').then(async (vars) => {
-        eva_functionality = vars.FULL_EVA
-    });
-}
-eva_functionality_f()
 
 Asena.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
-    if (message.message.startsWith('Eva') && eva_functionality !== 'true') {        
+    if (message.message.startsWith('bot') && conf.FULLEVA !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
         let acc = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0] == 'Asena' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
         let aitalk_mode = message.message.includes('{normal}') ? 'raw' : 'waifu'
-        var finm = message.message.replace('Eva', '').replace(' ', '')   
+        var finm = message.message.replace('bot', '').replace(' ', '')   
         var ainame = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0]
         if (ainame !== 'Asena') return;
         var ldet = lngDetector.detect(finm)
         var trmsg = ''
-        try {
-            if (ldet[0][0] !== 'english') {
-                ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
-                if ('text' in ceviri) {
-                    trmsg = ceviri.text
-                }
-            } else { trmsg = finm }
-        } catch {
-            ceviri = await translatte(finm, {
-                from: 'auto', 
-                to: 'EN'
-            });
+        if (ldet[0][0] !== 'english') {
+            ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
             if ('text' in ceviri) {
                 trmsg = ceviri.text
             }
-        }
+        } else { trmsg = finm }
         var uren = encodeURI(trmsg)
         await axios.get('http://api.brainshop.ai/get?bid=157104&key=VzGieV1tp1IvxPl4&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
             var fins = ''                           
@@ -145,12 +128,12 @@ Asena.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteComman
     }
 }));
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-        if (eva_functionality == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
+        if (conf.FULLEVA == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
             (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
                     if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
-                        var unique_ident = message.data.participant.split('@')[0]      
+                        var unique_ident = message.client.user.jid.split('@')[0]      
                         let acc = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0] == 'Asena' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
                         let aitalk_mode = message.message.includes('{normal}') ? 'raw' : 'waifu'                       
                         var ainame = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0]
@@ -158,22 +141,12 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
                         var finm = message.message
                         var ldet = lngDetector.detect(finm)
                         var trmsg = ''
-                        try {
-                            if (ldet[0][0] !== 'english') {
-                                ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
-                                if ('text' in ceviri) {
-                                    trmsg = ceviri.text
-                                }
-                            } else { trmsg = finm }
-                        } catch {
-                            ceviri = await translatte(finm, {
-                                from: 'auto', 
-                                to: 'EN'
-                            });
+                        if (ldet[0][0] !== 'english') {
+                            ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
                             if ('text' in ceviri) {
                                 trmsg = ceviri.text
                             }
-                        }
+                        } else { trmsg = finm }
                         var uren = encodeURI(trmsg)
                         await axios.get('http://api.brainshop.ai/get?bid=157104&key=VzGieV1tp1IvxPl4&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                             var fins = ''                           
@@ -189,29 +162,19 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
                 })
             } else if (message.jid.includes('-') && message.reply_message !== false) {
                 if (message.reply_message.jid.split('@')[0] === message.client.user.jid.split('@')[0]) {
-                    var unique_ident = message.data.participant.split('@')[0]      
+                    var unique_ident = message.client.user.jid.split('@')[0]      
                     let acc = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0] == 'Asena' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
                     var ainame = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0]
                     if (ainame !== 'Asena') return;
                     var finm = message.message
                     var ldet = lngDetector.detect(finm)
                     var trmsg = ''
-                    try {
-                        if (ldet[0][0] !== 'english') {
-                            ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
-                            if ('text' in ceviri) {
-                                trmsg = ceviri.text
-                            }
-                        } else { trmsg = finm }
-                    } catch {
-                        ceviri = await translatte(finm, {
-                            from: 'auto', 
-                            to: 'EN'
-                        });
+                    if (ldet[0][0] !== 'english') {
+                        ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
                         if ('text' in ceviri) {
                             trmsg = ceviri.text
                         }
-                    }
+                    } else { trmsg = finm }
                     var uren = encodeURI(trmsg)
                     await axios.get('http://api.brainshop.ai/get?bid=157104&key=VzGieV1tp1IvxPl4&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                         var fins = ''                           
@@ -225,29 +188,19 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
                     })
                 }
             } else {
-                var unique_ident = message.data.participant.split('@')[0]      
+                var unique_ident = message.client.user.jid.split('@')[0]      
                 let acc = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0] == 'Asena' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
                 var ainame = os.userInfo().homedir.split('Whats')[1].split('Duplicated/')[0]
                 if (ainame !== 'Asena') return;
                 var finm = message.message
                 var ldet = lngDetector.detect(finm)
                 var trmsg = ''
-                try {
-                    if (ldet[0][0] !== 'english') {
-                        ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
-                        if ('text' in ceviri) {
-                            trmsg = ceviri.text
-                        }
-                    } else { trmsg = finm }
-                } catch {
-                    ceviri = await translatte(finm, {
-                        from: 'auto', 
-                        to: 'EN'
-                    });
+                if (ldet[0][0] !== 'english') {
+                    ceviri = await translatte(finm, {from: 'auto', to: 'EN'});
                     if ('text' in ceviri) {
                         trmsg = ceviri.text
                     }
-                }
+                } else { trmsg = finm }
                 var uren = encodeURI(trmsg)
                 await axios.get('http://api.brainshop.ai/get?bid=157104&key=VzGieV1tp1IvxPl4&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                     var fins = ''                           
@@ -263,7 +216,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         }
 
 }));
-Asena.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc, fromMe: wk }, (async (message, match) => {
+Asena.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true, fromMe: wk }, (async (message, match) => {
     if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_eva, MessageType.text, { quoted: message.data }) 
     try {
         const file = await message.client.downloadAndSaveMediaMessage({
@@ -325,11 +278,11 @@ if (conf.LANG == 'TR') {
     succ_off = 'Eva, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
-    fulleva_dsc = 'Activates full functional Eva features. Turn your account into a ai chatbot!'
-    already_on = 'Eva artificial intelligence is already fully functional.'
-    already_off = 'Eva artificial intelligence is currently running semi-functional.'
-    succ_on = 'Eva Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Eva Set to Semi-Functional! Please wait a bit! ☑️'
+    fulleva_dsc = 'Activates full functional Pinky features. Turn your account into a ai chatbot!'
+    already_on = 'Pinky artificial intelligence is already fully functional.'
+    already_off = 'Pinky artificial intelligence is currently running semi-functional.'
+    succ_on = 'Pinky Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Pinky Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'AZ') {
     fulleva_dsc = 'Tam funksional Eva xüsusiyyətlərini aktivləşdirir. Hesabınızı bir chatbot halına gətirin!'
@@ -381,10 +334,10 @@ if (conf.LANG == 'ID') {
     succ_off = 'Eva Set ke Semi-Fungsional! Mohon tunggu sebentar! ☑️'
 }
 
-Asena.addCommand({ pattern: 'fulleva ?(.*)', desc: fulleva_dsc, fromMe: true, usage: '.fulleva on / off' }, (async (message, match) => {
-    
+Asena.addCommand({ pattern: 'fulleva ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.fulleva on / off' }, (async (message, match) => {
+    var eva_status = `${conf.FULLEVA}`
     if (match[1] == 'on') {
-        if (eva_functionality == 'true') {
+        if (eva_status == 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_on + '*', MessageType.text)
         }
         else {
@@ -397,7 +350,7 @@ Asena.addCommand({ pattern: 'fulleva ?(.*)', desc: fulleva_dsc, fromMe: true, us
         }
     }
     else if (match[1] == 'off') {
-        if (eva_functionality !== 'true') {
+        if (eva_status !== 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_off + '*', MessageType.text)
         }
         else {

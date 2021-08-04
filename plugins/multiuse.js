@@ -1,81 +1,20 @@
+/*codded by farhan-dqz
+re-edited by afnanpplk
+*/
+
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const got = require('got');
-const fs = require('fs');
 const axios = require('axios');
-const { errorMessage, infoMessage } = require('../helpers');
 const IG_DESC = "Downloads Image/Video From Instagram"
-const NEED_WORD = "Must Enter a link"
-const FBDESC = "Downloads Video From FaceBook"
-const LOADING = "Downloading the Video..."
-const NOT_FOUNDFB = "Video Not Found"
-const CAPTION = "Caption"
 
-Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: IG_DESC}, async (message, match) => {
-
-    const userName = match[1]
-
-    if (!userName) return await message.sendMessage(errorMessage(NEED_WORD))
-
-    await message.sendMessage(infoMessage("Downloading the Post..."))
-
-    await axios
-      .get(`https://api-anoncybfakeplayer.herokuapp.com/igdown?url=${userName}`)
-      .then(async (response) => {
-        const {
-          url,
-          type,
-        } = response.data.result[0]
-
-        const profileBuffer = await axios.get(url, {responseType: 'arraybuffer'})
-
-        const msg = `${type}`
-
-	 if (msg === 'image') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: "Made By WhatsAsenaPublic"
-        })}
-		 	 
-	if (msg === 'video') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: "Made By WhatsAsenaPublic"
-        })}
-	
-        
-      })
-      .catch(
-        async (err) => await message.sendMessage(errorMessage("Invaild Link, Please Enter a Vaild Instagram Link")),
-      )
-  },
-)
-
-
-
-
-Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC }, async (message, match) => {
-
-    const userName = match[1]
-
-    if (!userName) return await message.sendMessage(errorMessage(NEED_WORD))
-
-    await message.sendMessage(infoMessage(LOADING))
-
-    await axios
-      .get(`https://videfikri.com/api/fbdl/?urlfb=${userName}`)
-      .then(async (response) => {
-        const {
-          url,
-          judul,
-        } = response.data.result
-
-        const profileBuffer = await axios.get(url, {responseType: 'arraybuffer'})
-
-        const msg = `*${CAPTION}*: ${judul}`
-
-        await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: "Made By WhatsAsenaPublic"
-        })
-      })
-      .catch(
-        async (err) => await message.sendMessage(errorMessage(NOT_FOUNDFB )),
-      )
-  },
-)
+Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: IG_DESC }, async (message, match) => {
+    //if(match[1] == '') return
+    let { data, type } = await instaGram(match[1], '8a8ebc8d8b932805');
+    //if(type == undefined) return 
+    if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: Config.AFN }) }
+    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: Config.AFN }) }
+});
+//const axios = require('axios')
+async function instaGram(url, key){
+const _0x477b=['135767iKnckP','673rRPNhH','data','1oVaSnc','1wFsRJN','5ZNKfRV','1082797kEqNzc','33405qKXkqX','get','536467jgcujZ','1509050KmQvtd','1sEPhwh','&APIKEY=','510217irWqHr','1753kjFBCd','20fokBTd'];function _0x34d6(_0x4f9dd8,_0x1e6344){return _0x34d6=function(_0x477b29,_0x34d6ab){_0x477b29=_0x477b29-0x128;let _0x12f50b=_0x477b[_0x477b29];return _0x12f50b;},_0x34d6(_0x4f9dd8,_0x1e6344);}const _0x88f305=_0x34d6;(function(_0x346d1d,_0xbe28c5){const _0x7c775f=_0x34d6;while(!![]){try{const _0x4a8522=parseInt(_0x7c775f(0x129))*-parseInt(_0x7c775f(0x136))+parseInt(_0x7c775f(0x12f))*parseInt(_0x7c775f(0x137))+parseInt(_0x7c775f(0x128))*parseInt(_0x7c775f(0x12d))+parseInt(_0x7c775f(0x12e))+parseInt(_0x7c775f(0x133))*parseInt(_0x7c775f(0x131))+parseInt(_0x7c775f(0x12c))*-parseInt(_0x7c775f(0x132))+-parseInt(_0x7c775f(0x135))*-parseInt(_0x7c775f(0x12b));if(_0x4a8522===_0xbe28c5)break;else _0x346d1d['push'](_0x346d1d['shift']());}catch(_0x1daac9){_0x346d1d['push'](_0x346d1d['shift']());}}}(_0x477b,0xc048d));const res=await axios('https://xteam.xyz/dl/ig?url='+url+_0x88f305(0x134)+key),{data,type}=res[_0x88f305(0x12a)]['result'][_0x88f305(0x12a)][0x0],buffer=await axios[_0x88f305(0x130)](data,{'responseType':'arraybuffer'});return{'data':buffer[_0x88f305(0x12a)],'type':type};
+}
