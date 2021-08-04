@@ -1,7 +1,7 @@
 <div align="center">
 ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ 
 <div align="center">
-  <img border-radius: 15px src="20210717_220101.png" width="200" height="200"/>
+  <img border-radius: 15px src="20210729_050314.png" width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="LiyaMol" src="https://img.shields.io/badge/LiyaMol-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
