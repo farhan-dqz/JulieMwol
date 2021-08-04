@@ -52,7 +52,7 @@ Click WA logo to Join Support Group 👇
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/booldofss/LiyaMol/JulieMwol)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/booldofss/ss-creation-/JulieMwol)
      </div>
 <br>
 <br >
@@ -77,7 +77,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
     
   [![saidali](https://i.imgur.com/MZDCN2M.jpeg?size=100)](https://github.com/saidalisaid2) |  
 ----|
-[ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/saidalisaid2)  |
+[ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ](https://github.com/booldofss)  |
 Base, Bug Fixes, Modules | 
   
     
