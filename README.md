@@ -6,11 +6,11 @@
 <a href="#"><img title="ss-creation-" src="https://img.shields.io/badge/ss-creation--green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/saidalisaid2"><img title="Author" src="https://img.shields.io/badge/Author-saidali/LiyaMol?color=red&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/booldofss"><img title="Author" src="https://img.shields.io/badge/Author-saidali/ss-creation-?color=red&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/saidalisaid2">saidali</a> to make it public
+Project created by <a href="https://github.com/booldofss">saidali</a> to make it public
     <br>
        | © |
         Reserved |
@@ -25,7 +25,7 @@ instagram
 
 
   <p align="center">
-  <a href="httsp://github.com/saidalisaid2/ss-creation-">
+  <a href="httsp://github.com/booldofss/ss-creation-">
     <img src="https://img.shields.io/github/repo-size/farhan-dqz/JulieMwol?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/saidalisaid2/followers"><img title="Followers" src="https://img.shields.io/github/followers/saidalisaid2?color=blue&style=flat-square"></a>
