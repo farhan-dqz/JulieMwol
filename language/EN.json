@@ -73,7 +73,7 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```LiyaMol Restarting...please wait few minits```",
+            "RESTART_MSG": "```SACHUSAMU CREATION OFFICIAL BOT Restarting...please wait few minits```",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
@@ -107,13 +107,13 @@
             "WELCOME_ALREADY_SETTED": "*✅ Welcome message already set!*\n*Message:* ```",
             "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome WELCOME!```",
             "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
-            "WELCOME_SETTED": "*✅LiyaMol Welcome message has been set successfully! Eni aru vannalum nan welcome cheyyum*",
+            "WELCOME_SETTED": "*✅SACHUSAMU CREATION OFFICIAL BOT Welcome message has been set successfully! Eni aru vannalum nan welcome cheyyum*",
             "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
             "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye Your Goodbye Message```",
             "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
             "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye Goodbye!```",
             "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
-            "GOODBYE_SETTED": "*✅LiyaMol Goodbye message has been setted successfully! Eni aru left ayalum nan samsarikkum*"
+            "GOODBYE_SETTED": "*✅SACHUSAMU CREATION OFFICIAL BOT Goodbye message has been setted successfully! Eni aru left ayalum nan samsarikkum*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
