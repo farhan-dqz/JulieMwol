@@ -25,7 +25,6 @@ Project created by <a href="https://github.com/farhan-dqz">Farhan-dqz</a> to mak
 <a href="https://github.com/farhan-dqz/JulieMwol/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
 <a href="https://github.com/farhan-dqz/JulieMwol/network/members"><img title="Forks" src="https://img.shields.io/github/forks/farhan-dqz/JulieMwol?color=blue&style=flat-square"></a>
 <a href="https://github.com/farhan-dqz/JulieMwol/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/farhan-dqz/JulieMwol?label=Watchers&color=blue&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
 ## 📢 Guide
