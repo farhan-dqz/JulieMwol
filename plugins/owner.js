@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (messa
     
     
    
-  r_text[0] = "20210729_050314.png";
+  r_text[0] = "https://ibb.co/wsp1HvQ";
     
     
     var i = Math.floor(1*Math.random())
