@@ -20,7 +20,7 @@ Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (messa
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater ✦҈͜͡➳✪ɪͥᴛͭsᷤ ᴍͫᴇͤ☚⃟፝✪͜͡S͛aͣcͨhͪuͧs͛aͣmͫuͧ   cͨrͬeͤaͣᴛⷮiͥoͦn👹★✪ৡৢ͜͡➛*
 
-*bgm updation akku💝🧚‍♀️*
+*bgm 🧚‍♀️updation akku💘*
 
 *owner number wa.me/919744474996*
 
