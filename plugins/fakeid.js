@@ -10,9 +10,10 @@ const got = require('got');
 
 const Language = require('../language');
 const Lang = Language.getString('weather');
+const Config = require('../config');
 
-else if (Config.WORKTYPE == 'private') {
 
+if (Config.WORKTYPE == 'private') {
 Asena.addCommand({pattern: 'fake id ?(.*)', fromMe: true, desc: '' , dontAddCommandList: true }, async (message, match) => {
 	const url = `https://docs-jojo.herokuapp.com/api/fake_identity?lang=en&type=json`;
 	try {
