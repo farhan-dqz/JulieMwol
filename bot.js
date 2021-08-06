@@ -396,7 +396,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*ss-creation- Working as Public! 👰*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*ss-creation- Working as Public!😎*\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -451,7 +451,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*JulieMwol  Working as Private! 👰*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*ss-creation-Working as Private!😎*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using WhatsAsena 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -547,25 +547,37 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         }
         // ==================== Greetings ====================
         if (msg.messageStubType === 32 || msg.messageStubType === 28) {
+
             // Görüşürüz Mesajı
+
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
+
+            var blogo = await axios.get(config.GIF_BYE, { responseType: 'arraybuffer' })
+
             if (gb !== false) {
-                let pp
-                try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
-                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
+
+                await conn.sendMessage(msg.key.remoteJid, Buffer.from(blogo.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+
             }
+
             return;
+
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
+
             // Hoşgeldin Mesajı
+
             var gb = await getMessage(msg.key.remoteJid);
+
+            var wlogo = await axios.get(config.GIF_WEL, { responseType: 'arraybuffer' })
+
             if (gb !== false) {
-               let pp
-                try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
-                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
+
+                await conn.sendMessage(msg.key.remoteJid, Buffer.from(wlogo.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+
             }
+
             return;
+
         }
         // ==================== End Greetings ====================
 
@@ -802,7 +814,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n*ss-creation- an error has occurred!*'+
                                     '\n*This error log may include your number or the number of an opponent. Please be careful with it!*' +
                                     '\n*You can write to our Telegram group for help.*' +
-                                    '\n*Aslo you can join our support group:* https://chat.whatsapp.com/KaxvN2d3ws117gyCtMCU2D' +
+                                    '\n*Aslo you can join our support group:* https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf' +
                                     '\n*This message should have gone to your number (saved messages).*\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
@@ -925,8 +937,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻(erorr kandethan ayilla boss*' +
-                                        '\n_You can write to our support group for more help._'
+                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
+                                        '\n_You can write to our support group for more help /nhttps://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf._'
                                         , MessageType.text
                                     );
                                 }    
@@ -955,3 +967,5 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
 }
 
 whatsAsena();
+
+
