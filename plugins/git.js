@@ -24,7 +24,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *owner number wa.me/919744474996*
 
-*githublink       https://github.com/booldofss/ss-creation-*
+*githublink       https://github.com/booldofss/ss-creation--*
 
 *audio commads    https://github.com/booldofss/ss-creation-/tree/master/uploads*
 
