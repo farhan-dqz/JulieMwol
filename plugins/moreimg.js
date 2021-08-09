@@ -174,7 +174,7 @@ Asena.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tru
 
     }));
 
- Asena.addCommand({pattern: 'emo ?(.*)', fromMe: false, dontAddCommandList: true, desc: 'emogi to png'}, (async (message, match) => {
+ Asena.addCommand({pattern: 'emoji ?(.*)', fromMe: false, dontAddCommandList: true, desc: 'emogi to png'}, (async (message, match) => {
 
       if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
         
