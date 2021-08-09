@@ -17,7 +17,7 @@ if (Config.WORKTYPE == 'private') {
             return;
         }
 
-        if (Config.PLK == 'default') {
+        if (Config.OWNER == 'default') {
             await message.client.sendMessage(message.jid,'*Owned by Farhan_Dqz*' , MessageType.text, { quoted: message.data });
         }
         else {
@@ -35,7 +35,7 @@ else if (Config.WORKTYPE == 'public') {
             return;
         }
 
-        if (Config.PLK == 'default') {
+        if (Config.OWNER == 'default') {
             await message.client.sendMessage(message.jid,'\n*Owned by Farhan_Dqz*/n' , MessageType.text, { quoted: message.data });
         }
         else {
