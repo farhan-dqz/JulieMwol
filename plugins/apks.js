@@ -42,7 +42,7 @@ if (Config.WORKTYPE == 'private') {
    }));
 
    Asena.addCommand({pattern: 'alight', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-      await message.sendMessage('💎 *ALIGHT MOTION MOD* 💎\npremium unlocked.\n👉https://bit.ly/3cHUBdg');
+      await message.sendMessage('💎 *ALIGHT MOTION MOD* 💎\npremium unlocked.\n👉https://bit.ly/3cHUBdg\n pass: 3456');
    }));
 
    Asena.addCommand({pattern: 'capcut', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
