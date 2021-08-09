@@ -51,6 +51,12 @@ Click WA logo to Join Support Group 👇
     <br>
 <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf)
+
+## 📢 Support Group 2
+Click Pikachu logo to Join Support Group 2👇
+    <br>
+<br>
+  [![join](https://i.hizliresim.com/pce1372.png)](https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6)
        
     
 ## Setup
