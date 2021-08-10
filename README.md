@@ -52,12 +52,14 @@ Click WA logo to Join Support Group 👇
 <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf)
 
-## 📢 Support Group 2
+## 
+  <h3 align="center">📢 Support Group 2:</h3>
+<p align="center">
 Click Pikachu logo to Join Support Group 2👇
     <br>
 <br>
-  [![join](img border-radius: 15px src="https://i.hizliresim.com/pce1372.png" width="200" height="200"/)](https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6)
-       
+  <a href="https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6" target="blank"><img align="center" src="https://i.hizliresim.com/pce1372.png" alt="kyrie.baran" height="200" width="200" /></a>
+</p>
     
 ## Setup
 <div align="center">
