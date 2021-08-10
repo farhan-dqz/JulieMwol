@@ -56,7 +56,7 @@ Click WA logo to Join Support Group 👇
 Click Pikachu logo to Join Support Group 2👇
     <br>
 <br>
-  [![join]<img border-radius: 15px src="https://i.hizliresim.com/pce1372.png" width="200" height="200"/>](https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6)
+  [![join](img border-radius: 15px src="https://i.hizliresim.com/pce1372.png" width="200" height="200"/)](https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6)
        
     
 ## Setup
