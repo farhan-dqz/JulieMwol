@@ -2,7 +2,7 @@
 <div align="center">
   <img border-radius: 15px src="https://telegra.ph/file/555d3c58204893763b839.jpg" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="luke bot" src="https://img.shields.io/badge/sunaifnfc-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="luke bot" src="https://img.shields.io/badge/luke-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/georgyLM10"><img title="Author" src="https://img.shields.io/badge/Author-luke/JulieMwol?color=red&style=for-the-badge&logo=whatsapp"></a>
