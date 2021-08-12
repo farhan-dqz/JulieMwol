@@ -37,7 +37,7 @@ Click WA logo to Join Support Group 👇
   <div align="center">
        
 ## BGM SUPPORTS 🎼
-  Its me luke
+  SARASU, KOKACHI & sunaif
     
 ## Setup
 <div align="center">
