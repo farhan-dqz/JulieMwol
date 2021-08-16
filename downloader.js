@@ -71,7 +71,7 @@ Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC }, async (me
         const msg = `*${CAPTION}*: ${judul}`
 
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: "Made By WhatsAsenaPublic"
+          caption: "Made By luke"
         })
       })
       .catch(
