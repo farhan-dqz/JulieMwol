@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "professor.png";
+  r_text[0] = "https://wallpapercave.com/w/wp5854927.jpg";
     
     
     var i = Math.floor(1*Math.random())
