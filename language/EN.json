@@ -1,119 +1,119 @@
 {
     "__ASENAJSON__": true,
-    "LANGUAGE": "English",
-    "LANGCODE": "en",
-    "AUTHOR": "AsenaDev",
+    "LANGUAGE": "Manglish",
+    "LANGCODE": "ml",
+    "AUTHOR": "Afnan-plk",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Command",
             "DESC": "Description",
             "EXAMPLE": "Example",
-            "NOT_FOUND": "*I couldnt find a command like this*",
+            "NOT_FOUND": "*ingane oru command kand ethan aayilla*",
             "WARN": "Warn"
         },
         "_plugin": {
-            "INSTALL_DESC": "Install external plugins.",
-            "NEED_URL": "Please enter a URL! Example:",
-            "INVALID_URL": "```Please enter a valid url!```",
-            "INVALID_PLUGIN": "*❌ Your plugin is invalid!*\n*Error:*",
-            "INSTALLED": "*✅ Plugin has been successfully installed!*",
-            "PLUGIN_DESC": "Shows the plugins you have installed.",
-            "INSTALLED_FROM_REMOTE": "*Plugins you install externally:*\n",
-            "NO_PLUGIN": "*You have not installed any external plugins!*",
-            "REMOVE_DESC": "Removes the plugin.",
-            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
-            "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
-            "DELETED": "*✅ Module successfully deleted!*"
+            "INSTALL_DESC": "exetrnal plugins install cheyaan.",
+            "NEED_URL": "oru url venam! Example:",
+            "INVALID_URL": "```valid aayitt ulla oru url theru!```",
+            "INVALID_PLUGIN": "*❌ ningall thanna plugin invalid aan!*\n*Error:*",
+            "INSTALLED": "*✅ Plugin install cheythu!*",
+            "PLUGIN_DESC": "ningal instal cheytha plugins kaanikkum.",
+            "INSTALLED_FROM_REMOTE": "*ningal external aayitt install cheytha plugins:*\n",
+            "NO_PLUGIN": "*ningal external aayitt plugins onnum install cheythitt illa!*",
+            "REMOVE_DESC": "plugin remove cheyum.",
+            "NEED_PLUGIN": "```plugin name enter cheyyu! Example: .plugin __test```",
+            "NOT_FOUND_PLUGIN": "```ningal ingane oru plugin install cheyth kaanum, cheythitt undavilla. enthayallum ath eppol alla.```",
+            "DELETED": "*✅ module delete aaki!*"
         },
         "admin": {
-            "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
+            "BAN_DESC": "groupil nin arellum porth akaan. ayallude messagin reply cheyu allenkill tag cheyyu.",
             "IM_NOT_ADMIN": "*njan admin alla macha☹️*",
             "BANNED": "Mwonu Ok Bie!",
             "GIVE_ME_USER": "*arelum mention chey😈!*",
             "ADD_DESC": "Adds someone to the group.",
-            "ADDED": "added to the group!",
+            "ADDED": "groupilott keteekn!",
             "ALREADY_PROMOTED": "```Avan admin anu nenpa🙃```",
-            "PROMOTED": "```admin role was given!```",
-            "PROMOTE_DESC": "Makes any person an admin.",
-            "DEMOTE_DESC": "Takes the authority of any admin.",
-            "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
-            "DEMOTED": "```, has been demoted!```",
-            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.",
-            "MUTED": "```Group chat muted!```",
-            "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
-            "UNMUTED": "```The group chat has unmuted!```",
-            "INVITE_DESC": "Provides the group's invitation link.",
-            "INVITE": "```Invitation link: ```"
+            "PROMOTED": "```admin aakki..!```",
+            "PROMOTE_DESC": "oralle admin akkaan.",
+            "DEMOTE_DESC": "admin sthanam edth kalaayan.",
+            "ALREADY_NOT_ADMIN": "```admine njan engane veendum admin aakkum?```",
+            "DEMOTED": "```, ivante admin sthanam onn mateekn!```",
+            "MUTE_DESC": "group messaging admin mathram akaan.",
+            "MUTED": "```admin only aakki!```",
+            "UNMUTE_DESC": "aarkum message ayaan, admin only allathe akkan.",
+            "UNMUTED": "```admin only allathe akeett und!```",
+            "INVITE_DESC": "groupilikk kshennikaan ulla linkin aayitt.",
+            "INVITE": "```kshana kath..😉: ```"
         },
         "locate": {
-            "L_DESC": "It send your location.",
-            "L_WARN": "Please open your location before using command!"
+            "L_DESC": "location ayach therum.",
+            "L_WARN": "location on aan enn orapp verthugga!"
         },
         "afk": {
-            "AFK_DESC": "It makes you AFK - Away From Keyboard.",
-            "IM_AFK": "*I'm AFK now!*",
-            "IM_AFK_NOMD": "I'm AFK now!",
-            "REASON": "Reason",
-            "LAST_SEEN": "Last Seen",
-            "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```My owner is not here at the moment.```",
-            "AFK_TEXT_NOMD": "I am bot!",
-            "HOUR": "hour",
+            "AFK_DESC": "ningale AFK aakkum - Away From Keyboard.",
+            "IM_AFK": "*njan AFK aan!*",
+            "IM_AFK_NOMD": "njan AFK aan!",
+            "REASON": "kaaranam",
+            "LAST_SEEN": "avasanam kandath",
+            "IM_NOT_AFK": "```njan AFK aan!```",
+            "AFK_TEXT": "```ente owner ippo online illa.```",
+            "AFK_TEXT_NOMD": "njan bot aan!",
+            "HOUR": "manikoor",
             "MINUTE": "minute",
             "SECOND": "second"
         },
         "evaluators": {
-            "TERM_DESC": "Allows to run the command on the server's shell.",
-            "GIVE_ME_CODE": "*Give me a code!*"
+            "TERM_DESC": "serverinte shellill command run cheyum.",
+            "GIVE_ME_CODE": "*code theru!*"
         },
         "nekobin": {
             "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEED_REPLY": "```oru messagin reply cheyyu!```",
+            "MUST_TEXT": "```eathellum oru messagin reply cheyyu```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Restarting...🧚‍♂️```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "```Shutting down 😴```",
-            "DYNO_DESC": "Check heroku dyno usage",
-            "DYNO_TOTAL": "```Total Quota```",
-            "DYNO_USED": "```Quota used```",
-            "PERCENTAGE": "```Percentage```",
-            "DYNO_LEFT": "```Remaining```",
-            "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```Either Key or Value is missing```",
-            "INVALID": "```Invalid key:value format```",
+            "RESTART_DESC": "\nRestart pinkymwol\n",
+            "RESTART_MSG": "```punararambikkunu...```",
+            "SHUTDOWN_DESC": "\nShutdown pinkymwol\n",
+            "SHUTDOWN_MSG": "```adach poottunnu ⛔```",
+            "DYNO_DESC": "heroku dyno kanaan ",
+            "DYNO_TOTAL": "```motham Quota```",
+            "DYNO_USED": "```Quota upayogichath```",
+            "PERCENTAGE": "```shedhamanam```",
+            "DYNO_LEFT": "```backi ullath```",
+            "SETVAR_DESC": "heroku config var set cheyaan",
+            "SET_SUCCESS": "vijayagaramaayi set cheythu ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "``` Key allenkkil Value missing aan```",
+            "INVALID": "```asaathuvaya key:value format```",
             "GETVAR_DESC": "Get heroku config var",
             "DELVAR_DESC": "Delete heroku config var",
-            "DEL_SUCCESS": "```{} successfully deleted```",
-            "NOT_FOUND": "```no results found for this key```"           
+            "DEL_SUCCESS": "```{} vijayagaramaayi delete cheythu```",
+            "NOT_FOUND": "```ee keykk result onnum kandethaan aayilla```"           
         },
         "filters": {
-            "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show's your filter list.",
-            "NO_FILTER": "*❌ There are no filters in this chat!*",
-            "FILTERS": "*🔎 There is your filters in this chat:*",
-            "NEED_REPLY": "*❌ Please type in reply!*\n*Example:*",
-            "FILTERED": "*✅ Successfully set* ```{}``` *to filter!*",
-            "STOP_DESC": "Stops the filter you added previously.",
-            "NEED_FILTER": "*❌ Please type a filter!*\n*Example:*",
-            "ALREADY_NO_FILTER": "*❌ There is already no filter like this!*",
-            "DELETED": "*✅ The filter was successfully deleted!*"
+            "FILTER_DESC": "filter add cheyyum. aarellum ningallude filter type cheythaal, marpadi nelgum. .filter enn mathram adichaal, motham filter listlum kaanikkum.",
+            "NO_FILTER": "*❌ eee chattil filter illa!*",
+            "FILTERS": "*🔎 itha ee chatile filter:*",
+            "NEED_REPLY": "*❌replyill type cheyyu!*\n*Example:*",
+            "FILTERED": "*✅ vijayagaramaayi set cheythu* ```{}``` *to filter!*",
+            "STOP_DESC": "ningall add cheytha filter delet aakkum.",
+            "NEED_FILTER": "*❌ oru filter type cheyyu!*\n*Example:*",
+            "ALREADY_NO_FILTER": "*❌ inganne oru filter nilavill illa!*",
+            "DELETED": "*✅ filter vijayagaramaayi delete cheyythu!*"
         },
         "greetings": {
-            "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
-            "NOT_SET_WELCOME": "*You don't set the welcome message yet.!*\n**To set:** ```.welcome your welcome message```",
-            "WELCOME_ALREADY_SETTED": "*✅ Welcome message already set!*\n*Message:* ```",
-            "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome WELCOME!```",
-            "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
-            "WELCOME_SETTED": "*✅ Welcome message has been set successfully!*",
-            "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
-            "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye Your Goodbye Message```",
-            "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
-            "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye Goodbye!```",
-            "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
-            "GOODBYE_SETTED": "*✅ Goodbye message has been setted successfully!*"
+            "WELCOME_DESC": "welcome message add cheyyum . shoonyamakki vechaal welcome message kaanikkum.",
+            "NOT_SET_WELCOME": "*welcome message set akkeett illa.!*\n**set akkaan:** ```.welcome your welcome message```",
+            "WELCOME_ALREADY_SETTED": "*✅ Welcome message pande set aan!*\n*Message:* ```",
+            "NEED_WELCOME_TEXT": "*welcome message set akkaan oru message type aakanam mishter.*\n*Example:* ```.welcome WELCOME!```",
+            "WELCOME_DELETED": "*✅ Welcome message vijayagaramaayi delete cheythu!*",
+            "WELCOME_SETTED": "*✅ Welcome message vijayagaramaayi set  aakki!*",
+            "GOODBYE_DESC": "goodbye message add cheyyum . shoonyamakki vechaal goodbye message kaanikkum.",
+            "NOT_SET_GOODBYE": "* goodbye message set akkeett illa.!*\n**set akkaan:* ```.goodbye Your Goodbye Message```",
+            "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message set akeedund!*\n*Message:* ```",
+            "NEED_GOODBYE_TEXT": "*goodbye message set akkaan oru message type aakanam mishter.*\n*Example:* ```.goodbye Goodbye!```",
+            "GOODBYE_DELETED": "*✅ Goodbye vijayagaramaayi delete aaki.!*",
+            "GOODBYE_SETTED": "*✅ Goodbye vijayagaramaayi set aaki!*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
@@ -126,109 +126,109 @@
             "DISABLED": "```Lydia has been disabled for this user!```"
         },
         "memes": {
-            "MEMES_DESC": "Photo memes you replied to.",
-            "NEED_REPLY": "*Reply to a photo!*",
-            "DOWNLOADING": "```Downloading media & making meme...```"
+            "MEMES_DESC": "replay cheytha chithrathil meme text add aakunu.",
+            "NEED_REPLY": "\n*oru chithrathin reply cheyyu!*\n",
+            "DOWNLOADING": "```chithrathil eyuthh add cheyyunu...```"
         },
         "log": {
-            "LOG": "Saves the message you reply to your private number.",
-            "REPLY": "*Please Reply To Any Message!*",
-            "ANIM": "Does not support animated stickers!",
+            "LOG": "ningal reply cheytha message ningalude privete numberil save aakum.",
+            "REPLY": "*eathenkkillum messagin replay cheyyu!*",
+            "ANIM": "animated sticker supporting alla!",
             "HEAD": "```===== [LOGGED MESSAGE] =====```\n\n",
             "USER": " From User Number \n",
             "FROM": " From the group with ID, ",
             "MSG": "Message: \n\n",
-            "SUC": "*Message Successfully Saved to LOG!*"
+            "SUC": "*Message vijayagramayyi logil save cheythu!*"
         },
         "ocr": {
-            "OCR_DESC": "Reads the text on the photo you have replied.",
-            "NEED_REPLY": "*Reply to a photo!*",
-            "DOWNLOADING": "```Media is downloading & reading...```",
-            "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
-            "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
+            "OCR_DESC": "ningal reply cheytha chithrathile eyuth vayich theraan.",
+            "NEED_REPLY": "*oru chithrathin reply cheyyu!*",
+            "DOWNLOADING": "```njan ith onn vayich nokkatte...```",
+            "ERROR": "```enik vayikaan kayyunilla :/```\n*Error:*```{}```",
+            "RESULT": "*baasha:* ```{}```\n*ithaan njan vayichath:* ```{}```"
         },
         "profile": {
-            "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
-            "PP_DESC": "Makes the profile photo what photo you reply.",
+            "KICKME_DESC": "enne groupill nin purath akaan.",
+            "KICKME": "```Bye bye! njan povunnu 🤠```",
+            "PP_DESC": "reply cheytha chithram profil akkaan.",
             "NEED_PHOTO": "*Give me a photo!*",
-            "PPING": "```Setting profile photo...```",
+            "PPING": "```profile maattunnu...```",
             "BLOCK_DESC": "Block user.",
             "UNBLOCK_DESC": "Unblock user.",
-            "BLOCKED": "blocked",
-            "UNBLOCKED": "unblocked",
-            "BLOCKED_UPPER": "Blocked!",
-            "UNBLOCKED_UPPER": "Unblocked.",
-            "NEED_USER": "Give me a user!",
-            "JID_DESC": "Giving user's JID.",
+            "BLOCKED": "block aakki",
+            "UNBLOCKED": "unblock aakki",
+            "BLOCKED_UPPER": "Block aakki!",
+            "UNBLOCKED_UPPER": "Unblock aakki.",
+            "NEED_USER": "oru usere theru!",
+            "JID_DESC": "userude JID  .",
             "JID": "```JID address of``` @{} ```: {}```",
-            "JID_CHAT": "```Chat's JID address: {}```"
+            "JID_CHAT": "```Chat inte JID address: {}```"
         },
         "removebg": {
-            "REMOVEBG_DESC": "Removes the background of the photos.",
+            "REMOVEBG_DESC": "chithrathinte background maayichu kalaayan.",
             "NEED_PHOTO": "*photo thaa mister!*",
             "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
-            "RBGING": "```Removing...```"
+            "RBGING": "```maayikkunu...```"
         },
         "scrapers": {
-            "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
-            "TRANSLATE_USAGE": ".trt tr it (From Turkish to Italian)",
-            "NEED_REPLY": "```Please reply to any message!```",
-            "LANG": "Language",
-            "FROM": "Translated Language",
-            "RESULT": "Translate",
-            "TRANSLATE_ERROR": "❌ An error occured while translating!*",
-            "CURRENCY_ERROR": "```Syntax error! Example: .currency 1 TRY USD```",
-            "INVALID_CURRENCY": "```Foreign currency transaction failed. You wrote wrong currency!```",
+            "TRANSLATE_DESC": "google translator vech viverthanam cheyyunu, eathellum messagin reply cheyannam.",
+            "TRANSLATE_USAGE": ".trt en ml (englishil ninnum malayalathillek)",
+            "NEED_REPLY": "```eathellum messagin replay cheyannam!```",
+            "LANG": "basha",
+            "FROM": "viverthanam cheytha basha",
+            "RESULT": "viverthanam",
+            "TRANSLATE_ERROR": "❌ viverthanam cheyumboll entho thettu patti!*",
+            "CURRENCY_ERROR": "```Syntax thatt aan! Example: .currency 1 TRY USD```",
+            "INVALID_CURRENCY": "```Foreign currency transaction failed. thettaaya currency aan thannath!```",
             "UNKNOWN_ERROR": "```An error occurred. Foreign currency transaction failed!```",
-            "TTS_DESC": "It converts text to sound.",
-            "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
-            "SONG_DESC": "Uploads the song you wrote.",
-            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
-            "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Song Thapatte 🧚‍♂️*\n",
-            "UPLOADING_SONG": "\n*Uploading 📲 Use 🎧*\n",
-            "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading 🎥...```",
-            "UPLOADING_VIDEO": "```Uploading...```",
-            "YT_DESC": "It searchs on YouTube.",
-            "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
+            "TTS_DESC": "text shabthathilekk maattunnu.",
+            "TTS_ERROR": "```cheyaaan pattiyilla!```",
+            "SONG_DESC": "ningal type cheytha paatt upload cheyth therum.",
+            "NEED_TEXT_SONG": "*paattinte per adikku!*\n*Example:* ```.song Naadan Vibe```",
+            "NO_RESULT": "*ennikk onnum kandethaan aayilla :(*",
+            "DOWNLOADING_SONG": "\n*Song Thappatte🧚‍♂️*\n",
+            "UPLOADING_SONG": "\n*Paatt Uploading 📲 Use 🎧*\n",
+            "VIDEO_DESC": "YouTubeill nin video download cheyyan.",
+            "NEED_VIDEO": "*oru video link theru!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
+            "DOWNLOADING_VIDEO": "\n```Downloading...```\n",
+            "UPLOADING_VIDEO": "\n```Uploading...```\n",
+            "YT_DESC": "YouTubeill search cheyyum.",
+            "NEED_WORDS": "```search cheyende words type cheyyu!```",
+            "GETTING_VIDEOS": "```video link kond verunnu...```",
             "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
-            "SEARCHING": "*🔎 Searching...*",
-            "WIKI_DESC": "Searches query on Wikipedia.",
-            "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "```Uploading photo``` *{}* ```number``` *{}*"
+            "SEARCHING": "*🔎 searching...*",
+            "WIKI_DESC": "Wikipedia yill search cheyyaan.",
+            "IMG_DESC": "googlil chithram search cheyaan.",
+            "IMG": "chithram upload cheyyunu ```{}``` number ```{} ```..."
         },
         "sticker": {
-            "STICKER_DESC": "It converts your replied photo or video to sticker.",
-            "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Ippam Seriyakithra 🤠```"
+            "STICKER_DESC": "photo sticker akkaan.",
+            "NEED_REPLY": "*photo allenkil chithram reply cheyyu!*",
+            "DOWNLOADING": "```Ippam Sheriyaakithara 🤠```"
         },
         "system_stats": {
-            "ALIVE_DESC": "Does bot work?",
-            "SYSD_DESC": "Shows the system properties."
+            "ALIVE_DESC": "bot working aano enn ariyan",
+            "SYSD_DESC": "system properties kaanikkum."
         },
         "tagall": {
-            "TAGALL_DESC": "Tags everyone in the group.",
-            "ADMİN": "*I am not admin in this group!*"
+            "TAGALL_DESC": "groupile ellareyum tag cheyyum.",
+            "ADMİN": "*njan admin allalo..😕!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*Pikachu Update Available*\n\n please ask support group before updating. Otherwise chance to get error\n https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf \n\nChanges:\n```",
-            "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..🧚‍♂️```",
-            "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
+            "UPDATER_DESC": "update indo enn ariyaan.",
+            "UPDATE": "*ningalude bot up-to-date aan!*",
+            "NEW_UPDATE": "*PROFESSOR Puthiya Update Vannittundu✨* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
+            "UPDATE_NOW_DESC": "botine update cheyaan.",
+            "UPDATING": "```Updating..🐥```",
+            "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
             "UPDATED": "*Updated 🤠✅*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*😎 Pikachu Restarting*"
+            "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
+            "AFTER_UPDATE": "*😎 PROFESSOR Restarting..*"
         },
         "weather": {
-            "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather New Delhi```",
-            "LOCATION": "Location",
+            "WEATHER_DESC": "ningal therrunna sthalathe kaalavastha kaanikkum.",
+            "NEED_LOCATION": "* location type cheyyi!*\n*Example:* ```.weather kozhikode```",
+            "LOCATION": "sthalam",
             "LAT": "Lattitude",
             "LONG": "Longitude",
             "TEMP": "Temperature",
@@ -237,13 +237,13 @@
             "HUMI": "Humidity",
             "WIND": "Wind Speed",
             "CLOUD": "Cloud",
-            "NOT_FOUND": "```I couldn't find a city with this name. 😖```",
-            "QUOTE_DESC": "Gives a random quote.",
+            "NOT_FOUND": "```ingane oru sthalam enikk kandethaan aayilla. 😖```",
+            "QUOTE_DESC": "oru nalla qoute paranj therum 😜 .",
             "NEED_LOCATIONA": "*Invalid Request*",
             "QUOTE": "Quote:",
-            "AUTHOR": "Author:",
+            "AUTHOR": "paranjath:",
             "NOT_FOUNDA": "```Sorry,I could not find a quote. 😖```",
-            "NAMEY": "Name:",
+            "NAMEY": "per:",
             "PUBLISHER": "Publisher",
             "MODINFO": "ModInfo",
             "DOWNLOAD": "Download",
@@ -252,54 +252,54 @@
             "HMODD_DESC": "Get modded app details from HappyMod.",
             "NEED_APPNAME": "*Invalid Request,Provide an app name*",
             "NOT_FOUNDMD": "```Sorry,I could not find such an app.\n Try using .happymod if .modd is not working 😖```",
-            "CM_DESC": "Get a compliment.",
-            "NOT_FOUNDAC": "*Invalid Request*",
+            "CM_DESC": "compliment kittaan.",
+            "NOT_FOUNDAC": "*thettaaya Request*",
             "CM": "Hey,",
-            "BOT_DESC": "Chat with an AI Bot.\n Use .bot <message>",
+            "BOT_DESC": "botinod samsarikkaan.\n Use .bot <message>",
             "BOT": ":",
-            "JOKE_DESC": "Get a random joke.",
-            "JOKE": "Joke:",
+            "JOKE_DESC": "oru thamasha parayyatte....",
+            "JOKE": "thamasha:",
             "PUNCHLINE": "Punchline:",
-            "EVINS_DESC": "Get an evil insult.",
+            "EVINS_DESC": "korch insult kelkaan.",
             "EVINS": "...",
-            "ZODIAC_DESC": "Get the days horosope for your sunsign.",
-            "NEED_ZOD": "*Invalid Request,Provide your sunsign*",
-            "SUNSIGN": "Sun Sign",
-            "HOROSCOPE": "Horoscope",
-            "NEWS_DESC": "Get the days news, add a category after .news .",
-            "NEED_CATEGORY": "*Please write a category!*\n*Example:* ```.news technology```",
+            "ZODIAC_DESC": "nekshathrathinte jaadhagam ariyaan.",
+            "NEED_ZOD": "*thettaaya Request,Provide your sunsign*",
+            "SUNSIGN": "nekshathram",
+            "HOROSCOPE": "jaadhagam",
+            "NEWS_DESC": "choodulla vaarthakkayyi,  .news inu shasham catagory add cheyanam .",
+            "NEED_CATEGORY": "*category type aakk!*\n*Example:* ```.news technology```",
             "CATEGORY": "Category",
             "RMLINK": "Read More",
-            "NEWS": "News Content",
+            "NEWS": "News ulladakkam",
             "NEWST": "News Title",
-             "NOT_FOUND": "```oops...I couldn't find a category with this name. 😖```",
+             "NOT_FOUND": "```eee perril category kittiylla. 😖```",
             "SONG": "Song",
             "ALBUM": "Album",
             "TITLE": "Title",
             "PUBLICATION": "Publication",
             "SONGL": "Link",
             "NEED_SONG": "Song name para nenba 🥲.",
-            "NOT_FOUNDS" : "No such songs found!",
-            "JOOX_DESC": "Brings you the song details and a link for it.",
-            "LYRICS_DESC": "Brings you the song Lyrics.",
+            "NOT_FOUNDS" : "angane oru paatt kittiyilla!",
+            "JOOX_DESC": "paattinte detailsum linkum therum.",
+            "LYRICS_DESC": "paattinte lyrics ayach therum.",
             "SONGLI": "Lyrics",
-            "TIN_DESC": "Shortens the given link using tinyurl.",
-            "BIT_DESC": "Shortens the given link using bitly.",
-            "NOT_FOUNDLI": "Lyrics not found",
+            "TIN_DESC": "thannitt ulla link tinyurl vech neelam cheruthakaan.",
+            "BIT_DESC": " link bitly vech neelam cheruthakkaan.",
+            "NOT_FOUNDLI": "Lyrics kittiylla",
             "SLINK": "Link",
-            "NEED_LINK":"Please provide the link",
-            "IGTVDESC":"Download videos from IGTV link",
-            "NEED_WORDIGTV":"Please provide the IGTV link",
+            "NEED_LINK":"link thaa",
+            "IGTVDESC":"\n IGTV linkill nin video download cheyyum \n",
+            "NEED_WORDIGTV":"IGTV link thaa",
             "LOADINGTV":"Loading...",
-             "NOT_FOUNDIG":"Insta video not found",
+             "NOT_FOUNDIG":"Insta video kand ethiyyilla",
              "USERNAME":"Username",
             "CAPTION":"Caption",
              "VID":"Video",
-             "NEED_WORDIG":"Download videos from IG link",
-            "IGDESC":"Download videos from IG link \n For Reels change the 'reels' in the link to 'p'.",
+             "NEED_WORDIG":" IG linkil nin video download cheyyaan",
+            "IGDESC":"IG linkil nin video download cheyyaan \n Reels aanengill linkill ninn 'reels' change aakki 'p' aakkuga.",
             "FBDESC":"Download videos from fb link",
-            "NEED_WORDFB":"Download videos from fb link",
-            "NOT_FOUNDFB":"Fb video not found"
+            "NEED_WORDFB":"fb linkil nin download cheyyaan",
+            "NOT_FOUNDFB":"Fb video kand ethaan aayilla"
             
             
         },
@@ -310,19 +310,19 @@
             "UPLOAD": "Upload",
             "DOWNLOAD": "Download",
             "PING_DESC": "Measures your ping.",
-            "URL": "Shorten the long link."
+            "URL": "neelamulla link cheruthakaan."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "Converts video to sound.",
-            "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Converting Video to Audio..```",
-            "STİCKER_DESC": "Converts the sticker to a photo.",
+            "MP4TOAUDİO_DESC": "video sound mathram akaan.",
+            "MP4TOAUDİO_NEEDREPLY": "*Video reply cheyy macha!*",
+            "MP4TOAUDİO": "```Video Audio aaakki maattunnu..```",
+            "STİCKER_DESC": "sticker photo akaan.",
             "STİCKER_NEEDREPLY": "*Photokk Reply ayitt ayakk*",
             "STİCKER": "```Converting...```",
-            "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
-            "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_DESC": "Applies the selected TBlend effect to videos." 
+            "XMEDİA_DESC": "25 media tools ulla oru plugin .",
+            "T_FALSE": "```❌ thettaaya Blend Effect aan thannath!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
+            "T_NOT": "```💭 eathellum oru Blend Effects type cheyanam!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
+            "T_DESC": "tblend effect videoyill add cheyaan." 
         },
         "mute": {
             "1MUTE": "*The group was silenced for 1 minute!*",
@@ -410,58 +410,58 @@
             "MUTE_OPEN": "*Allright Boss! Chat Has Been Opened!*"
         },
         "unvoice": {
-            "UV_DESC": "Converts audio to sound recording.",
-            "UV_REPLY": "*You Must Reply to an Audio File!*",
-            "UV_PROC": "```Converting to Sound Recording..```"
+            "UV_DESC": "audio sound recording aakki maatan.",
+            "UV_REPLY": "* Audio File reply aakanam!*",
+            "UV_PROC": "```Sound Recordingilekk aakkkunu..```"
         },
         "ffmpeg": {
-            "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
-            "FF_PROC": "Applying Effect.."
+            "FF_DESC": "paranja ffmpeg filter to the videoyill add aakan.\n⌨️ Example: .ffmpeg fade=in:0:30",
+            "FF_PROC": "effect add aakkunnu.."
         },
         "spammer": {
-            "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
-            "NEED_WORD": "*Need Some Words!*",
-            "STOP_SPAMDESC": "Stops spam command.",
-            "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*"
+            "SPAM_DESC": "nirthunath vere spam aakkum.\n⌨️ Example: .spam test",
+            "NEED_WORD": "*kurach words vennam!*",
+            "STOP_SPAMDESC": "spam command nirhum.",
+            "STOP_SPAM": "✅ *Spaming nirthi 🙌🏻! Please wait a moment.*"
         },
         "carbon": {
             "CARBON_DESC": "Uses carbon.sh for Text-to-Image",
-            "CARBON_NEEDWORD": "*Not enough arguments to translate Text-to-Image!*\nExample: ```.carbon test```\nExample: ```.carbon making#test```",
-            "CARBON_WARN": "Please only type in en and tr character!"
+            "CARBON_NEEDWORD": "* Text-to-Imageilekk  translate word venam!*\nExample: ```.carbon test```\nExample: ```.carbon making#test```",
+            "CARBON_WARN": "en alenkil tr use cheyuga!"
         },
         "scam": {
-            "SCAM_DESC": "Creates 5 minutes of fake actions.",
-            "SCAM_NOTFOUND": "*You Must Enter Fake Action!*\nExisting Types: ```typing & recording & online & stop```",
-            "SCAM_NULL": "```Wrong Action Entered! Please use existing types.```"
+            "SCAM_DESC": "5 mint thettaaya actions srishttikkum.",
+            "SCAM_NOTFOUND": "*oru action enter cheyanam!*\nExisting Types: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```sheriyaya action type cheyyi.```"
         },
         "deepai": {
-            "DEEPAI_DESC": "Runs the most powerful artificial intelligence tools using artificial neural networks.",
-            "TEXT": "*You must enter text! Although I am a powerful artificial intelligence, I cannot read your thoughts!*",
-            "URL": "*You must enter the image URL!*\n*Example:* https://i.hizliresim.com/nrg50b.jpg"
+            "DEEPAI_DESC": "neural networksill run cheyunna AI.",
+            "TEXT": "*AI anenkillum ith vaayikaan enik kayilla , oru text enter cheyyu mister !*",
+            "URL": "*image URL venam!*\n*Example:* https://i.hizliresim.com/nrg50b.jpg"
         },
         "ttp": {
-            "TTP_DESC": "Converts text to plain painting.",
-            "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
-            "NEED_WORD": "*You must enter words!*",
-            "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
-            "TRUMP_DESC": "Converts the text to Trump's tweet.",
+            "TTP_DESC": "text plain text aakunu.",
+            "ATTP_DESC": "text rainbow effectill sticker aaki maattunu.",
+            "NEED_WORD": "*words venam!*",
+            "ANIME_DESC": "penkutti kayyil pidikunna banaril ningal thanna text eythunnu",
+            "TRUMP_DESC": "Trumpinte  tweetillek ningall thanna message aakunnu .",
             "CHANGE_DESC": "Turns the text into the change my mind poster."
        },
        "anime": { 
-            "AN": "It sends an Anime Randomly."
+            "AN": "random anime pic ayakkunu."
         },
         "wallpaper": {
-            "WP": "It sends high resolution wallpapers."
+            "WP": "high resolution wallpapers ayakkunnu."
         },
         "webss": {
-            "SS_DESC": "Takes a screenshot from the page in the given link.",
-            "LİNK": "You must enter link!"
+            "SS_DESC": "thanna linkil nin screenshot edth ayach therum.",
+            "LİNK": " link thaa mister!"
         },
         "voicy": {
-            "NEED_REPLY": "```Please reply to any message!```",
-            "ONLY_AUDIO":"```Only audio file is accepted.```",
-            "USAGE": "It converts audio to text.",
-            "TEXT": "*Hey! I listened secretly to this voice and heard those!:* \n\n"
+            "NEED_REPLY": "```oru messagin reply theru!```",
+            "ONLY_AUDIO":"```audio file mathram madhi.```",
+            "USAGE": "audio text aakkum.",
+            "TEXT": "*ithan njan kettath!:* \n\n"
         },
         "notes": {
             "NOTES_USAGE": "Shows all your existing notes.",
@@ -475,10 +475,10 @@
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
         "instagram": {
-            "NEED_WORD": "*Please enter username of any instagram account.*",
+            "NEED_WORD": "*user name entha...?.*",
             "USAGE": ".insta <userName>",
-            "DESC": "Fetches user informations from instagram",
-            "LOADING": "Fetching user data.. please wait.",
+            "DESC": "user informations instagramil ninn eduth therum",
+            "LOADING": "user data edukkunu.",
             "USERNAME": "Username",
             "NAME": "Name",
             "BIO": "Biography",
@@ -487,16 +487,16 @@
             "ACCOUNT": "Account privacy",
             "PUBLIC": "Public",
             "HIDDEN": "Hidden",
-            "NOT_FOUND":"User not found: "
+            "NOT_FOUND":"Usere kittiyilla: "
         },
         "qrgenerator": {
-             "TEXT": "You must enter text!",
-            "QR_DESC": "Converts the given text into a qr code image."
+             "TEXT": "text enter cheyanam!",
+            "QR_DESC": "text qr code aaki maattunu."
             
         },
         "whois": {
-            "PL_DESC": "Displays metadata data of group or person.",
-            "SUB": "*Group Name:* ",
+            "PL_DESC": "alude alenkill groupinte meta data kaanikkunu.",
+            "SUB": "*Groupinte per:* ",
             "DES": "*Group Description:* ",
             "OWN": "*Founder:* ",
             "COD": "*Unique Group Code:* ",
@@ -504,12 +504,12 @@
             "ST": "*Person Status:* "
         },
         "covid": {
-            "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
-            "NOT": "```Sorry I Could Not Find A Country Like This! Please Enter Applicable Country Codes!```\n\n```Country Codes:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
+            "COV_DESC": "15 raajyathe covid details kaanikaan.",
+            "NOT": "```ingane or raajyam enik areela \n use: ```\n\n```Country Codes:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
         },
         "lyrics": {
-            "LY_DESC": "Finds the lyrics of the song.",
-            "NEED": "```You Must Write Any Song!```",
+            "LY_DESC": "paattinte lyrics kandethaan.",
+            "NEED": "```paattinte per parayyi!```",
             "SLY": "Lyrics:",
             "AUT": "Song Owner:",
             "BUL": "Founded Song:",
