@@ -2,7 +2,7 @@
 <div align="center">
   <img border-radius: 15px src="Professor.jpg" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="PROFESSOR" src="https://img.shields.io/badge/Pikachu-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="professor" src="https://img.shields.io/badge/Professor-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/ansanshif"><img title="Author" src="https://img.shields.io/badge/Author-ansanshif/pikachu?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
