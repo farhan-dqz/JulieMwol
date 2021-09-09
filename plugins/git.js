@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://wallpaperaccess.com/download/professor-money-heist-4k-3034956";
+  r_text[0] = "professor.png";
     
     
     var i = Math.floor(1*Math.random())
