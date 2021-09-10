@@ -1,8 +1,7 @@
- 
 {
     "name": "PROFESSOR BY ANS ANSHIF",
     "description": "PROFESSOR bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
-    "logo": "https://avatars.githubusercontent.com/u/83832372?v=4",
+    "logo": "https://wallpaperaccess.com/download/professor-money-heist-4k-3034956",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/ansanshif/professor",
     "website":   "under maintenance",
@@ -152,7 +151,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "i am alive  \n\n ```coded by afnan pallikkel```"
+            "value": "i am alive  \n\n ```coded by anshif_p.k```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable kick Message! Use => default, to change back.",
