@@ -5,7 +5,7 @@
 <a href="#"><img title="professor" src="https://img.shields.io/badge/Professor-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/ansanshif"><img title="PROFESSOR" src="https://img.shields.io/badge/Author-ansanshif/pikachu?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/ansanshif"><img title="PROFESSOR" src="https://img.shields.io/badge/Author-ansanshif/professor?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -20,12 +20,12 @@ Project created by <a href="https://github.com/ansanshif">ansanshif</a> to make 
 
   <p align="center">
   <a href="httsp://github.com/ansanshif/professor">
-    <img src="https://img.shields.io/github/repo-size/ameer-kallumthodi/pikachu?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/ameer-kallumthodi/professor?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/ameer-kallumthodi/followers"><img title="Followers" src="https://img.shields.io/github/followers/ameer-kallumthodi?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/pikachu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/pikachu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/pikachu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ameer-kallumthodi/pikachu?label=Watchers&color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/ameer-kallumthodi/professor/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/professor?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/ameer-kallumthodi/professor/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ameer-kallumthodi/professor?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/ameer-kallumthodi/professor/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ameer-kallumthodi/professor?label=Watchers&color=f7df1e&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-f7df1e.svg"</a>
 </p>
 
@@ -84,7 +84,7 @@ $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
 $ git clone https://github.com/ansanshif/professor
-$ cd pikachu
+$ cd professor
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -93,8 +93,8 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/ameer-kallumthodi/pikachu
-$ cd pikachu
+$ git clone https://github.com/ameer-kallumthodi/professor
+$ cd professor
 $ chmod +x *
 $ npm i
 $ node qr.js
@@ -114,9 +114,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![ansanshif](https://github.com/ansanshif.png?size=100)](https://github.com/ansanshif) |  [![Hisham-Muhammed](https://github.com/Hisham-Muhammed.png?size=100)](https://github.com/Hisham-Muhammed) | [![saidalisaid2](https://github.com/saidalisaid2.png?size=100)](https://github.com/saidalisaid2) 
+  [![ansanshif](https://github.com/ansanshif.png?size=100)](https://github.com/ansanshif) |  [![ansanshif](https://github.com/ansanshif.png?size=100)](https://github.com/ansanshif) | [![ansanshif](https://github.com/ansanshif.png?size=100)](https://github.com/ansanshif) 
 ----|----|----
-[ansanshif](https://github.com/ansanshif)  | [Hisham-Muhammed](https://github.com/Hisham-Muhammed) | [saidalisaid2](https://github.com/saidalisaid2)
+[ansanshif](https://github.com/ansanshif)  | [ansanshif](https://github.com/ansanshif) | [ansanshif](https://github.com/ansanshif)
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
