@@ -58,7 +58,7 @@ Click WA logo to Join Support Group 👇
 Click MONEY HEIST MASK logo to Join Support Group 2👇
     <br>
 <br>
-  <a href="https://chat.whatsapp.com/D7mZ8nK6VxH9uQYImdsO1i" target="blank"><img align="center" src="Professor Whatsapp.png" alt="kyrie.baran" height="200" width="200" /></a>
+  <a href="https://chat.whatsapp.com/D7mZ8nK6VxH9uQYImdsO1i" target="blank"><img align="center" src="Professor Whatsapp.jpg" alt="kyrie.baran" height="200" width="200" /></a>
 </p>
     
 ## Setup
