@@ -20,12 +20,12 @@ Project created by <a href="https://github.com/ansanshif">ansanshif</a> to make 
 
   <p align="center">
   <a href="httsp://github.com/ansanshif/professor">
-    <img src="https://img.shields.io/github/repo-size/ameer-kallumthodi/professor?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/ansanshif/professor?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/ameer-kallumthodi/followers"><img title="Followers" src="https://img.shields.io/github/followers/ameer-kallumthodi?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/professor/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/professor?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/professor/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ameer-kallumthodi/professor?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/professor/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ameer-kallumthodi/professor?label=Watchers&color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/ansanshif/followers"><img title="Followers" src="https://img.shields.io/github/followers/ansanshif?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/ansanshif/professor/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ansanshif/professor?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/ansanshif/professor/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ansanshif/professor?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/ansanshif/professor/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ansanshif/professor?label=Watchers&color=f7df1e&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-f7df1e.svg"</a>
 </p>
 
@@ -40,9 +40,9 @@ Project created by <a href="https://github.com/ansanshif">ansanshif</a> to make 
   
 
 <div align="center">
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameer-kallumthodi&show_icons=true&theme=nightowl" alt="ameer-kallumthodi" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ansanshif&show_icons=true&theme=nightowl" alt="ansanshif" /></p>
 
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameer-kallumthodi&theme=nightowl" alt="ameer-kallumthodi" /></p>
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ansanshif&theme=nightowl" alt="ansanshif" /></p>
 </details> </div>
 
 
@@ -93,7 +93,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/ameer-kallumthodi/professor
+$ git clone https://github.com/ansanshif/professor
 $ cd professor
 $ chmod +x *
 $ npm i
