@@ -33,7 +33,7 @@ Project created by <a href="https://github.com/georgyLM10">it me luke</a> to mak
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GS6WZFCyrl60pszygT9wPS)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/ICCTs3l2iC9BOwrlEs5KcQ)
   <div align="center">
        
 ## BGM SUPPORTS 🎼
