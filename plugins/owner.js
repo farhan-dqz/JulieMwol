@@ -18,7 +18,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Owned by Farhan_Dqz*' , MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,'*Owned by Master Editing*' , MessageType.text, { quoted: message.data });
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n---------------------', MessageType.text, { quoted: message.data });
@@ -36,7 +36,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'\n*Owned by Farhan_Dqz*/n' , MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,'\n*Owned by Master Editing*/n' , MessageType.text, { quoted: message.data });
         }
         else {
             await message.client.sendMessage(message.jid,Config.OWNER + '\n\n--------------------', MessageType.text, { quoted: message.data });
