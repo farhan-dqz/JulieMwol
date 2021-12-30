@@ -1,9 +1,9 @@
 /* Codded by @mrclfd // rapiUp
-Telegram: t.me/mrclfd
+recoded by farhan-dqz
 Semoga Berfaedah dan Berkah :)
 */
 
-const Asena = require('../events');
+const Julie = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const Config = require('../config');
@@ -16,7 +16,7 @@ const butuh = "```give a city name!```"
 const renek = "```Not found the city!```"
 
 
-        Asena.addCommand({pattern: 'adan ?(.*)', desc: adzan, usage: usage, fromMe: false}, async (message, match) => {
+        Julie.addCommand({pattern: 'adan ?(.*)', desc: adzan, usage: usage, fromMe: false}, async (message, match) => {
 
 	    if (match[1] === '') return await message.reply(butuh);
 	    const url = `https://api.pray.zone/v2/times/today.json?city=${match[1]}`;

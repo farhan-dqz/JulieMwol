@@ -1,10 +1,8 @@
 /* Copyright (C) 2020 Yusuf Usta.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
 */
 
-const Asena = require('../events');
+const Julie = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
@@ -53,7 +51,7 @@ if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
 if (Config.LANG == 'HI') ldc = '*लिंक का पता चला!*'
 if (Config.LANG == 'ES') ldc = '*Enlace Detectado!*'
-Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Julie.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (antilink_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('http://')
         let regex2 = new RegExp('https://chat')
