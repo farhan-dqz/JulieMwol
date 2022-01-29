@@ -32,7 +32,7 @@ if (Config.WORKTYPE == 'private') {
             (match.length >= 3 ? HANDLER + match[2] : command.pattern) +
             (command.desc === ""
               ? "\n\n"
-              : " ".repeat(8 - match[2].length) + " : ");
+              : " ".repeat(9 - match[2].length) + " : ");
           if (command.desc !== "")
             CMD_HELP += command.desc + (command.usage === "" ? "\n\n" : "\n\n");
         }
@@ -70,7 +70,7 @@ else if (Config.WORKTYPE == 'public') {
             (match.length >= 3 ? HANDLER + match[2] : command.pattern) +
             (command.desc === ""
               ? "\n\n"
-              : " ".repeat(8 - match[2].length) + "\n📓");
+              : " ".repeat(9 - match[2].length) + "\n📓");
           if (command.desc !== "")
             CMD_HELP += command.desc + (command.usage === "" ? "\n\n" : "\n\n");
         }
